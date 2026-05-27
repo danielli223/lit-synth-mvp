@@ -1,0 +1,39 @@
+{
+  "name": "lit-synth-mvp",
+  "version": "0.1.0",
+  "private": true,
+  "description": "CLI that filters Compound Discoverer exports, screens for contaminants, and synthesizes literature for approved compounds using only real PubMed / Semantic Scholar papers.",
+  "type": "module",
+  "bin": {
+    "lit-synth": "dist/index.js"
+  },
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^7.2.1",
+    "chalk": "^5.3.0",
+    "cli-table3": "^0.6.5",
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.5",
+    "fast-xml-parser": "^4.5.0",
+    "openai": "^4.77.0",
+    "ora": "^8.1.1",
+    "xlsx": "^0.18.5",
+    "zod": "^3.23.8",
+    "zod-to-json-schema": "^3.23.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}

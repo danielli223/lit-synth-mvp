@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.env
+*.log
+report.md
+lit-synth-report.md
+test-data/*.xlsx
+!test-data/.gitkeep
+.claude/settings.local.json
+
