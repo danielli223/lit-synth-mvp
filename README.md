@@ -15,15 +15,20 @@ your Claude Code subscription tokens.
 
 ## What it does
 
-Two stages only:
+It researches **every named compound** — no ranking, no comparisons, no
+statistics of any kind.
 
-1. **Rank** (deterministic) — `rank.mjs` filters compounds (`adj.p < 0.05` and
-   `|log2 FC| > 1`), scores them by `|log2 FC| × −log10(adj.p)`, and sorts.
-   **No contaminant filtering, no plausibility tiers** — every compound that
-   passes the statistical filter is researched and reported.
-2. **Research + write** — for each compound, Claude queries PubMed for
-   elderberry/*Sambucus*/plant context and writes a 100–200 word paragraph,
-   **citing only papers it actually retrieved**. Then it renders a clickable-link
+1. **Extract** (deterministic) — `extract.mjs` pulls every row that has a Name
+   and de-duplicates by **name + formula** (duplicate detections of the same
+   molecule become one entry). **No statistics** — no p-value, fold-change, m/z,
+   RT, ranking, or comparisons. Emits the unique list plus the full row→unique
+   mapping.
+2. **Research + write** — for each unique compound, Claude queries PubMed for
+   elderberry/*Sambucus* → other berries → other plants context, labels the most
+   specific literature tier the compound appears in (**elderberry → other berries
+   → other plants → none**, more specific wins), and writes a 100–200 word
+   reasoned paragraph **citing only papers it actually retrieved**. Duplicate
+   detections are mapped back, not re-researched. Then it renders a clickable-link
    PDF via `make-pdf.mjs`.
 
 ## Install as a skill
@@ -44,7 +49,7 @@ Then in Claude Code just ask: *"run lit-synth on this elderberry export: /path/t
 | File | Role |
 | --- | --- |
 | `SKILL.md` | The skill definition Claude follows (the full procedure + hard rules). |
-| `rank.mjs` | Deterministic ranking of the Compound Discoverer export. Standalone (resolves `xlsx` from this dir). |
+| `extract.mjs` | Lists every named compound and de-duplicates by name+formula. No statistics. Standalone (resolves `xlsx` from this dir). |
 | `make-pdf.mjs` | Markdown → styled HTML → PDF (headless Chrome), clickable PMID links. Needs `marked`. |
 | `package.json` | Declares the two deps: `xlsx`, `marked`. |
 
@@ -57,11 +62,11 @@ Then in Claude Code just ask: *"run lit-synth on this elderberry export: /path/t
 ## Helper-script usage (standalone)
 
 ```bash
-# list available comparisons in an export:
-node rank.mjs --xlsx /path/to/study.xlsx --list
+# count named / unique / duplicate compounds in an export:
+node extract.mjs --xlsx /path/to/study.xlsx --summary
 
-# rank with chosen comparisons, take top 5:
-node rank.mjs --xlsx /path/to/study.xlsx --comparisons 3,9,15 --top 5
+# list every named compound (unique list + row→unique mapping):
+node extract.mjs --xlsx /path/to/study.xlsx
 
 # render a finished report to PDF:
 node make-pdf.mjs /path/to/elderberry-report.md
