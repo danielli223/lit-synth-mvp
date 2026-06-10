@@ -1,10 +1,12 @@
 node_modules/
-dist/
-.env
 *.log
-report.md
-lit-synth-report.md
-test-data/*.xlsx
-!test-data/.gitkeep
-.claude/settings.local.json
 
+# generated reports / deliverables
+elderberry-report.md
+elderberry-report.pdf
+report.md
+report.pdf
+*.xlsx
+
+.claude/settings.local.json
+.DS_Store
