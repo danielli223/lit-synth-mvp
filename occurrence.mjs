@@ -17,6 +17,8 @@
  * on one compound.
  */
 
+import fs from "node:fs";
+
 const args = {};
 for (let i = 2; i < process.argv.length; i++) {
   const a = process.argv[i];
@@ -26,8 +28,17 @@ for (let i = 2; i < process.argv.length; i++) {
   if (next && !next.startsWith("--")) { args[key] = next; i++; }
   else args[key] = true;
 }
+// --uid <n> --extract <extract.json>: look the name/formula up from the extract,
+// so callers never have to shell-escape gnarly IUPAC names.
+if (args.uid && args.extract) {
+  try {
+    const ex = JSON.parse(fs.readFileSync(args.extract, "utf8"));
+    const u = (ex.unique || []).find((x) => String(x.uid) === String(args.uid));
+    if (u) { args.name = args.name || u.name; args.formula = args.formula || u.formula; }
+  } catch { /* fall through to the name check */ }
+}
 if (!args.name) {
-  console.error('Usage: occurrence.mjs --name "<compound>" [--formula <formula>]');
+  console.error('Usage: occurrence.mjs (--name "<compound>" | --uid <n> --extract <extract.json>) [--formula <formula>]');
   process.exit(1);
 }
 
@@ -125,7 +136,7 @@ async function lotus({ inchikey, name }) {
 async function europepmc(name) {
   const q = (extra) => `"${String(name).replace(/"/g, '\\"')}" AND (${extra})`;
   const search = async (extra) => {
-    const url = "https://www.ebi.ac.uk/europepmc/webservices/rest/search?format=json&pageSize=4&query=" + encodeURIComponent(q(extra));
+    const url = "https://www.ebi.ac.uk/europepmc/webservices/rest/search?format=json&resultType=core&pageSize=4&query=" + encodeURIComponent(q(extra));
     const j = await getJSON(url);
     if (j?.hitCount == null) { if (j?.__error || j?.__status) errors.push("europepmc:" + (j.__error || j.__status)); return null; }
     return {
@@ -133,6 +144,8 @@ async function europepmc(name) {
       top: (j.resultList?.result || []).slice(0, 4).map((r) => ({
         pmid: r.pmid || null, pmcid: r.pmcid || null, doi: r.doi || null,
         title: r.title || null, year: r.pubYear || null, source: r.source || null,
+        journal: r.journalInfo?.journal?.title || r.journalTitle || null,
+        authors: r.authorString || null,
         isOpenAccess: r.isOpenAccess === "Y",
       })),
     };
