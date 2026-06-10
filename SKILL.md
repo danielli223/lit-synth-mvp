@@ -47,13 +47,13 @@ Research only the `unique` compounds (researching a duplicate gives an identical
 NAME=<urlencoded compound name>
 # elderberry tier:
 curl -s "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=6&term=%22${NAME}%22%5Btiab%5D+AND+(Sambucus+OR+elderberry)"
-# other-berries tier:
-curl -s "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=6&term=%22${NAME}%22%5Btiab%5D+AND+(blueberry+OR+blackcurrant+OR+cranberry+OR+grape+OR+raspberry+OR+bilberry+OR+strawberry+OR+blackberry+OR+berry)"
+# other-berries tier — curated edible-berry GENERA (scientific genus + clean common names, not just "*berry" words). Risky bare genera (Morus, Euterpe, Sorbus, Aristotelia, Schisandra, Berberis) are represented by safe common names to avoid false friends:
+curl -s "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=6&term=%22${NAME}%22%5Btiab%5D+AND+(Vaccinium+OR+blueberry+OR+cranberry+OR+bilberry+OR+lingonberry+OR+Ribes+OR+blackcurrant+OR+redcurrant+OR+gooseberry+OR+Vitis+OR+grape+OR+muscadine+OR+Lycium+OR+goji+OR+wolfberry+OR+Physalis+OR+goldenberry+OR+barberry+OR+zereshk+OR+Mahonia+OR+Shepherdia+OR+buffaloberry+OR+Myrciaria+OR+Plinia+OR+jaboticaba+OR+camu-camu+OR+haskap+OR+honeyberry+OR+Fragaria+OR+strawberry+OR+Rubus+OR+raspberry+OR+blackberry+OR+cloudberry+OR+mulberry+OR+crowberry+OR+Amelanchier+OR+serviceberry+OR+Hippophae+OR+seabuckthorn+OR+Aronia+OR+chokeberry+OR+Schizandra+OR+rowanberry+OR+Gaylussacia+OR+goumi+OR+Hylocereus+OR+Selenicereus+OR+dragonfruit+OR+pitaya+OR+acai+OR+maqui)"
 # other-plants tier:
 curl -s "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=6&term=%22${NAME}%22%5Btiab%5D+AND+(plant+OR+fruit+OR+leaf+OR+phytochemical+OR+phytochemistry+OR+botanical)"
 ```
 
-`esummary` the returned PMIDs for title / authors / year / journal, then **judge relevance yourself** — beware false friends ("elder" matching an author surname or "elderly"; "Sambucus nigra agglutinin / SNA" used merely as a lab reagent; a berry word in an unrelated context). A paper only counts if it genuinely reports **this** compound in that matrix.
+`esummary` the returned PMIDs for title / authors / year / journal, then **judge relevance yourself** — beware false friends ("elder" matching an author surname or "elderly"; "Sambucus nigra agglutinin / SNA" used merely as a lab reagent; a berry genus matched in a non-fruit context, e.g. a grape compound studied only in wine pharmacology, or a *Lycium*/*Physalis* paper about the leaf/root). A paper only counts if it genuinely reports **this** compound in that berry/plant matrix.
 
 If nothing relevant is retrieved at any tier, say "no supporting literature retrieved" and rest the assessment on chemical reasoning — do **not** exclude the compound. It still belongs in the report.
 
