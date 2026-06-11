@@ -74,14 +74,59 @@ const BERRY_GENERA = new Set([
 const genusOf = (taxon) => String(taxon || "").trim().split(/\s+/)[0].toLowerCase();
 
 // ---------- 1. PubChem: identity ----------
+// Compound Discoverer names are decorated with stereo/geometry prefixes,
+// trailing trivial-name parentheticals, slashes, and locant forms that break
+// exact-name lookup. Generate fallback variants so the molecule still resolves.
+function nameCandidates(raw) {
+  const out = [];
+  const push = (s) => { s = (s || "").trim().replace(/\s+/g, " "); if (s && !out.includes(s)) out.push(s); };
+  push(raw);
+  const trail = raw.match(/\(([^()]+)\)\s*$/);                 // "...piperidinol (TEMPO)" -> "TEMPO"
+  if (trail) push(trail[1]);
+  // strip ONE leading stereo/locant parenthetical (no nested parens, so it can't eat internal locants)
+  let s = raw.replace(/^\([^)]*[0-9RSEZ±+\-][^)]*\)-?\s*/i, "");
+  s = s.replace(/^(?:DL|D|L|rac|RS)-\s*/i, "");
+  push(s);
+  push(s.replace(/(\d+)\((\d+)\)/g, "$1,$2"));                 // "12(13)-DiHOME" -> "12,13-DiHOME"
+  push(raw.replace(/\s*\([^()]*\)\s*$/, ""));                  // drop a trailing parenthetical
+  if (raw.includes("/")) raw.split("/").forEach(push);        // "FF-MAS/Avenastenone" -> each side
+  const tok = s.match(/([A-Za-z][A-Za-z0-9-]{3,})\s*$/);      // trailing trivial token, e.g. "DiHOME"
+  if (tok) push(tok[1]);
+  return out;
+}
+
+const CAS_RE = /^\d{1,7}-\d{2}-\d$/;
+const digitRatio = (s) => s.replace(/[^0-9]/g, "").length / Math.max(1, s.length);
+// "good" = a usable literature search term: not a CAS number, not an InChIKey, not a 1-3 char
+// acronym (e.g. "FZL"), not an overlong systematic string.
+const isGoodName = (s) => !!s && s.length >= 4 && s.length <= 40 && !CAS_RE.test(s)
+  && !/^InChI|^[A-Z]{14}-[A-Z]{10}/.test(s) && (/[a-z]/.test(s) || s.length >= 5);
+function pickSearchName(synonyms, matched, raw) {
+  if (isGoodName(matched)) return matched;                    // the variant that resolved is usually the clean name
+  const cand = (synonyms || []).filter((x) => isGoodName(x) && /[A-Za-z]/.test(x));
+  cand.sort((a, b) => digitRatio(a) - digitRatio(b) || a.length - b.length);
+  return cand[0] || matched || raw;
+}
+
 async function pubchem(name) {
   const base = "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound";
-  const cids = await getJSON(`${base}/name/${encodeURIComponent(name)}/cids/JSON`);
-  const cid = cids?.IdentifierList?.CID?.[0];
-  if (!cid) { if (cids?.__error) errors.push("pubchem:" + cids.__error); return null; }
+  let cid = null, matched = null;
+  for (const cand of nameCandidates(name)) {
+    const cids = await getJSON(`${base}/name/${encodeURIComponent(cand)}/cids/JSON`);
+    if (cids?.IdentifierList?.CID?.[0]) { cid = cids.IdentifierList.CID[0]; matched = cand; break; }
+  }
+  if (!cid) { errors.push("pubchem:unresolved"); return null; }
   const props = await getJSON(`${base}/cid/${cid}/property/InChIKey,MolecularFormula,IUPACName/JSON`);
   const p = props?.PropertyTable?.Properties?.[0] || {};
-  return { cid, inchikey: p.InChIKey || null, formula: p.MolecularFormula || null, iupac_name: p.IUPACName || null };
+  const syn = await getJSON(`${base}/cid/${cid}/synonyms/JSON`);
+  const synonyms = syn?.InformationList?.Information?.[0]?.Synonym || [];
+  return {
+    cid, inchikey: p.InChIKey || null, formula: p.MolecularFormula || null,
+    iupac_name: p.IUPACName || null,
+    matched_name: matched,                                     // which variant resolved
+    search_name: pickSearchName(synonyms, matched, name),      // best name for literature search
+    synonyms_sample: synonyms.slice(0, 6),
+  };
 }
 
 // ---------- 2. LOTUS via Wikidata: organisms a compound is documented in ----------
@@ -132,9 +177,10 @@ async function lotus({ inchikey, name }) {
   };
 }
 
-// ---------- 3. Europe PMC: full-text literature depth at three scopes ----------
+// ---------- 3. Europe PMC: full-text literature at scoped tiers + unscoped characterization ----------
 async function europepmc(name) {
-  const q = (extra) => `"${String(name).replace(/"/g, '\\"')}" AND (${extra})`;
+  const esc = (s) => String(s).replace(/"/g, '\\"');
+  const q = (extra) => (extra ? `"${esc(name)}" AND (${extra})` : `"${esc(name)}"`);
   const search = async (extra) => {
     const url = "https://www.ebi.ac.uk/europepmc/webservices/rest/search?format=json&resultType=core&pageSize=4&query=" + encodeURIComponent(q(extra));
     const j = await getJSON(url);
@@ -150,19 +196,23 @@ async function europepmc(name) {
       })),
     };
   };
-  const [elderberry, berries, plants] = await Promise.all([
+  // elderberry/berries/plants = occurrence tiers; characterization = unscoped "what is this
+  // compound at all" so even a non-plant compound has a citable identification reference.
+  const [elderberry, berries, plants, characterization] = await Promise.all([
     search("Sambucus OR elderberry"),
     search("blueberry OR cranberry OR grape OR blackcurrant OR raspberry OR berry"),
     search("plant OR fruit OR leaf OR phytochemical OR botanical"),
+    search(""),
   ]);
-  return { elderberry, berries, plants };
+  return { elderberry, berries, plants, characterization };
 }
 
-// ---------- run (sources are independent; identity feeds occurrence) ----------
+// ---------- run (identity feeds occurrence; the cleaned/common name feeds literature) ----------
 const pc = await pubchem(args.name);
+const searchName = pc?.search_name || args.name;          // cleaned/common name, not the raw decorated one
 const [lo, epmc] = await Promise.all([
-  lotus({ inchikey: pc?.inchikey, name: args.name }),
-  europepmc(args.name),
+  lotus({ inchikey: pc?.inchikey, name: searchName }),
+  europepmc(searchName),
 ]);
 
 const out = {
