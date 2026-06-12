@@ -41,13 +41,32 @@ if (!args.out) die("--out <report.md> is required");
 const md = args.out;
 const dir = `${md}.entries`;                 // durable per-uid store
 
-const TIER = ["elderberry", "berries", "plants", "none"];
-const TIER_LABEL = {
+// Two ORTHOGONAL axes (per Fable's critique): a single label conflated three different
+// questions, so split them. PROVENANCE = where the molecule is documented to occur in
+// nature (biogenic). DISPOSITION = what THIS particular detection most likely is.
+const PROVENANCE = ["elderberry", "other_berry", "other_plant", "non_plant", "unknown"];
+const PROVENANCE_LABEL = {
   elderberry: "Elderberry (Sambucus)",
-  berries: "Other berries",
-  plants: "Other plants",
-  none: "None retrieved",
+  other_berry: "Other berry",
+  other_plant: "Other plant",
+  non_plant: "Non-plant origin",
+  unknown: "Unknown / undocumented",
 };
+const DISPOSITION = ["native_plausible", "oxidation_processing", "synthetic_contaminant", "misannotation", "identity_unresolved", "undetermined"];
+const DISPOSITION_LABEL = {
+  native_plausible: "plausibly native to this sample",
+  oxidation_processing: "oxidation / processing artifact",
+  synthetic_contaminant: "synthetic — contaminant / carry-over",
+  misannotation: "likely misannotation / cross-sample contaminant",
+  identity_unresolved: "identity unresolved",
+  undetermined: "origin undetermined",
+};
+const PLANT_PROV = new Set(["elderberry", "other_berry", "other_plant"]);
+const CITE_ROLES = ["occurrence", "identity", "context"];
+// read legacy single-axis entries
+const LEGACY_PROV = { elderberry: "elderberry", berries: "other_berry", plants: "other_plant", other_berry: "other_berry", other_plant: "other_plant", synthetic: "non_plant", artifact: "unknown", none: "unknown" };
+const provOf = (e) => e.provenance || LEGACY_PROV[e.verdict] || LEGACY_PROV[e.evidenceTier] || "unknown";
+const dispOf = (e) => e.disposition || "undetermined";
 
 // Write atomically: a crash leaves only the temp file, never a half-written target.
 const atomicWrite = (file, data) => {
@@ -73,30 +92,46 @@ const validate = (e) => {
   if (e == null || typeof e !== "object") die("entry is not an object");
   if (!Number.isInteger(e.uid)) die(`entry uid must be an integer, got ${JSON.stringify(e.uid)}`);
   if (!e.name || typeof e.name !== "string") die(`entry ${e.uid}: name must be a non-empty string`);
-  if (!TIER.includes(e.evidenceTier)) die(`entry ${e.uid}: evidenceTier must be one of ${TIER.join("|")}, got ${JSON.stringify(e.evidenceTier)}`);
+  const provenance = provOf(e), disposition = dispOf(e);
+  if (!PROVENANCE.includes(provenance)) die(`entry ${e.uid}: provenance must be one of ${PROVENANCE.join("|")}, got ${JSON.stringify(provenance)}`);
+  if (!DISPOSITION.includes(disposition)) die(`entry ${e.uid}: disposition must be one of ${DISPOSITION.join("|")}, got ${JSON.stringify(disposition)}`);
+  e.provenance = provenance; e.disposition = disposition;
   if (e.paragraph != null && typeof e.paragraph !== "string") die(`entry ${e.uid}: paragraph must be a string`);
   if (e.citations != null && !Array.isArray(e.citations)) die(`entry ${e.uid}: citations must be an array`);
   e.paragraph = (e.paragraph || "").toString();
-  e.citations = Array.isArray(e.citations) ? e.citations : [];
+  e.citations = (Array.isArray(e.citations) ? e.citations : []).map((c) => ({
+    ...c, role: CITE_ROLES.includes(c.role) ? c.role : "context",  // default unrole'd citations to context
+  }));
+  // Invariant (Fable): a plant PROVENANCE must be backed by genuine occurrence evidence —
+  // an occurrence-role citation OR a curated occurrence record with a reference — never a
+  // tangential/context paper. occurrence_basis should name a verifiable record (e.g. Wikidata QID).
+  if (PLANT_PROV.has(provenance)) {
+    const hasOcc = e.citations.some((c) => c.role === "occurrence") || (e.occurrence_basis && String(e.occurrence_basis).trim());
+    if (!hasOcc) die(`entry ${e.uid}: provenance "${provenance}" requires an occurrence-role citation or occurrence_basis (verifiable curated record). Set provenance to non_plant/unknown, or supply the occurrence support.`);
+  }
   return e;
 };
 
 const renderEntry = (e) => {
-  const label = TIER_LABEL[e.evidenceTier] || "None retrieved";
+  const provL = PROVENANCE_LABEL[provOf(e)] || PROVENANCE_LABEL.unknown;
+  const dispL = DISPOSITION_LABEL[dispOf(e)] || DISPOSITION_LABEL.undetermined;
   const cites = (e.citations || []).map((c, i) => {
+    const role = CITE_ROLES.includes(c.role) ? c.role : "context";
     const head = `${c.authors || "Unknown"} (${c.year || "n.d."})`;
     const tail = [c.title, c.journal].map((x) => String(x || "").trim().replace(/\.+$/, "")).filter(Boolean).join(". ");
     const link = c.pmid ? ` [https://pubmed.ncbi.nlm.nih.gov/${c.pmid}/](https://pubmed.ncbi.nlm.nih.gov/${c.pmid}/)` : "";
-    return `${i + 1}. ${head}. ${tail}.${link}`;
+    return `${i + 1}. _[${role}]_ ${head}. ${tail}.${link}`;
   });
   return [
     `### ${e.uid}. ${e.name} <!-- uid:${e.uid} -->`, ``,
-    `**Literature evidence: ${label}**`, ``,
-    `Formula: ${e.formula || "—"}`, ``,
+    `**Biogenic provenance: ${provL}  ·  Detection disposition: ${dispL}**`, ``,
+    `Formula: ${e.formula || "—"}`,
+    e.occurrence_basis ? `Occurrence basis: ${e.occurrence_basis}` : ``,
+    ``,
     (e.paragraph || "").trim(), ``,
-    cites.length ? "Citations:\n" + cites.join("\n") : "_No citations retrieved this run._", ``,
+    cites.length ? "Citations _(role-tagged: occurrence = documents it in this matrix · identity = what the compound is · context = related/refuting)_:\n" + cites.join("\n") : "_No literature retrieved this run._", ``,
     `---`, ``,
-  ].join("\n");
+  ].join("\n").replace(/\n\n\n+/g, "\n\n");
 };
 
 const header = (source, total, when) => [
@@ -146,10 +181,11 @@ if (cmd === "init") {
         dups.map((r) => `- feature ${r.feature_id} "${r.name}" → see compound #${r.uid} (${uidName.get(r.uid) || r.name})`).join("\n") + "\n";
     }
   }
-  const tc = entries.reduce((m, e) => ((m[e.evidenceTier] = (m[e.evidenceTier] || 0) + 1), m), {});
-  const summary = `Researched ${entries.length} unique compounds — ` +
-    `Elderberry: ${tc.elderberry || 0}, Other berries: ${tc.berries || 0}, ` +
-    `Other plants: ${tc.plants || 0}, None retrieved: ${tc.none || 0}.\n`;
+  const pc = entries.reduce((m, e) => ((m[provOf(e)] = (m[provOf(e)] || 0) + 1), m), {});
+  const dc = entries.reduce((m, e) => ((m[dispOf(e)] = (m[dispOf(e)] || 0) + 1), m), {});
+  const summary = `Researched ${entries.length} unique compounds.\n` +
+    `Biogenic provenance — Elderberry: ${pc.elderberry || 0}, Other berry: ${pc.other_berry || 0}, Other plant: ${pc.other_plant || 0}, Non-plant: ${pc.non_plant || 0}, Unknown: ${pc.unknown || 0}.\n` +
+    `Detection disposition — native-plausible: ${dc.native_plausible || 0}, oxidation/processing: ${dc.oxidation_processing || 0}, synthetic-contaminant: ${dc.synthetic_contaminant || 0}, misannotation: ${dc.misannotation || 0}, identity-unresolved: ${dc.identity_unresolved || 0}, undetermined: ${dc.undetermined || 0}.\n`;
   const body = header(source, total, new Date().toISOString()) + summary + "\n" + entries.map(renderEntry).join("") + dupSection;
   atomicWrite(md, body);                                    // atomic overwrite — never a partial file
   console.log(`finalized ${md}: ${entries.length} compounds`);

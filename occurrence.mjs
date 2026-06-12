@@ -154,6 +154,15 @@ async function lotus({ inchikey, name }) {
   }
   if (!sel || !taxa) return { matched: false, in_sambucus: false, sambucus_species: [], in_other_berry: false, berry_genera: [], n_other_organisms: 0 };
 
+  // compound's Wikidata QID — a verifiable anchor for occurrence_basis (its page lists the
+  // occurrence statements and their underlying references).
+  let wikidata_qid = null;
+  try {
+    const qj = await getJSON("https://query.wikidata.org/sparql?format=json&query=" + encodeURIComponent(`SELECT ?compound WHERE { ${sel} } LIMIT 1`), { headers: { Accept: "application/sparql-results+json" } });
+    const uri = qj?.results?.bindings?.[0]?.compound?.value;
+    if (uri) wikidata_qid = uri.split("/").pop();
+  } catch { /* non-fatal */ }
+
   const truncated = taxa.length >= TAXA_LIMIT;
   // Truncation-proof Sambucus check: a dedicated, name-filtered query that can
   // never be hidden past the LIMIT, so in_sambucus is authoritative even for
@@ -166,6 +175,7 @@ async function lotus({ inchikey, name }) {
   return {
     matched: taxa.length > 0,
     n_taxa: taxa.length,
+    wikidata_qid,                                                      // verifiable occurrence anchor
     truncated,                                                         // berry/other classification may be partial when true
     in_sambucus: sambucus_species.length > 0,
     sambucus_species,
