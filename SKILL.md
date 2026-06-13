@@ -1,6 +1,6 @@
 ---
 name: elderberry-lit-synth
-description: Generate a literature-cited markdown + PDF report from a Thermo Compound Discoverer metabolomics Excel export of an elderberry/Sambucus study. It researches EVERY named compound — no ranking, no comparisons, no p-value/fold-change/statistics of any kind. For each unique compound it queries PubMed live, labels the most specific literature tier it appears in (elderberry > other berries > other plants > none), and writes a cited reasoned paragraph on whether it plausibly occurs in elderberry. Duplicate detections of the same compound are mapped back, not re-researched. Claude does the research directly (subagents for scale), so no OpenAI/Anthropic API key is needed. Use when the user asks to analyze an elderberry metabolome xlsx, run lit-synth on an elderberry study, or generate an elderberry literature report.
+description: Generate a literature-cited markdown + PDF report from a Thermo Compound Discoverer metabolomics Excel export of an elderberry/Sambucus study. It researches EVERY named compound — no ranking, no comparisons, no p-value/fold-change/statistics of any kind. For each unique compound it gathers evidence (PubChem identity, LOTUS occurrence, Europe PMC literature) and assigns two independent axes — biogenic provenance (elderberry / other berry / other plant / non-plant / unknown) and detection disposition (native / oxidation-artifact / synthetic-contaminant / misannotation / identity-unresolved / undetermined) — with role-tagged citations, then writes a cited reasoned paragraph. Duplicate detections of the same compound are mapped back, not re-researched. Claude does the research directly (subagents for scale), so no OpenAI/Anthropic API key is needed. Use when the user asks to analyze an elderberry metabolome xlsx, run lit-synth on an elderberry study, or generate an elderberry literature report.
 ---
 
 # elderberry-lit-synth
@@ -85,7 +85,7 @@ Researching more than ~8 compounds inline bloats this conversation's context. Fo
 
 1. **Resume first:** `node report.mjs done --out <report.md>` prints the uids already finished. Drop them from the work list so a re-run never re-researches a compound.
 2. Split the *remaining* `unique` list into batches (~8–12 compounds each).
-3. Each subagent, per compound, runs **both** `occurrence.mjs` **and** the tiered PubMed searches — PubMed is mandatory for *every* compound and is **never skipped just because LOTUS already confirmed occurrence**. It then writes a result `{uid, name, formula, evidenceTier, paragraph, citations:[{pmid, authors, year, title, journal}]}`. `evidenceTier` ∈ (`elderberry` | `berries` | `plants` | `none`) assigned per the **tier rule** in Step 4; `pmid` is a **string** (or omit/null if none); `citations` lists **only PMIDs actually retrieved**.
+3. Each subagent, per compound, runs `occurrence.mjs` — which returns PubChem identity, LOTUS occurrence (with `wikidata_qid`), and Europe PMC literature (with PMIDs) at elderberry / berry / plant / unscoped-characterization scope. It then writes a result `{uid, name, formula, provenance, disposition, occurrence_basis?, paragraph, citations:[{pmid, authors, year, title, journal, role}]}` assigned per the **two-axis rule** in Step 4. `provenance` ∈ (`elderberry`|`other_berry`|`other_plant`|`non_plant`|`unknown`); `disposition` ∈ (`native_plausible`|`oxidation_processing`|`synthetic_contaminant`|`misannotation`|`identity_unresolved`|`undetermined`); each citation carries `role` ∈ (`occurrence`|`identity`|`context`); `pmid` is a **string**; cite **only PMIDs actually retrieved**.
 4. **Persist each result immediately** — write the compound's JSON to a temp file and `node report.mjs append --out <report.md> --json <tmp>`. This is the crash-safety boundary: once appended, that compound survives any later token-out. Append is idempotent on uid, so re-running a batch is safe.
 5. Subagents space PubMed calls (~0.4s) and retry on HTTP 429.
 
@@ -103,7 +103,7 @@ The report was written incrementally by `report.mjs append` all through Step 2 (
 node report.mjs finalize --out <report.md> --extract <extract.json>
 ```
 
-`finalize` re-renders the whole report from the durable `<report.md>.entries.jsonl`, sorts sections by uid, adds a tier summary, and appends the duplicate-detection mapping (Step 3). It produces exactly this structure — **no statistics**, identity (name + formula) and literature only:
+`finalize` re-renders the whole report from the durable per-uid store `<report.md>.entries/` (one atomic `<uid>.json` per compound), sorts sections by uid, adds a provenance/disposition summary, and appends the duplicate-detection mapping (Step 3). It produces exactly this structure — **no statistics**, identity (name + formula) and literature only:
 
 ```
 # Elderberry Metabolomics Literature Synthesis
@@ -116,14 +116,15 @@ Coverage: <total_named_rows> named features → <unique_count> unique compounds 
 
 ### 1. <name>
 
-**Literature evidence: <Elderberry (Sambucus) | Other berries | Other plants | None retrieved>**
+**Biogenic provenance: <label>  ·  Detection disposition: <label>**
 
 Formula: <formula>
+Occurrence basis: <LOTUS/Wikidata QID + taxa — present only for a plant provenance>
 
-<reasoning, 100–200 words: a brief description of what kind of compound this is, what the retrieved literature actually says about its occurrence in elderberry/Sambucus, other berries, or other plant matrices, and a reasoned argument for whether it may plausibly occur in elderberry. If retrieved literature is non-plant or absent, state that plainly.>
+<reasoning, 100–180 words: what kind of compound this is; where it is documented to occur in nature (the actual evidence — LOTUS organisms + retrieved papers); and what THIS detection in the elderberry sample most likely is. Honest "unknown"/"undetermined" are valid answers — do not over-claim "artifact"/"native" beyond the evidence.>
 
-Citations:
-1. <Authors> (<Year>). <Title>. <Journal>. [https://pubmed.ncbi.nlm.nih.gov/<PMID>/](https://pubmed.ncbi.nlm.nih.gov/<PMID>/)
+Citations (role-tagged):
+1. _[occurrence|identity|context]_ <Authors> (<Year>). <Title>. <Journal>. [https://pubmed.ncbi.nlm.nih.gov/<PMID>/](https://pubmed.ncbi.nlm.nih.gov/<PMID>/)
 
 ---
 
@@ -136,16 +137,24 @@ These named features are repeat detections of a compound already reported above;
 - feature <id> "<name>" → see compound #<n> (<name>)
 ```
 
-### Literature-evidence label — the tier rule
+### The two-axis rule
 
-Pick the **single most specific tier** with genuine supporting evidence, more specific wins. "Supporting evidence" means **either** a genuinely-relevant retrieved PubMed paper **or** a LOTUS occurrence record (LOTUS records are literature-derived and carry their own reference) — both count, so a compound `occurrence.mjs` shows `in_sambucus: true` is Elderberry tier even if PubMed returned nothing.
+Assign two **independent** labels (a single "tier" used to conflate them — keep them separate):
 
-1. **Elderberry (Sambucus)** — a retrieved paper reports it in elderberry/*Sambucus*, **or** LOTUS `in_sambucus: true`. Use this even when it's also in other berries/plants.
-2. **Other berries** — not in elderberry, but a retrieved paper reports it in another berry **or** LOTUS shows a berry genus (`berry_genera` non-empty).
-3. **Other plants** — not in any berry, but a retrieved paper reports it in some plant **or** LOTUS shows other plant organisms.
-4. **None retrieved** — nothing places it in elderberry, a berry, or a plant (nothing came back, or only non-plant literature such as mammalian pharmacology or industrial chemistry).
+**A) Biogenic provenance — where the molecule is documented to occur in nature** (most specific plant tier wins):
 
-**Citations stay PubMed-honest:** cite only PMIDs you actually retrieved. When a tier rests on LOTUS rather than a retrieved paper, say so in the paragraph (e.g. "documented in *S. nigra* per LOTUS/Wikidata") — never fabricate a PMID to justify the tier. If LOTUS was truncated (`truncated: true`), treat a negative berry/other classification as "not seen in the first 1000 organisms", not a hard absence; `in_sambucus` is always authoritative.
+1. **`elderberry`** — LOTUS `in_sambucus: true`, OR a retrieved paper reports it in *Sambucus*/elderberry.
+2. **`other_berry`** — LOTUS `berry_genera` non-empty, OR a paper reports it in another berry genus.
+3. **`other_plant`** — LOTUS has plant organisms, OR a paper reports it as a plant constituent.
+4. **`non_plant`** — ONLY with **positive** evidence of non-plant origin: a confirmed synthetic drug / reagent / agrochemical, or a metabolite specific to mammals / microbes / fungi / marine organisms. **Never assign `non_plant` merely because LOTUS has no record — absence of a curated record is NOT evidence of non-plant origin.**
+5. **`unknown`** — identity unresolved (no CID), OR a plausibly-biogenic compound (oxylipin / oxidised fatty acid, fatty-acid amide / alkamide, amino-acid derivative, nucleoside, common lipid, ubiquitous primary metabolite) that is simply not curated. **Default here, not `non_plant`, when in doubt** — plants make these classes too.
+
+**Invariant (enforced by `report.mjs append`):** a plant provenance (`elderberry`/`other_berry`/`other_plant`) MUST be backed by occurrence — a citation tagged `role:"occurrence"` (a paper reporting THIS compound present IN that matrix) **or** an `occurrence_basis` string naming the LOTUS/Wikidata record **including its `wikidata_qid`**. If you have neither, set provenance to `unknown`.
+
+**B) Detection disposition — what THIS detection in the elderberry sample most likely is:**
+`native_plausible` (genuinely belongs) · `oxidation_processing` · `synthetic_contaminant` · `misannotation` (a real compound from an implausible taxon) · `identity_unresolved` (no CID) · `undetermined` (an honest "can't tell").
+
+**Citation roles & honesty:** `occurrence` = a **primary** paper reporting the compound present in the named matrix (a REVIEW or a mixed-matrix study that doesn't attribute to the species is `context`, not occurrence); `identity` = establishes what the compound is (drug/standard/structural); `context` = related / refuting / tangential. Cite only PMIDs you actually retrieved — **never fabricate one**; when a plant provenance rests on LOTUS, say "documented per LOTUS/Wikidata <QID>" in the paragraph. europepmc hit **counts** are co-occurrence noise — judge each paper by its title. If LOTUS was `truncated: true`, treat a negative berry/other classification as "not seen in the first 1000 organisms"; `in_sambucus` is always authoritative.
 
 ### Resuming after an interruption (token-out / crash)
 
@@ -172,7 +181,7 @@ This writes `<same-basename>.pdf` next to the markdown using the user's installe
 - **Cite only PMIDs actually returned by the PubMed calls in this run.** Never invent PMIDs from training memory. If a paragraph would need a citation you didn't retrieve, rewrite it without that claim. With subagents, a citation is valid only if that subagent retrieved its PMID.
 - **Research every named compound — never exclude one.** No statistics decide inclusion; every named compound is reported regardless of its literature label.
 - **Persist immediately, resume cleanly.** Append each compound via `report.mjs` the instant it's researched; never hold the whole run in context for one final write. On restart, `report.mjs done` tells you what to skip — never re-research a finished compound.
-- **Occurrence evidence informs, never short-circuits.** A LOTUS `in_sambucus`, PubChem identity, or Europe PMC hit may *establish the tier* (with its own reference) but it **never** replaces the reasoned write-up, never excludes a compound, and never excuses skipping the mandatory PubMed search. Every compound — confirmed or not — gets the full reasoned paragraph.
+- **Occurrence evidence informs, never short-circuits.** A LOTUS `in_sambucus`, PubChem identity, or Europe PMC hit may *establish the provenance* (backed by its `wikidata_qid` or a retrieved paper) but it **never** replaces the reasoned write-up and never excludes a compound. Every compound — confirmed or not — gets the full reasoned paragraph covering both axes.
 - **No statistics in the report** — no ranking, p-value, fold-change, m/z, RT, or composite. Identity (name + formula) and literature only.
-- **No likelihood-verdict tags** beyond the literature-evidence tier label. Report what the literature shows and reason honestly.
+- **Two axes only, and don't over-claim.** The verdict is `provenance × disposition` — no other rating tags. Reserve `non_plant` for *positive* non-plant evidence, and a positive `oxidation_processing`/`native_plausible` call for genuine support; default to `unknown`/`undetermined` when the evidence is silent (absence from LOTUS is not evidence of non-plant origin).
 - **Honesty over polish.** "No elderberry-specific literature was retrieved; the identity rests on the Compound Discoverer spectral match alone" is better than padding with tangential citations.
