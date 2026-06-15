@@ -77,6 +77,29 @@ for (const r of results) r._eff = effective(r);
 results.sort((a, b) => (TIER_RANK[a._eff.tier] - TIER_RANK[b._eff.tier]) || a.name.localeCompare(b.name));
 
 const wb = new ExcelJS.Workbook();
+
+// "How to read" legend tab (first sheet) — explains the method and columns C/D/F/G.
+const guide = wb.addWorksheet("How to read");
+guide.getColumn(1).width = 112;
+const guideLines = [
+  ["How to read this report", true],
+  ["", false],
+  ["For each compound, an AI agent looks it up in three databases: PubChem (what the molecule is), LOTUS/Wikidata (which plants and animals it's been found in), and PubMed/Europe PMC (published papers). Every claim links back to a real source, never made up. It then fills four columns:", false],
+  ["", false],
+  ["C — Documented occurrence: a label for where it's been found in nature (elderberry → other berry → other plant → non-plant → unknown), only allowed if a real paper or database record backs it.", false],
+  ["F — Where it's been reported: the plain-text version of that evidence, the actual plants and papers behind C.", false],
+  ["D — What this detection is: a separate call on the peak itself. Is it a real plant compound, an artifact from processing, a contaminant, or a mislabel? This is judged from chemistry, since the AI never sees the raw machine data.", false],
+  ["G — Could it be in elderberry? A short paragraph combining C and D into a final answer.", false],
+  ["", false],
+  ["How they relate: C and D are the two facts (where it occurs × what this peak is), F is the evidence behind C, and G is the conclusion that ties C and D together.", false],
+];
+for (const [text, bold] of guideLines) {
+  const row = guide.addRow([text]);
+  row.getCell(1).alignment = { wrapText: true, vertical: "top" };
+  row.getCell(1).font = bold ? { bold: true, size: 14 } : { size: 11 };
+  row.height = bold ? 22 : Math.max(16, Math.ceil(String(text).length / 105) * 15);
+}
+
 const ws = wb.addWorksheet("Compounds", { views: [{ state: "frozen", xSplit: 1, ySplit: 1 }] });
 ws.columns = [
   { header: "Name", key: "name", width: 26 },
