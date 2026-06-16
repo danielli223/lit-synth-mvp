@@ -12,6 +12,7 @@
  */
 import fs from "node:fs";
 import { fetchPubmedMeta } from "./cite.mjs";
+import { effectiveTier } from "./tier.mjs";
 
 const [, , inPath, outPath] = process.argv;
 if (!inPath || !outPath) { console.error("usage: gen-sample3.mjs <in.json> <out.md>"); process.exit(1); }
@@ -33,16 +34,8 @@ const dispLabel = (d) => ({
   identity_unresolved: "identity unresolved", undetermined: "origin undetermined",
 }[d] || d);
 
-// Occurrence invariant: a plant tier must be backed by a role:"occurrence" citation
-// (a paper, or a LOTUS QID listing the taxon). Otherwise it is honestly "unknown".
-function effectiveProvenance(r) {
-  const p = r.provenance;
-  const isPlant = p === "elderberry" || p === "other_berry" || p === "other_plant";
-  if (!isPlant) return { prov: p, downgraded: false };
-  const hasOccurrence = (r.citations || []).some((c) => c.role === "occurrence");
-  if (hasOccurrence) return { prov: p, downgraded: false };
-  return { prov: "unknown", downgraded: true, original: p };
-}
+// Occurrence invariant lives in tier.mjs (effectiveTier) — the single source of truth shared by
+// all three renderers, so the markdown/PDF, CSV, and xlsx can never disagree on a compound's tier.
 
 const pubmedIds = results.flatMap((r) => (r.citations || []).filter((c) => c.type === "pubmed").map((c) => c.id));
 const META = await fetchPubmedMeta(pubmedIds);
@@ -66,7 +59,7 @@ function renderRef(c, n) {
 
 // assign each compound to its effective tier
 const groups = Object.fromEntries(TIERS.map(([k]) => [k, []]));
-for (const r of results) { const e = effectiveProvenance(r); r._eff = e; groups[e.prov].push(r); }
+for (const r of results) { const e = effectiveTier(r); r._eff = e; groups[e.tier].push(r); }
 
 let md = "";
 md += "# Elderberry Lit-Synth — Sample Report\n\n";

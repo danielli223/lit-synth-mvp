@@ -13,6 +13,7 @@
  */
 import fs from "node:fs";
 import { fetchPubmedMeta } from "./cite.mjs";
+import { effectiveTier } from "./tier.mjs";
 
 const [, , inPath, outPath] = process.argv;
 if (!inPath || !outPath) { console.error("usage: gen-csv.mjs <in.json> <out.csv>"); process.exit(1); }
@@ -29,14 +30,7 @@ const dispLabel = (d) => ({
   synthetic_contaminant: "synthetic — contaminant / carry-over", misannotation: "misannotation",
   identity_unresolved: "identity unresolved", undetermined: "undetermined (native vs. artifact)",
 }[d] || d);
-const effective = (r) => {
-  const isPlant = ["elderberry", "other_berry", "other_plant"].includes(r.provenance);
-  if (!isPlant) return { tier: r.provenance, downgraded: false };
-  // a plant tier is valid if backed by an occurrence-role citation OR a curated occurrence_basis
-  // record — mirror the canonical gate in report.mjs so the csv never downgrades what it accepts.
-  const hasOcc = (r.citations || []).some((c) => c.role === "occurrence") || !!String(r.occurrence_basis || "").trim();
-  return hasOcc ? { tier: r.provenance, downgraded: false } : { tier: "unknown", downgraded: true, original: r.provenance };
-};
+const effective = effectiveTier; // shared occurrence invariant (tier.mjs) — same across all renderers
 
 const META = await fetchPubmedMeta(results.flatMap((r) => (r.citations || []).filter((c) => c.type === "pubmed").map((c) => c.id)));
 const ROLE_ORDER = { occurrence: 0, identity: 1, context: 2 };

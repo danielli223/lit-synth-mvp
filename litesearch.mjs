@@ -9,6 +9,13 @@
  *
  * Output: { db, query, hitCount, hits:[{pmid,title,year,journal}] }
  */
+import { readFileSync } from "node:fs";
+import { homedir } from "node:os";
+// NCBI API key (lifts eutils rate limit 3 -> ~10 req/s). Read from env or ~/.ncbi_api_key;
+// never hardcoded so it can't be committed to the public repo. Empty string if absent.
+const NCBI_KEY = process.env.NCBI_API_KEY || (() => { try { return readFileSync(homedir() + "/.ncbi_api_key", "utf8").trim(); } catch { return ""; } })();
+const KEY = NCBI_KEY ? `&api_key=${NCBI_KEY}` : "";
+
 const args = {};
 for (let i = 2; i < process.argv.length; i++) {
   const a = process.argv[i];
@@ -36,13 +43,13 @@ const yr = (s) => (String(s || "").match(/\d{4}/) || ["n.d."])[0];
 
 let result;
 if (db === "pubmed") {
-  const es = await getJSON(`https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=${N}&term=${encodeURIComponent(args.query)}`);
+  const es = await getJSON(`https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&retmax=${N}&term=${encodeURIComponent(args.query)}${KEY}`);
   const ids = es?.esearchresult?.idlist || [];
   const hitCount = Number(es?.esearchresult?.count || ids.length);
   let hits = [];
   if (ids.length) {
     await sleep(150);
-    const su = await getJSON(`https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=${ids.join(",")}`);
+    const su = await getJSON(`https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=${ids.join(",")}${KEY}`);
     const res = su?.result || {};
     hits = ids.map((id) => res[id]).filter(Boolean).map((r) => ({ pmid: r.uid, title: (r.title || "").replace(/\s*\.\s*$/, ""), year: yr(r.pubdate), journal: r.source || "" }));
   }
