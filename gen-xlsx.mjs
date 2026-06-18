@@ -21,13 +21,14 @@ const results = (() => { const r = JSON.parse(fs.readFileSync(inPath, "utf8")); 
 
 const TIERS = [
   ["elderberry", "Elderberry"], ["other_berry", "Other berry"], ["other_plant", "Other plant"],
-  ["non_plant", "Non-plant"], ["unknown", "Source not established"],
+  ["non_plant", "Non-plant"], ["unknown", "No documented occurrence"],
 ];
 const TIER_LABEL = Object.fromEntries(TIERS);
 const TIER_RANK = Object.fromEntries(TIERS.map(([k], i) => [k, i]));
 const dispLabel = (d) => ({
   native_plausible: "native — plausibly belongs", oxidation_processing: "oxidation / processing artifact",
-  synthetic_contaminant: "synthetic — contaminant / carry-over", misannotation: "misannotation",
+  synthetic_contaminant: "synthetic — contaminant / carry-over",
+  foreign: "foreign — shouldn't be in elderberry", misannotation: "foreign — shouldn't be in elderberry", // legacy alias
   identity_unresolved: "identity unresolved", undetermined: "undetermined (native vs. artifact)",
 }[d] || d);
 const effective = effectiveTier; // shared occurrence invariant (tier.mjs) — same across all renderers
@@ -82,7 +83,7 @@ const guideLines = [
   ["", false],
   ["C — Documented occurrence: a label for where it's been found in nature (elderberry → other berry → other plant → non-plant → unknown), only allowed if a real paper or database record backs it.", false],
   ["F — Where it's been reported: the plain-text version of that evidence, the actual plants and papers behind C.", false],
-  ["D — What this detection is: a separate call on the peak itself. Is it a real plant compound, an artifact from processing, a contaminant, or a mislabel? This is judged from chemistry, since the AI never sees the raw machine data.", false],
+  ["D — What this detection is: a separate call on the peak itself — is it a genuine elderberry compound, or not? It can be native (plausibly belongs), an oxidation/processing artifact, a synthetic contaminant, or foreign (shouldn't be in elderberry at all, when it can't be pinned to contaminant vs. artifact). Judged from chemistry, since the AI never sees the raw machine data.", false],
   ["G — Could it be in elderberry? A short paragraph combining C and D into a final answer.", false],
   ["", false],
   ["How they relate: C and D are the two facts (where it occurs × what this peak is), F is the evidence behind C, and G is the conclusion that ties C and D together.", false],

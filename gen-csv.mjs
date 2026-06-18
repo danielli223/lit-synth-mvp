@@ -21,13 +21,14 @@ const results = (() => { const r = JSON.parse(fs.readFileSync(inPath, "utf8")); 
 
 const TIERS = [
   ["elderberry", "Elderberry"], ["other_berry", "Other berry"], ["other_plant", "Other plant"],
-  ["non_plant", "Non-plant"], ["unknown", "Source not established"],
+  ["non_plant", "Non-plant"], ["unknown", "No documented occurrence"],
 ];
 const TIER_LABEL = Object.fromEntries(TIERS);
 const TIER_RANK = Object.fromEntries(TIERS.map(([k], i) => [k, i]));
 const dispLabel = (d) => ({
   native_plausible: "native — plausibly belongs", oxidation_processing: "oxidation / processing artifact",
-  synthetic_contaminant: "synthetic — contaminant / carry-over", misannotation: "misannotation",
+  synthetic_contaminant: "synthetic — contaminant / carry-over",
+  foreign: "foreign — shouldn't be in elderberry", misannotation: "foreign — shouldn't be in elderberry", // legacy alias
   identity_unresolved: "identity unresolved", undetermined: "undetermined (native vs. artifact)",
 }[d] || d);
 const effective = effectiveTier; // shared occurrence invariant (tier.mjs) — same across all renderers

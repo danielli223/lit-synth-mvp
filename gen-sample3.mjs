@@ -25,12 +25,13 @@ const TIERS = [
   ["other_berry", "Other berry"],
   ["other_plant", "Other plant"],
   ["non_plant", "Non-plant"],
-  ["unknown", "Source not established (known compound, plant origin not documented)"],
+  ["unknown", "No documented occurrence"],
 ];
 const TIER_LABEL = Object.fromEntries(TIERS);
 const dispLabel = (d) => ({
   native_plausible: "native — plausibly belongs to this sample", oxidation_processing: "oxidation / processing artifact",
-  synthetic_contaminant: "synthetic — contaminant / carry-over", misannotation: "misannotation",
+  synthetic_contaminant: "synthetic — contaminant / carry-over",
+  foreign: "foreign — shouldn't be in elderberry", misannotation: "foreign — shouldn't be in elderberry", // legacy alias
   identity_unresolved: "identity unresolved", undetermined: "origin undetermined",
 }[d] || d);
 
@@ -78,7 +79,12 @@ for (const [key, label] of TIERS) {
     md += `*Detection disposition: ${dispLabel(r.disposition)}* · Formula: ${r.formula}`;
     if (r.identity && r.identity.cid) md += ` · PubChem CID ${r.identity.cid}`;
     md += "\n\n";
-    if (r._eff.downgraded) md += `> ⚠ Agent proposed **${TIER_LABEL[r._eff.original] || r._eff.original}**, but no occurrence citation backs it — placed in *Unknown* per the occurrence invariant.\n\n`;
+    if (r._eff.downgraded) {
+      const why = r._eff.reason === "identity_unresolved"
+        ? "the compound's identity could not be resolved, so its occurrence cannot be documented"
+        : "no occurrence citation backs it";
+      md += `> ⚠ Agent proposed **${TIER_LABEL[r._eff.original] || r._eff.original}**, but ${why} — placed in *No documented occurrence* per the occurrence invariant.\n\n`;
+    }
     if (r.occurrence_basis) md += `Occurrence basis: ${r.occurrence_basis}\n\n`;
     md += `- **What it is:** ${r.what_it_is}\n`;
     md += `- **Where it's been reported:** ${r.where_reported}\n`;

@@ -38,7 +38,8 @@ const provLabel = (p) => ({
 }[p] || p);
 const dispLabel = (d) => ({
   native_plausible: "native-plausible", oxidation_processing: "oxidation / processing",
-  synthetic_contaminant: "synthetic — contaminant", misannotation: "misannotation",
+  synthetic_contaminant: "synthetic — contaminant",
+  foreign: "foreign", misannotation: "foreign", // legacy alias
   identity_unresolved: "identity-unresolved", undetermined: "undetermined",
 }[d] || d);
 
