@@ -1,0 +1,270 @@
+{
+  "perPathway": [
+    {
+      "pathway": "Ammonia Recycling",
+      "canon": 27,
+      "det": 8,
+      "agent": 9,
+      "union": 9,
+      "orig": 7,
+      "detOnly": [],
+      "agentOnly": [
+        "L-Pyroglutamic acid/5-Oxo-proline"
+      ],
+      "nameOnly": [],
+      "unionIds": [
+        113,
+        42,
+        151,
+        9,
+        22,
+        18,
+        26,
+        27,
+        60
+      ]
+    },
+    {
+      "pathway": "Beta-Alanine Metabolism",
+      "canon": 27,
+      "det": 6,
+      "agent": 6,
+      "union": 6,
+      "orig": 5,
+      "detOnly": [],
+      "agentOnly": [],
+      "nameOnly": [],
+      "unionIds": [
+        22,
+        18,
+        26,
+        27,
+        113,
+        16
+      ]
+    },
+    {
+      "pathway": "Aspartate Metabolism",
+      "canon": 32,
+      "det": 7,
+      "agent": 7,
+      "union": 7,
+      "orig": 5,
+      "detOnly": [],
+      "agentOnly": [],
+      "nameOnly": [],
+      "unionIds": [
+        9,
+        8,
+        18,
+        26,
+        27,
+        151,
+        113
+      ]
+    },
+    {
+      "pathway": "Valine, Leucine and Isoleucine Degradation",
+      "canon": 52,
+      "det": 7,
+      "agent": 7,
+      "union": 7,
+      "orig": 5,
+      "detOnly": [],
+      "agentOnly": [],
+      "nameOnly": [],
+      "unionIds": [
+        30,
+        50,
+        23,
+        18,
+        26,
+        27,
+        113
+      ]
+    },
+    {
+      "pathway": "Phenylalanine and Tyrosine Metabolism",
+      "canon": 27,
+      "det": 6,
+      "agent": 6,
+      "union": 6,
+      "orig": 5,
+      "detOnly": [],
+      "agentOnly": [],
+      "nameOnly": [],
+      "unionIds": [
+        18,
+        26,
+        27,
+        48,
+        38,
+        113
+      ]
+    },
+    {
+      "pathway": "Malate-Aspartate Shuttle",
+      "canon": 8,
+      "det": 4,
+      "agent": 4,
+      "union": 4,
+      "orig": 3,
+      "detOnly": [],
+      "agentOnly": [],
+      "nameOnly": [],
+      "unionIds": [
+        113,
+        18,
+        26,
+        27
+      ]
+    },
+    {
+      "pathway": "Arginine and Proline Metabolism",
+      "canon": 45,
+      "det": 7,
+      "agent": 8,
+      "union": 8,
+      "orig": 8,
+      "detOnly": [],
+      "agentOnly": [
+        "L-Pyroglutamic acid/5-Oxo-proline"
+      ],
+      "nameOnly": [],
+      "unionIds": [
+        8,
+        39,
+        18,
+        26,
+        27,
+        129,
+        113,
+        60
+      ]
+    },
+    {
+      "pathway": "Amino Sugar Metabolism",
+      "canon": 31,
+      "det": 4,
+      "agent": 5,
+      "union": 5,
+      "orig": 2,
+      "detOnly": [],
+      "agentOnly": [
+        "N-Acetylglucosaminitol"
+      ],
+      "nameOnly": [],
+      "unionIds": [
+        151,
+        18,
+        26,
+        27,
+        371
+      ]
+    },
+    {
+      "pathway": "Methionine Metabolism",
+      "canon": 35,
+      "det": 5,
+      "agent": 5,
+      "union": 5,
+      "orig": 6,
+      "detOnly": [],
+      "agentOnly": [],
+      "nameOnly": [],
+      "unionIds": [
+        32,
+        42,
+        127,
+        44,
+        154
+      ]
+    },
+    {
+      "pathway": "Phosphatidylethanolamine Biosynthesis",
+      "canon": 12,
+      "det": 3,
+      "agent": 4,
+      "union": 4,
+      "orig": 2,
+      "detOnly": [],
+      "agentOnly": [
+        "Cytidine"
+      ],
+      "nameOnly": [],
+      "unionIds": [
+        127,
+        42,
+        182,
+        134
+      ]
+    },
+    {
+      "pathway": "Glycine and Serine Metabolism",
+      "canon": 53,
+      "det": 8,
+      "agent": 8,
+      "union": 8,
+      "orig": 6,
+      "detOnly": [],
+      "agentOnly": [],
+      "nameOnly": [],
+      "unionIds": [
+        42,
+        32,
+        18,
+        26,
+        27,
+        8,
+        106,
+        113
+      ]
+    },
+    {
+      "pathway": "Betaine Metabolism",
+      "canon": 18,
+      "det": 3,
+      "agent": 3,
+      "union": 3,
+      "orig": 3,
+      "detOnly": [],
+      "agentOnly": [],
+      "nameOnly": [],
+      "unionIds": [
+        127,
+        32,
+        6
+      ]
+    },
+    {
+      "pathway": "Homocysteine Degradation",
+      "canon": 9,
+      "det": 1,
+      "agent": 1,
+      "union": 1,
+      "orig": 1,
+      "detOnly": [],
+      "agentOnly": [],
+      "nameOnly": [],
+      "unionIds": [
+        42
+      ]
+    }
+  ],
+  "global": {
+    "orig": 25,
+    "det": 24,
+    "agent": 27,
+    "union": 27,
+    "added_vs_orig": [
+      "Cytidine",
+      "L-Glutamate",
+      "L-Pyroglutamic acid/5-Oxo-proline",
+      "N-Acetylglucosaminitol"
+    ],
+    "lost_vs_orig": [
+      "4-Guanidinobutyric acid",
+      "gamma-Aminobutyric acid (GABA)"
+    ]
+  }
+}
