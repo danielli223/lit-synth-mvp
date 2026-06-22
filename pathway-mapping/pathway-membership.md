@@ -1,6 +1,8 @@
 # Elderberry metabolites → 13 enriched pathways (v2, canonical SMPDB)
 
-Distinct compounds: original=25, deterministic=24, agent=27, **union (this file)=27**.
+**27 unique compounds** across the 13 pathways · **64 memberships listed** (each compound recurs once per pathway it belongs to).
+
+Distinct-compound count by method: original=25, deterministic=24, agent=27, **union (this file)=27**.
 
 | Pathway | Enriched in | # | Compounds (low-conf = agent-only derivative) |
 |---|---|---|---|

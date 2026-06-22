@@ -1,0 +1,32 @@
+Elderberry compounds mapped to the 13 enriched SMPDB pathways
+Unique compounds:,27
+Memberships listed across the 13 pathways:,64
+"(each compound is listed once per pathway it belongs to — hub metabolites like glutamate & alpha-ketoglutarate span many, so memberships > unique)"
+#,Unique compound,Formula,PubChem CID,# pathways,Pathways it appears in,Note
+1,DL-Glutamic acid,C5H9NO4,611,9,"Ammonia Recycling; Beta-Alanine Metabolism; Aspartate Metabolism; Valine, Leucine and Isoleucine Degradation; Phenylalanine and Tyrosine Metabolism; Malate-Aspartate Shuttle; Arginine and Proline Metabolism; Amino Sugar Metabolism; Glycine and Serine Metabolism",
+2,L-Glutamate,C5H9NO4,33032,9,"Ammonia Recycling; Beta-Alanine Metabolism; Aspartate Metabolism; Valine, Leucine and Isoleucine Degradation; Phenylalanine and Tyrosine Metabolism; Malate-Aspartate Shuttle; Arginine and Proline Metabolism; Amino Sugar Metabolism; Glycine and Serine Metabolism",same molecule as: L-Glutamic acid
+3,L-Glutamic acid,C5H9NO4,33032,9,"Ammonia Recycling; Beta-Alanine Metabolism; Aspartate Metabolism; Valine, Leucine and Isoleucine Degradation; Phenylalanine and Tyrosine Metabolism; Malate-Aspartate Shuttle; Arginine and Proline Metabolism; Amino Sugar Metabolism; Glycine and Serine Metabolism",same molecule as: L-Glutamate
+4,alpha-Ketoglutaric acid,C5H6O5,51,8,"Ammonia Recycling; Beta-Alanine Metabolism; Aspartate Metabolism; Valine, Leucine and Isoleucine Degradation; Phenylalanine and Tyrosine Metabolism; Malate-Aspartate Shuttle; Arginine and Proline Metabolism; Glycine and Serine Metabolism",
+5,Serine,C3H7NO3,5951,5,Ammonia Recycling; Methionine Metabolism; Phosphatidylethanolamine Biosynthesis; Glycine and Serine Metabolism; Homocysteine Degradation,
+6,Arginine,C6H14N4O2,6322,3,Aspartate Metabolism; Arginine and Proline Metabolism; Glycine and Serine Metabolism,
+7,Choline,C5H13NO,305,3,Methionine Metabolism; Phosphatidylethanolamine Biosynthesis; Betaine Metabolism,
+8,Glutamine,C5H10N2O3,5961,3,Ammonia Recycling; Aspartate Metabolism; Amino Sugar Metabolism,
+9,Methionine,C5H11NO2S,6137,3,Methionine Metabolism; Glycine and Serine Metabolism; Betaine Metabolism,
+10,Asparagine,C4H8N2O3,6267,2,Ammonia Recycling; Aspartate Metabolism,
+11,Histidine,C6H9N3O2,6274,2,Ammonia Recycling; Beta-Alanine Metabolism,
+12,L-Pyroglutamic acid/5-Oxo-proline,C5H7NO3,7405,2,Ammonia Recycling; Arginine and Proline Metabolism,
+13,5-Aminolevulinic acid,C5H9NO3,137,1,Glycine and Serine Metabolism,
+14,Adenosine,C10H13N5O4,60961,1,Betaine Metabolism,
+15,cis-4-Hydroxy-D-proline,C5H9NO3,440014,1,Arginine and Proline Metabolism,
+16,Cytidine,C9H13N3O5,6175,1,Phosphatidylethanolamine Biosynthesis,
+17,D-Pantothenic acid,C9H17NO5,6613,1,Beta-Alanine Metabolism,
+18,H-Met(O)-OH,C5H11NO3S,158980,1,Methionine Metabolism,
+19,Isoleucine,C6H13NO2,6306,1,"Valine, Leucine and Isoleucine Degradation",
+20,Leucine,C6H13NO2,6106,1,"Valine, Leucine and Isoleucine Degradation",
+21,N-Acetylglucosaminitol,C8H17NO6,165206,1,Amino Sugar Metabolism,
+22,Phenylalanine,C9H11NO2,6140,1,Phenylalanine and Tyrosine Metabolism,
+23,phosphoethanolamine,C2H8NO4P,1015,1,Phosphatidylethanolamine Biosynthesis,
+24,Proline,C5H9NO2,145742,1,Arginine and Proline Metabolism,
+25,Spermidine,C7H19N3,1102,1,Methionine Metabolism,
+26,Tyrosine,C9H11NO3,6057,1,Phenylalanine and Tyrosine Metabolism,
+27,Valine,C5H11NO2,6287,1,"Valine, Leucine and Isoleucine Degradation",

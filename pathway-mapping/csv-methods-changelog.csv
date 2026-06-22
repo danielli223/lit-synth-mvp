@@ -1,0 +1,48 @@
+Version,"v2 — rebuilt from COMPLETE canonical SMPDB member lists (every member fingerprinted via PubChem), matched two independent ways and unioned."
+Method,"Per pathway: deterministic InChIKey/CID fingerprint join AND independent agent reasoning, on the identical canonical member list; membership = union."
+Confidence,high = exact InChIKey/CID identity (found by the algorithm). low = agent-only 'detected form / parent' derivative call (e.g. pyroglutamate↔glutamate) — review before use.
+Head-to-head count,original run = 25 distinct compounds; deterministic (canonical) = 24; agent (canonical) = 27; UNION (this file) = 27.
+Who won,"Agent > deterministic (27 vs 24): the agent caught 3 derivative matches the fingerprint join cannot see, and missed nothing the algorithm found. Recall was not the problem."
+Added vs v1,"Cytidine; L-Glutamate; L-Pyroglutamic acid/5-Oxo-proline; N-Acetylglucosaminitol  (note: 'L-Glutamate' is a duplicate-name entry of L-Glutamic acid — same molecule, not a new one)."
+Removed vs v1,"4-Guanidinobutyric acid; gamma-Aminobutyric acid (GABA)  — these are NOT members of the canonical SMPDB Arginine & Proline set; v1 included them as medium-confidence judgement calls, now corrected out."
+Why only ~27,"Your 388 are ~330 plant secondary metabolites (flavonoids, glycosides, lipids) plus ~40 amino-acids/amines, ~7 organic acids, ~6 nucleosides, ~5 sugars. Only the central-metabolism subset can belong to these 13 amino-acid/central pathways, so ~27 is the real ceiling — not an under-count."
+Cofactors,"Canonical sets include ubiquitous cofactors (water, CO2, ATP, NAD, phosphate, THF...). They appear under 'Coverage gaps' because they are not in your 388."
+Scope,Membership only. Up/Down columns in Sheet 2 are left blank for your next step.
+Per-pathway notes,
+Ammonia Recycling,"Scanned all 388 compounds by InChIKey first-block (skeleton), PubChem CID, and name/synonym, plus chemical judgement for parent/derivative forms. Confirmed matches (skeleton + CID, correct L-stereochemistry, high confidence): id113 alpha-ketoglutaric acid = 2-Oxoglutaric acid (KPGXRSRHYNQIFN, CID 51); id9 Asparagine = L-Asparagine (DCXYFEDJOCDNAF, CID 6267); id22 Histidine = L-Histidine (HNDVDQJCI"
+Beta-Alanine Metabolism,"Scanned all 388 compounds against the 27 canonical members using InChIKey first-block (skeleton), PubChem CID, then name/synonym/stereo judgement.
+
+CONFIDENT MATCHES (6):
+- id 22 Histidine = L-Histidine: exact full InChIKey HNDVDQJCIGZPNO-YFKPBYRVSA-N + CID 6274. High.
+- id 26 L-Glutamate and id 27 L-Glutamic acid = L-Glutamic acid: exact InChIKey WHUUTDBJXJRKMK-VKHMYHEASA-N + CID 33032 (both are "
+Aspartate Metabolism,"Scanned all 388 compounds by InChIKey first-block (skeleton), full InChIKey, PubChem CID, and name/synonym substrings (aspart, asparag, arginin, citrull, glutam, fumar, succin, malon, oxalacet, oxoglutar/ketoglutar, alanine, acetic acid, CoA, adenyl, AMP, carbamoyl, phosphate, pyrophosph, ammonia). 7 genuine matches found.
+
+High-confidence exact matches (full InChIKey identity): id 9 (L-Asparagine"
+"Valine, Leucine and Isoleucine Degradation","Scanned all 388 compounds by InChIKey first-block (skeleton), PubChem CID, and name/synonym, plus a chemical-judgement keyword pass over BCAA-degradation intermediates and cofactors. 7 genuine matches found, all confirmed by skeleton + CID identity to canonical members:
+
+HIGH confidence (exact InChIKey + CID): id 30 Leucine=L-Leucine (6106); id 50 Valine=L-Valine (6287); id 23 Isoleucine=L-Isoleuc"
+Phenylalanine and Tyrosine Metabolism,"Scanned all 388 compounds against the 27-member canonical list using InChIKey first-block (skeleton), PubChem CID, then name/synonym/chemistry.
+
+HIGH-confidence direct matches (exact InChIKey AND CID): id 38 Phenylalanine (COLNVLDHVKWLRT, CID 6140 = member Phenylalanine); id 48 Tyrosine (OUYCCCASQSFEME, CID 6057 = member L-Tyrosine); id 26 L-Glutamate and id 27 L-Glutamic acid (both WHUUTDBJXJRKMK"
+Malate-Aspartate Shuttle,"File scanned: /Users/bytedance/lit-synth-mvp/pathway-mapping/compounds-388.json (all 388 entries). Matching priority used: InChIKey first-block (skeleton) > PubChem CID > name/synonym > chemical judgement.
+
+CONFIRMED MATCHES (4 detections covering 2 of 8 canonical members):
+- L-Glutamic acid (member skeleton WHUUTDBJXJRKMK, CID 33032): id 26 (L-Glutamate) and id 27 (L-Glutamic acid) are exact InCh"
+Arginine and Proline Metabolism,"Method: matched each of the 388 compounds against the canonical member list by (1) InChIKey first-block (skeleton) identity, (2) PubChem CID, (3) name/synonym, (4) chemical judgement for stereoisomers/parents. File read: /Users/bytedance/lit-synth-mvp/pathway-mapping/compounds-388.json.
+
+HIGH-confidence exact identities (skeleton + CID + full InChIKey agree): id 8 Arginine = L-Arginine (ODKSFYDXXF"
+Amino Sugar Metabolism,"Source file: /Users/bytedance/lit-synth-mvp/pathway-mapping/compounds-388.json (388 compounds, all scanned by skeleton InChIKey, PubChem CID, and name/synonym). 
+
+GENUINE MATCHES (5):
+- Glutamate/glutamine family is the only well-populated overlap. id 27 (L-Glutamic acid) and id 26 (L-Glutamate, the conjugate-base name) both carry exact full InChIKey WHUUTDBJXJRKMK-VKHMYHEASA-N and CID 33032 = can"
+Methionine Metabolism,"Scanned all 388 compounds by InChIKey first-block (skeleton), PubChem CID, and name/synonym against the 35 canonical Methionine Metabolism members.
+
+CONFIRMED MATCHES (all full InChIKey + CID identity, high confidence):
+- id 32 ""Methionine"" = L-Methionine (FFEARJCKVFRZRR-BYPYZUCNSA-N, CID 6137) — exact.
+- id 42 ""Serine"" = L-Serine (MTCFGRXMJLQNBG-REOHCLBHSA-N, CID 5951) — exact, full stereo match "
+Phosphatidylethanolamine Biosynthesis,"Scanned all 388 compounds against all 12 canonical members. THREE exact InChIKey-identical matches (also CID-identical): id 42 Serine (MTCFGRXMJLQNBG-REOHCLBHSA-N = canonical Serine, CID 5951), id 127 Choline (OEYIOHPDSNJKLS-UHFFFAOYSA-N = canonical Choline, CID 305), id 182 ""phosphoethanolamine"" (SUHOOTKUPISOBE-UHFFFAOYSA-N, CID 1015 = canonical O-Phosphoethanolamine — exact). One LOW-confidence "
+Glycine and Serine Metabolism,"Method: matched all 388 compounds (file /Users/bytedance/lit-synth-mvp/pathway-mapping/compounds-388.json) against the 51 canonical members by InChIKey first-block (skeleton), full InChIKey, PubChem CID, and name/synonym, with chemical judgement for stereoisomers/parents. 8 genuine matches found.
+
+Exact full-InChIKey matches (high): id42 Serine=L-Serine (MTCFGRXMJLQNBG-REOHCLBHSA-N); id8 Arginine="
+Betaine Metabolism,"Scanned all 388 compounds by InChIKey first-block (skeleton), PubChem CID, and name/synonym. Exactly 3 genuine matches, each confirmed by BOTH full-stereo InChIKey AND PubChem CID identity to the canonical member: id 6 Adenosine (member Adenosine, CID 60961), id 32 ""Methionine"" (member L-Methionine; identical InChIKey FFEARJCKVFRZRR-BYPYZUCNSA-N and CID 6137, i.e. it is L-Met), id 127 Choline (mem"
+Homocysteine Degradation,"Pathway members and skeleton-level scan results across all 388 compounds:\n\n- L-Serine (MTCFGRXMJLQNBG / CID 5951): MATCHED. Compound id 42 'Serine' is identical at the full InChIKey, skeleton, and CID level (MTCFGRXMJLQNBG-REOHCLBHSA-N, CID 5951). Unambiguous, high confidence. It is the only compound in the set bearing the serine skeleton; no D-/DL-serine variant exists to flag.\n\nNo match (mem"

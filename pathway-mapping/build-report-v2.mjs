@@ -83,9 +83,42 @@ for (const p of RES) {
   pathways.push({ name: p.pathway, comparison: tag, members, rowMembers, setSize: (p.canonical.members || []).length, gaps, notes: (p.agentMatch && p.agentMatch.notes) || "" });
 }
 
+// unique-compound detail (one row per distinct compound)
+const detail = new Map();
+for (const p of pathways) for (const m of p.members) {
+  const cur = detail.get(m.c.id);
+  if (!cur || confRank[m.confidence] > confRank[cur.confidence]) detail.set(m.c.id, { c: m.c, basis: m.basis, confidence: m.confidence });
+}
+const uniqueCount = detail.size;
+
 // ---- XLSX ----
 const wb = new ExcelJS.Workbook();
 const label = (m) => m.c.name + (m.confidence !== "high" ? ` (${m.confidence}·${m.basis})` : "") + (m.dups.length ? ` [+${m.dups.length} dup]` : "");
+const totalMemberships = pathways.reduce((a, p) => a + p.rowMembers.length, 0);
+
+// Summary sheet (first thing the reader sees)
+const sSum = wb.addWorksheet("Summary");
+[6, 36, 14, 13, 11, 60, 38].forEach((w, i) => (sSum.getColumn(i + 1).width = w));
+sSum.addRow(["Elderberry compounds mapped to the 13 enriched SMPDB pathways"]).font = { bold: true, size: 13 };
+sSum.addRow([]);
+sSum.addRow(["Unique compounds:", uniqueCount]).getCell(1).font = { bold: true };
+sSum.addRow(["Memberships listed across the 13 pathways:", totalMemberships]).getCell(1).font = { bold: true };
+sSum.addRow(["(each compound is listed once per pathway it belongs to — hub metabolites like glutamate & alpha-ketoglutarate span many, so memberships > unique)"]);
+sSum.addRow([]);
+sSum.addRow(["#", "Unique compound", "Formula", "PubChem CID", "# pathways", "Pathways it appears in", "Note"]).font = { bold: true };
+const ikG = new Map();
+for (const d of detail.values()) { if (!d.c.inchikey) continue; const k = d.c.inchikey.toUpperCase(); (ikG.get(k) || ikG.set(k, []).get(k)).push(d.c); }
+const sumRows = [...detail.values()]
+  .map((d) => ({ d, n: (compoundPathways.get(d.c.id) || new Set()).size, paths: [...(compoundPathways.get(d.c.id) || [])] }))
+  .sort((a, b) => (b.n - a.n) || a.d.c.name.localeCompare(b.d.c.name));
+let rank = 0;
+for (const r of sumRows) {
+  rank++;
+  const grp = r.d.c.inchikey ? (ikG.get(r.d.c.inchikey.toUpperCase()) || []) : [];
+  const dup = grp.filter((x) => x.id !== r.d.c.id).map((x) => x.name).join("; ");
+  sSum.addRow([rank, r.d.c.name, r.d.c.formula, r.d.c.pubchem_cid, r.n, r.paths.join("; "), dup ? "same molecule as: " + dup : ""]);
+}
+sSum.views = [{ state: "frozen", ySplit: 7 }];
 
 const maxC = Math.max(...pathways.map((p) => p.rowMembers.length));
 const s1 = wb.addWorksheet("Pathways → Compounds");
@@ -101,11 +134,6 @@ for (let i = 4; i <= maxC + 3; i++) s1.getColumn(i).width = 26;
 const s2 = wb.addWorksheet("Compound detail");
 s2.addRow(["Name", "Formula", "PubChem CID", "InChIKey", "# pathways", "Pathways", "Best match basis", "Confidence", "Up/Down — GAP Conv vs No GAP", "Up/Down — GAP Org vs No GAP", "Notes"]);
 s2.getRow(1).font = { bold: true };
-const detail = new Map();
-for (const p of pathways) for (const m of p.members) {
-  const cur = detail.get(m.c.id);
-  if (!cur || confRank[m.confidence] > confRank[cur.confidence]) detail.set(m.c.id, { c: m.c, basis: m.basis, confidence: m.confidence });
-}
 for (const d of [...detail.values()].sort((a, b) => a.c.name.localeCompare(b.c.name))) {
   const paths = [...(compoundPathways.get(d.c.id) || [])];
   s2.addRow([d.c.name, d.c.formula, d.c.pubchem_cid, d.c.inchikey, paths.length, paths.join("; "), d.basis, d.confidence, "", "", ""]);
@@ -140,7 +168,8 @@ await wb.xlsx.writeFile("pathway-membership.xlsx");
 
 // markdown
 let md = `# Elderberry metabolites → 13 enriched pathways (v2, canonical SMPDB)\n\n`;
-md += `Distinct compounds: original=${CMP.orig}, deterministic=${CMP.det}, agent=${CMP.agent}, **union (this file)=${CMP.union}**.\n\n`;
+md += `**${uniqueCount} unique compounds** across the 13 pathways · **${totalMemberships} memberships listed** (each compound recurs once per pathway it belongs to).\n\n`;
+md += `Distinct-compound count by method: original=${CMP.orig}, deterministic=${CMP.det}, agent=${CMP.agent}, **union (this file)=${CMP.union}**.\n\n`;
 md += `| Pathway | Enriched in | # | Compounds (low-conf = agent-only derivative) |\n|---|---|---|---|\n`;
 for (const p of pathways) md += `| ${p.name} | ${p.comparison} | ${p.rowMembers.length} | ${p.rowMembers.map(label).join(", ") || "—"} |\n`;
 md += `\n**Added vs v1:** ${CMP.added_vs_orig.join(", ")} (L-Glutamate = dup of L-Glutamic acid).\n`;
