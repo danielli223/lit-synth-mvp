@@ -1,0 +1,945 @@
+{
+  "pathways": [
+    {
+      "pathway": "Ammonia Recycling",
+      "comparison": "Both (Conventional + Organic)",
+      "set_size": 31,
+      "detected": [
+        {
+          "id": 9,
+          "name": "Asparagine",
+          "formula": "C4H8N2O3",
+          "pubchem_cid": "6267",
+          "inchikey": "DCXYFEDJOCDNAF-REOHCLBHSA-N",
+          "basis": "inchikey",
+          "confidence": "high"
+        },
+        {
+          "id": 22,
+          "name": "Histidine",
+          "formula": "C6H9N3O2",
+          "pubchem_cid": "6274",
+          "inchikey": "HNDVDQJCIGZPNO-YFKPBYRVSA-N",
+          "basis": "inchikey",
+          "confidence": "high"
+        },
+        {
+          "id": 27,
+          "name": "L-Glutamic acid",
+          "formula": "C5H9NO4",
+          "pubchem_cid": "33032",
+          "inchikey": "WHUUTDBJXJRKMK-VKHMYHEASA-N",
+          "basis": "inchikey",
+          "confidence": "high"
+        },
+        {
+          "id": 42,
+          "name": "Serine",
+          "formula": "C3H7NO3",
+          "pubchem_cid": "5951",
+          "inchikey": "MTCFGRXMJLQNBG-REOHCLBHSA-N",
+          "basis": "inchikey",
+          "confidence": "high"
+        },
+        {
+          "id": 113,
+          "name": "alpha-Ketoglutaric acid",
+          "formula": "C5H6O5",
+          "pubchem_cid": "51",
+          "inchikey": "KPGXRSRHYNQIFN-UHFFFAOYSA-N",
+          "basis": "inchikey",
+          "confidence": "high"
+        },
+        {
+          "id": 151,
+          "name": "Glutamine",
+          "formula": "C5H10N2O3",
+          "pubchem_cid": "5961",
+          "inchikey": "ZDXPYRJPNDTMRX-VKHMYHEASA-N",
+          "basis": "inchikey",
+          "confidence": "high"
+        },
+        {
+          "id": 18,
+          "name": "DL-Glutamic acid",
+          "formula": "C5H9NO4",
+          "pubchem_cid": "611",
+          "inchikey": "WHUUTDBJXJRKMK-UHFFFAOYSA-N",
+          "basis": "inchikey_skeleton",
+          "confidence": "low"
+        }
+      ],
+      "coverage_gaps": [
+        "Ammonia (HMDB0000051 / CID 222) - absent from 388",
+        "Glycine (HMDB0000123 / CID 5257127) - absent; only glycine CONJUGATES present (suberylglycine id193 skeleton HXATVKDSYDWTCX, isovalerylglycine id289 skeleton ZRQXMKMBBMNNQC), different skeletons, NOT the free-glycine member. Prior pass's judgement correct.",
+        "L-Aspartic acid (HMDB0000191 / CID 44367445) - absent",
+        "Pyruvic acid (HMDB0000243 / CID 1060) - absent",
+        "Urocanic acid (HMDB0000301 / CID 736715) - absent",
+        "Carbamoyl phosphate (HMDB0001096 / CID 278) - absent",
+        "5,10-Methylenetetrahydrofolate (HMDB0001533 / CID 439175) - absent",
+        "Tetrahydrofolic acid (HMDB0001846 / CID 13781857) - absent",
+        "NAD (HMDB0000902 / CID 5893) - absent",
+        "NADH (HMDB0001487 / CID 439153) - absent",
+        "ATP (HMDB0000538 / CID 5957) - absent",
+        "ADP (HMDB0001341 / CID 6022) - absent",
+        "AMP (HMDB0000045 / CID 6083) - absent",
+        "Pyrophosphate (HMDB0000250 / CID 644102) - absent",
+        "Phosphate / Phosphoric acid (HMDB0001429 + HMDB0002142 / CIDs 1061,1004; same skeleton NBIIXXVUZAFLBC) - absent",
+        "Water (HMDB0002111 / CID 962) - absent",
+        "Carbon dioxide (HMDB0001967 / CID 280) - absent",
+        "Lipoic acid (HMDB0001451 / CID 6112) - absent",
+        "Dihydrolipoic acid / Dihydrolipoate (HMDB0012210 / CID 421) - absent",
+        "8-[(Aminomethyl)sulfanyl]-6-sulfanyloctanoic acid (HMDB0013639 / CID 53481912) - absent"
+      ],
+      "rejected": []
+    },
+    {
+      "pathway": "Beta-Alanine Metabolism",
+      "comparison": "GAP Conventional vs No GAP",
+      "set_size": 15,
+      "detected": [
+        {
+          "id": 16,
+          "name": "D-Pantothenic acid",
+          "formula": "C9H17NO5",
+          "pubchem_cid": "6613",
+          "inchikey": "GHOKWGTUZJEAQD-ZETCQYMHSA-N",
+          "basis": "InChIKey-skeleton match GHOKWGTUZJEAQD = SMPDB/PathBank SMP0000007 member CID 988 (pantothenate) and KEGG C00864. Our id 16 is D/(R) biological form (GHOKWGTUZJEAQD-ZETCQYMHSA-N); SMPDB stores racemic GHOKWGTUZJEAQD-UHFFFAOYSA-N.",
+          "confidence": "high"
+        },
+        {
+          "id": 22,
+          "name": "Histidine",
+          "formula": "C6H9N3O2",
+          "pubchem_cid": "6274",
+          "inchikey": "HNDVDQJCIGZPNO-YFKPBYRVSA-N",
+          "basis": "Exact full InChIKey match: our id 22 HNDVDQJCIGZPNO-YFKPBYRVSA-N == SMPDB/PathBank SMP0000007 member CID 6274 (L-Histidine) and KEGG C00135. Histidine is the precursor of carnosine/anserine.",
+          "confidence": "high"
+        },
+        {
+          "id": 27,
+          "name": "L-Glutamic acid",
+          "formula": "C5H9NO4",
+          "pubchem_cid": "33032",
+          "inchikey": "WHUUTDBJXJRKMK-VKHMYHEASA-N",
+          "basis": "Exact full InChIKey match: our id 27 WHUUTDBJXJRKMK-VKHMYHEASA-N == SMPDB/PathBank SMP0000007 member CID 33032 (L-Glutamic acid). L-Glutamate is the transamination partner that accepts the amino group from beta-alanine, a genuine SMP0000007 node.",
+          "confidence": "high"
+        },
+        {
+          "id": 113,
+          "name": "alpha-Ketoglutaric acid",
+          "formula": "C5H6O5",
+          "pubchem_cid": "51",
+          "inchikey": "KPGXRSRHYNQIFN-UHFFFAOYSA-N",
+          "basis": "InChIKey-skeleton match KPGXRSRHYNQIFN = SMPDB/PathBank SMP0000007 member CID 51 (2-oxoglutarate). Achiral; our id 113 inchikey KPGXRSRHYNQIFN-UHFFFAOYSA-N. 2-Oxoglutarate is the amino acceptor in beta-alanine transamination, a genuine pathway node.",
+          "confidence": "high"
+        },
+        {
+          "id": 18,
+          "name": "DL-Glutamic acid",
+          "formula": "C5H9NO4",
+          "pubchem_cid": "611",
+          "inchikey": "WHUUTDBJXJRKMK-UHFFFAOYSA-N",
+          "basis": "InChIKey-skeleton match WHUUTDBJXJRKMK to SMPDB member L-glutamate (CID 33032). However our id 18 is the racemate WHUUTDBJXJRKMK-UHFFFAOYSA-N (no defined stereo), whereas the SMPDB member is specifically L-glutamate (VKHMYHEASA stereo-layer).",
+          "confidence": "medium"
+        }
+      ],
+      "coverage_gaps": [
+        "Beta-Alanine (CID 239, UCMIRNVEIXFBKS) — the central pathway metabolite; absent from our 388 file",
+        "L-Aspartic acid (KEGG C00049; SMPDB stores zwitterion CID 44367445, skeleton CKLJMWTZIZZHCS) — genuine member, absent from our 388. NOTE: Asparagine (id 9, DCXYFEDJOCDNAF) is present but is a DIFFERENT compound and is NOT aspartate.",
+        "Carnosine (CID 439224, CQOVPNPJLQNMDC) — absent from our 388",
+        "Anserine (CID 112072, MYYIAHXIVFADCU) — absent from our 388",
+        "3-Methyl-L-histidine / Npi-methyl-L-histidine (CID 64969, JDHILDINMRGULE) — absent from our 388",
+        "Uracil (CID 1174, ISAKRJDGNUQOIC) — absent from our 388",
+        "Dihydrouracil / 5,6-dihydrouracil (CID 649, OIVLITBTBDPEFK) — absent from our 388",
+        "3-Ureidopropionate / N-carbamoyl-beta-alanine (CID 111, JSJWCHRYRHKBBW) — absent from our 388",
+        "Malonate semialdehyde / 3-oxopropanoic acid (CID 868, OAKURXIZZOAYBC) — absent from our 388",
+        "3-Aminopropanal / 3-aminopropionaldehyde (CID 75, PCXDJQZLDDHMGX) — absent from our 388",
+        "1,3-Diaminopropane / 1,3-propanediamine (CID 428, XFNJVJPLKCPIBV) — absent from our 388"
+      ],
+      "rejected": []
+    },
+    {
+      "pathway": "Aspartate Metabolism",
+      "comparison": "GAP Conventional vs No GAP",
+      "set_size": 35,
+      "detected": [
+        {
+          "id": 8,
+          "name": "Arginine",
+          "formula": "C6H14N4O2",
+          "pubchem_cid": "6322",
+          "inchikey": "ODKSFYDXXFIFQN-BYPYZUCNSA-N",
+          "basis": "Exact full InChIKey match. Our id 8 (CID 6322, ODKSFYDXXFIFQN-BYPYZUCNSA-N) verified against PubChem CID 6322 = (2S)-2-amino-5-(diaminomethylideneamino)pentanoic acid (L-arginine). Aspartate + citrulline -> argininosuccinate -> arginine; standard terminal member via the urea-cycle linkage.",
+          "confidence": "high"
+        },
+        {
+          "id": 9,
+          "name": "Asparagine",
+          "formula": "C4H8N2O3",
+          "pubchem_cid": "6267",
+          "inchikey": "DCXYFEDJOCDNAF-REOHCLBHSA-N",
+          "basis": "Exact full InChIKey match. Our id 9 (CID 6267, DCXYFEDJOCDNAF-REOHCLBHSA-N) verified against PubChem CID 6267 = (2S)-2,4-diamino-4-oxobutanoic acid (L-asparagine). Asparagine synthetase converts aspartate -> asparagine; core member.",
+          "confidence": "high"
+        },
+        {
+          "id": 27,
+          "name": "L-Glutamic acid",
+          "formula": "C5H9NO4",
+          "pubchem_cid": "33032",
+          "inchikey": "WHUUTDBJXJRKMK-VKHMYHEASA-N",
+          "basis": "Exact full InChIKey match. Our id 27 (CID 33032, WHUUTDBJXJRKMK-VKHMYHEASA-N) verified against PubChem CID 33032 = (2S)-2-aminopentanedioic acid (L-glutamic acid). Glutamate is the transamination partner in Aspartate Metabolism (oxaloacetate + glutamate <-> aspartate + 2-oxoglutarate, aspartate aminotransferase).",
+          "confidence": "high"
+        },
+        {
+          "id": 113,
+          "name": "alpha-Ketoglutaric acid",
+          "formula": "C5H6O5",
+          "pubchem_cid": "51",
+          "inchikey": "KPGXRSRHYNQIFN-UHFFFAOYSA-N",
+          "basis": "Exact full InChIKey match. Our id 113 (CID 51, KPGXRSRHYNQIFN-UHFFFAOYSA-N) verified against PubChem CID 51 = 2-oxopentanedioic acid (2-oxoglutarate / alpha-ketoglutarate), identical to set member 'Oxoglutaric acid'. Keto-acid product of the aspartate aminotransferase transamination; genuine member.",
+          "confidence": "high"
+        },
+        {
+          "id": 151,
+          "name": "Glutamine",
+          "formula": "C5H10N2O3",
+          "pubchem_cid": "5961",
+          "inchikey": "ZDXPYRJPNDTMRX-VKHMYHEASA-N",
+          "basis": "Exact full InChIKey match. Our id 151 (CID 5961, ZDXPYRJPNDTMRX-VKHMYHEASA-N) verified against PubChem CID 5961 = (2S)-2,5-diamino-5-oxopentanoic acid (L-glutamine). Amide-nitrogen donor in asparagine synthetase (aspartate -> asparagine); genuine member.",
+          "confidence": "high"
+        }
+      ],
+      "coverage_gaps": [
+        "Acetic acid",
+        "Adenosine monophosphate (AMP)",
+        "Ammonia",
+        "Argininosuccinic acid",
+        "Beta-Alanine (skeleton UCMIRNVEIXFBKS - absent from 388)",
+        "Fumaric acid (skeleton VZCYOOQTPOCHFL - absent)",
+        "Inosinic acid (IMP)",
+        "L-Aspartic acid (skeleton CKLJMWTZIZZHCS - the pathway's namesake metabolite; ABSENT from our 388, notable gap)",
+        "Oxalacetic acid / oxaloacetate (skeleton KHPXUQMNIQBQEV - absent)",
+        "Pyrophosphate",
+        "Adenylsuccinic acid (adenylosuccinate)",
+        "Adenosine triphosphate (ATP)",
+        "Magnesium",
+        "Malonic acid (skeleton OFOBLEOULBTSOW - absent)",
+        "N-Acetyl-L-aspartic acid (skeleton OTCCIMWXFLJLIA - absent)",
+        "Ureidosuccinic acid (N-carbamoylaspartate)",
+        "Citrulline (skeleton RHGKLRLOHDJJDR - absent)",
+        "Carbamoyl phosphate",
+        "Guanosine diphosphate (GDP)",
+        "FAD",
+        "Guanosine triphosphate (GTP)",
+        "Zinc (II) ion",
+        "Oxygen",
+        "Phosphate",
+        "Pyridoxal 5'-phosphate",
+        "Carbon dioxide",
+        "Water",
+        "Hydrogen peroxide",
+        "D-Aspartic acid (skeleton CKLJMWTZIZZHCS - absent)",
+        "Malonic semialdehyde (skeleton OAKURXIZZOAYBC - absent)"
+      ],
+      "rejected": []
+    },
+    {
+      "pathway": "Valine, Leucine and Isoleucine Degradation",
+      "comparison": "GAP Conventional vs No GAP",
+      "set_size": 50,
+      "detected": [
+        {
+          "id": 23,
+          "name": "Isoleucine",
+          "formula": "C6H13NO2",
+          "pubchem_cid": "6306",
+          "inchikey": "AGPKZVBTJJNPAG-WHFBIAKZSA-N",
+          "basis": "Full-stereo InChIKey AGPKZVBTJJNPAG-WHFBIAKZSA-N. PubChem confirms this key = (2S,3S)-2-amino-3-methylpentanoic acid (CID 6306), i.e. L-Isoleucine, C6H13NO2. Pathway substrate (KEGG C00407) and SMPDB member.",
+          "confidence": "high"
+        },
+        {
+          "id": 27,
+          "name": "L-Glutamic acid",
+          "formula": "C5H9NO4",
+          "pubchem_cid": "33032",
+          "inchikey": "WHUUTDBJXJRKMK-VKHMYHEASA-N",
+          "basis": "Full-stereo InChIKey WHUUTDBJXJRKMK-VKHMYHEASA-N (PubChem CID 33032 = (2S)-2-aminopentanedioic acid). L-Glutamate is the amine product of the BCAA-aminotransferase first step (alpha-ketoglutarate is the amine acceptor), so it is a bona fide co-substrate metabolite in the SMPDB pathway.",
+          "confidence": "high"
+        },
+        {
+          "id": 30,
+          "name": "Leucine",
+          "formula": "C6H13NO2",
+          "pubchem_cid": "6106",
+          "inchikey": "ROHFNLRQFUQHCH-YFKPBYRVSA-N",
+          "basis": "Full-stereo InChIKey ROHFNLRQFUQHCH-YFKPBYRVSA-N. PubChem confirms this key = (2S)-2-amino-4-methylpentanoic acid (CID 6106), i.e. L-Leucine, C6H13NO2. L-Leucine is a pathway substrate (KEGG C00123) and SMPDB member.",
+          "confidence": "high"
+        },
+        {
+          "id": 50,
+          "name": "Valine",
+          "formula": "C5H11NO2",
+          "pubchem_cid": "6287",
+          "inchikey": "KZSNJWFQEVHDMF-BYPYZUCNSA-N",
+          "basis": "Full-stereo InChIKey KZSNJWFQEVHDMF-BYPYZUCNSA-N. PubChem confirms this key = (2S)-2-amino-3-methylbutanoic acid (CID 6287), i.e. L-Valine, C5H11NO2. L-Valine is the substrate of this pathway (KEGG C00183) and an SMPDB member.",
+          "confidence": "high"
+        },
+        {
+          "id": 113,
+          "name": "alpha-Ketoglutaric acid",
+          "formula": "C5H6O5",
+          "pubchem_cid": "51",
+          "inchikey": "KPGXRSRHYNQIFN-UHFFFAOYSA-N",
+          "basis": "InChIKey KPGXRSRHYNQIFN-UHFFFAOYSA-N (PubChem CID 51 = 2-oxopentanedioic acid, C5H6O5). Alpha-ketoglutarate is the amine acceptor in the BCAA transamination step that opens this pathway, hence an SMPDB member.",
+          "confidence": "high"
+        }
+      ],
+      "coverage_gaps": [
+        "Branched-chain alpha-keto acids: alpha-ketoisovaleric acid (3-methyl-2-oxobutanoic acid, KEGG C00141), ketoleucine (4-methyl-2-oxopentanoic acid, C00233), 3-methyl-2-oxovaleric acid (C00671) - none present in the 388",
+        "3-Hydroxyisobutyric acid and (S)-3-hydroxyisobutyryl-CoA - absent",
+        "(S)/(R)-3-Aminoisobutyrate (beta-aminoisobutyrate) - absent (GABA in file is a different compound)",
+        "(S)-Methylmalonic acid semialdehyde / methylmalonate semialdehyde (C00349) and methylmalonic acid (C02170) - absent",
+        "Succinic acid (C00042) and succinyl-CoA (C00091) - absent (the 'succin'-named entries in file are unrelated conjugates)",
+        "Acetoacetic acid (C00164) and acetoacetyl-CoA (C00332) - absent",
+        "All acyl-CoA intermediates: Acetyl-CoA, Propionyl-CoA, Isobutyryl-CoA, Isovaleryl-CoA, 2-Methylbutanoyl-CoA, Methacrylyl-CoA, 3-Methylbut-2-enoyl-CoA, Tiglyl-CoA, 2-Methylacetoacetyl-CoA, 2-Methyl-3-hydroxybutyryl-CoA, 3-Hydroxyisovaleryl-CoA, 3-Methylglutaconyl-CoA, HMG-CoA, (R)/(S)-Methylmalonyl-CoA, Coenzyme A - none present",
+        "Redox/energy cofactors: FAD, NAD+, NADH, ATP, ADP - absent",
+        "Vitamin/enzyme-bound cofactors: Biotin, Thiamine diphosphate (ThPP), Pyridoxal, Pyridoxal 5'-phosphate, Lipoamide, Dihydrolipoamide, Molybdopterin - absent",
+        "Enzyme-bound lipoamide/ThPP adduct intermediates (S-(2-methylbutanoyl)-/S-(2-methylpropionyl)-/S-(3-methylbutanoyl)-dihydrolipoamide; 2-methyl-1-hydroxypropyl-ThPP; 3-methyl-1-hydroxybutyl-ThPP) - absent"
+      ],
+      "rejected": [
+        {
+          "compound_name": "Isovalerylglycine (id 289)",
+          "reason": "Surfaced by a synonym scan ('isovaleryl') as a potential miss. REJECTED as a member: isovalerylglycine (C7H13NO3) is a glycine-conjugate urinary marker of isovaleryl-CoA accumulation, NOT a metabolite node of the SMPDB Valine/Leucine/Isoleucine Degradation pathway. The pathway contains isovaleryl-CoA, not its glycine conjugate."
+        },
+        {
+          "compound_name": "Isovalerylglutamic acid (id 368)",
+          "reason": "Synonym-scan candidate ('isovaleryl'). REJECTED: a glutamate conjugate, not a pathway intermediate; absent from the SMPDB/KEGG member list."
+        },
+        {
+          "compound_name": "Succinylacetone (id 194)",
+          "reason": "Synonym-scan candidate ('succin'/'oxo'). REJECTED: 4,6-dioxoheptanoic acid (C7H10O4), a tyrosinemia marker, unrelated to succinate/succinyl-CoA in this pathway."
+        },
+        {
+          "compound_name": "Guanidinosuccinic acid (id 153)",
+          "reason": "Synonym-scan candidate ('succin'). REJECTED: a guanidino arginine/urea-cycle-associated compound (C5H9N3O4), not the succinate node of this pathway."
+        },
+        {
+          "compound_name": "Meglutol (id 166)",
+          "reason": "Considered because it is free 3-hydroxy-3-methylglutaric acid (C6H10O5), structurally the acid of HMG-CoA. REJECTED: the SMPDB pathway member is the CoA thioester HMG-CoA (KEGG C00356), not the free diacid; different InChIKey skeleton and not a pathway node."
+        },
+        {
+          "compound_name": "DL-Glutamic acid (id 18)",
+          "reason": "Not rejected as wrong chemistry, but NOT promoted as a separate hit: it is the racemate (WHUUTDBJXJRKMK-UHFFFAOYSA-N) of the L-glutamate member. The stereo-defined L-form (ids 27/26) is the correct representative; counting id 18 as well would double-count the same skeleton."
+        },
+        {
+          "compound_name": "gamma-Aminobutyric acid / GABA (id 58)",
+          "reason": "Could be confused with 3-aminoisobutyrate (a real valine-pathway member). REJECTED: GABA is C4H9NO2 (BTCSSZJGUNDROE), not (R/S)-3-aminoisobutyrate (C4H9NO2 but distinct skeleton/InChIKey); GABA is not in this pathway set."
+        }
+      ]
+    },
+    {
+      "pathway": "Phenylalanine and Tyrosine Metabolism",
+      "comparison": "GAP Conventional vs No GAP",
+      "set_size": 28,
+      "detected": [
+        {
+          "id": 27,
+          "name": "L-Glutamic acid",
+          "formula": "C5H9NO4",
+          "pubchem_cid": "33032",
+          "inchikey": "WHUUTDBJXJRKMK-VKHMYHEASA-N",
+          "basis": "InChIKey-skeleton WHUUTDBJXJRKMK (full InChIKey WHUUTDBJXJRKMK-VKHMYHEASA-N, CID 33032) verified at PubChem as (2S)-2-aminopentanedioic acid; exact match to the L-Glutamic acid pathway member",
+          "confidence": "high"
+        },
+        {
+          "id": 38,
+          "name": "Phenylalanine",
+          "formula": "C9H11NO2",
+          "pubchem_cid": "6140",
+          "inchikey": "COLNVLDHVKWLRT-QMMMGPOBSA-N",
+          "basis": "InChIKey-skeleton COLNVLDHVKWLRT (full InChIKey COLNVLDHVKWLRT-QMMMGPOBSA-N, CID 6140) verified at PubChem as (2S)-2-amino-3-phenylpropanoic acid; exact match to the L-Phenylalanine pathway member",
+          "confidence": "high"
+        },
+        {
+          "id": 48,
+          "name": "Tyrosine",
+          "formula": "C9H11NO3",
+          "pubchem_cid": "6057",
+          "inchikey": "OUYCCCASQSFEME-QMMMGPOBSA-N",
+          "basis": "InChIKey-skeleton OUYCCCASQSFEME (full InChIKey OUYCCCASQSFEME-QMMMGPOBSA-N, CID 6057) verified at PubChem as (2S)-2-amino-3-(4-hydroxyphenyl)propanoic acid; exact match to the L-Tyrosine pathway member",
+          "confidence": "high"
+        },
+        {
+          "id": 113,
+          "name": "alpha-Ketoglutaric acid",
+          "formula": "C5H6O5",
+          "pubchem_cid": "51",
+          "inchikey": "KPGXRSRHYNQIFN-UHFFFAOYSA-N",
+          "basis": "InChIKey-skeleton KPGXRSRHYNQIFN (full InChIKey KPGXRSRHYNQIFN-UHFFFAOYSA-N, CID 51) verified at PubChem as 2-oxopentanedioic acid; exact match to the oxoglutarate/alpha-ketoglutarate pathway member",
+          "confidence": "high"
+        },
+        {
+          "id": 18,
+          "name": "DL-Glutamic acid",
+          "formula": "C5H9NO4",
+          "pubchem_cid": "611",
+          "inchikey": "WHUUTDBJXJRKMK-UHFFFAOYSA-N",
+          "basis": "InChIKey-skeleton WHUUTDBJXJRKMK matches the L-Glutamic acid member. Full InChIKey WHUUTDBJXJRKMK-UHFFFAOYSA-N (CID 611) differs from the L-member only in the stereo layer (racemic / unspecified stereochemistry)",
+          "confidence": "medium"
+        }
+      ],
+      "coverage_gaps": [
+        "Phenylpyruvic acid (HMDB0000205) - first transamination product of phenylalanine; absent from 388 (no matching skeleton).",
+        "4-Hydroxyphenylpyruvic acid (HMDB0000707) - transamination product of tyrosine; absent.",
+        "Homogentisic acid (HMDB0000130) - product of 4-OH-phenylpyruvate dioxygenase; absent.",
+        "Maleylacetoacetic acid (HMDB0002052) - ring-cleavage product; absent.",
+        "4-Fumarylacetoacetic acid / Fumarylacetoacetate (HMDB0001268) - isomerization product; absent.",
+        "Fumaric acid (HMDB0000134) - terminal product of fumarylacetoacetate hydrolase; absent (only a fumarate ester drug, id 267, is present, which is not the member).",
+        "Acetoacetic acid (HMDB0000060) - terminal product; absent.",
+        "Cofactors/small molecules absent from 388: Pyridoxal 5'-phosphate (HMDB0001491), L-erythro-tetrahydrobiopterin (HMDB0059658), 4a-Hydroxytetrahydrobiopterin (HMDB0002281), FAD (HMDB0001248), ATP (HMDB0000538), AMP (HMDB0000045), Pyrophosphate (HMDB0000250), Water (HMDB0002111), Oxygen (HMDB0001377), Carbon dioxide (HMDB0001967), Ammonia (HMDB0000051), Hydrogen peroxide (HMDB0003125), Fe2+ (HMDB0000692), Fe3+ (HMDB0012943), Iron (HMDB0015531), Calcium (HMDB0000464), Magnesium (HMDB0000547)."
+      ],
+      "rejected": [
+        {
+          "compound_name": "L-Pyroglutamic acid/5-Oxo-proline (id 60)",
+          "reason": "Distinct metabolite (skeleton ODHCTXKNWHHXJC, the cyclized lactam of glutamate). Not a member of SMP0000008; belongs to glutamate/glutathione cycling, not Phe/Tyr metabolism."
+        },
+        {
+          "compound_name": "Diroximel fumarate (id 267)",
+          "reason": "Fumarate ESTER drug (skeleton YIMYDTCOUQIDMT), not free fumaric acid. Different InChIKey skeleton from the fumarate member; not a pathway metabolite."
+        },
+        {
+          "compound_name": "N-Phenylacetylglutamic acid (id 307), N-[(1S)-1-Carboxy-2-methylpropyl]-D-glutamic acid (id 304), Isovalerylglutamic acid (id 368)",
+          "reason": "Glutamic acid derivatives/conjugates with distinct InChIKey skeletons (PTSRBZOZSRJCKX, OEZFTGUQNATVAL, HCVIJONZMYVLAW). Not free L-glutamate; not SMP0000008 members."
+        },
+        {
+          "compound_name": "N-Methylphenylalanine (id 373), Octadecyl 3-(3,5-di-tert-butyl-4-hydroxyphenyl)propionate (id 315)",
+          "reason": "Name-similar only. Distinct skeletons (SCIFESDRCALIIM, SSDSCDGVMJFTEQ); not L-phenylalanine or any pathway intermediate."
+        }
+      ]
+    },
+    {
+      "pathway": "Malate-Aspartate Shuttle",
+      "comparison": "GAP Conventional vs No GAP",
+      "set_size": 7,
+      "detected": [
+        {
+          "id": 27,
+          "name": "L-Glutamic acid",
+          "formula": "C5H9NO4",
+          "pubchem_cid": "33032",
+          "inchikey": "WHUUTDBJXJRKMK-VKHMYHEASA-N",
+          "basis": "exact full InChIKey WHUUTDBJXJRKMK-VKHMYHEASA-N (L/2S enantiomer); CID 33032",
+          "confidence": "high"
+        },
+        {
+          "id": 113,
+          "name": "alpha-Ketoglutaric acid",
+          "formula": "C5H6O5",
+          "pubchem_cid": "51",
+          "inchikey": "KPGXRSRHYNQIFN-UHFFFAOYSA-N",
+          "basis": "inchikey + skeleton (KPGXRSRHYNQIFN); CID 51 = 2-oxopentanedioic acid = 2-oxoglutarate",
+          "confidence": "high"
+        },
+        {
+          "id": 18,
+          "name": "DL-Glutamic acid",
+          "formula": "C5H9NO4",
+          "pubchem_cid": "611",
+          "inchikey": "WHUUTDBJXJRKMK-UHFFFAOYSA-N",
+          "basis": "InChIKey-skeleton WHUUTDBJXJRKMK only (full key WHUUTDBJXJRKMK-UHFFFAOYSA-N = racemate, CID 611); stereo layer differs from the L-form",
+          "confidence": "low"
+        }
+      ],
+      "coverage_gaps": [
+        "L-Aspartic acid (HMDB0000191; InChIKey CKLJMWTZIZZHCS-REOHCLBHSA-N, skeleton CKLJMWTZIZZHCS) - true MAS member, ABSENT from the 388 file (no skeleton match)",
+        "Oxaloacetic acid / oxaloacetate (HMDB0000223; skeleton KHPXUQMNIQBQEV) - true MAS member, ABSENT from the 388 file",
+        "L-Malic acid / L-malate (HMDB0000156; skeleton BJEPYKJPYRNKOW) - true MAS member, ABSENT from the 388 file. NB: id 57 'Dibutyl malate' (skeleton PDSCSYLDRHAHOX) is a diester, a different skeleton, and is NOT L-malate - correctly not counted.",
+        "NAD+ / Nicotinamide adenine dinucleotide (HMDB0000902; skeleton BAWFJGJZGIEFAR) - true MAS redox cofactor, ABSENT from the 388 file",
+        "NADH / Reduced nicotinamide adenine dinucleotide (HMDB0001487; skeleton BOPGDPNILDQYTO) - true MAS redox cofactor, ABSENT from the 388 file"
+      ],
+      "rejected": []
+    },
+    {
+      "pathway": "Arginine and Proline Metabolism",
+      "comparison": "GAP Conventional vs No GAP",
+      "set_size": 22,
+      "detected": [
+        {
+          "id": 8,
+          "name": "Arginine",
+          "formula": "C6H14N4O2",
+          "pubchem_cid": "6322",
+          "inchikey": "ODKSFYDXXFIFQN-BYPYZUCNSA-N",
+          "basis": "Exact InChIKey ODKSFYDXXFIFQN-BYPYZUCNSA-N; SMP0000020 lists 'protonated arginine' (CID 28782) with identical InChIKey, and L-arginine is a core member of the MetaboAnalyst set.",
+          "confidence": "high"
+        },
+        {
+          "id": 27,
+          "name": "L-Glutamic acid",
+          "formula": "C5H9NO4",
+          "pubchem_cid": "33032",
+          "inchikey": "WHUUTDBJXJRKMK-VKHMYHEASA-N",
+          "basis": "Exact InChIKey WHUUTDBJXJRKMK-VKHMYHEASA-N matches SMP0000020 CID 33032.",
+          "confidence": "high"
+        },
+        {
+          "id": 39,
+          "name": "Proline",
+          "formula": "C5H9NO2",
+          "pubchem_cid": "145742",
+          "inchikey": "ONIBWKKTOPOVIA-BYPYZUCNSA-N",
+          "basis": "Exact InChIKey ONIBWKKTOPOVIA-BYPYZUCNSA-N matches SMP0000020 CID 145742 L-Proline.",
+          "confidence": "high"
+        },
+        {
+          "id": 113,
+          "name": "alpha-Ketoglutaric acid",
+          "formula": "C5H6O5",
+          "pubchem_cid": "51",
+          "inchikey": "KPGXRSRHYNQIFN-UHFFFAOYSA-N",
+          "basis": "Exact InChIKey KPGXRSRHYNQIFN-UHFFFAOYSA-N matches SMP0000020 CID 51.",
+          "confidence": "high"
+        },
+        {
+          "id": 44,
+          "name": "Spermidine",
+          "formula": "C7H19N3",
+          "pubchem_cid": "1102",
+          "inchikey": "ATHGHQPFGPMSJY-UHFFFAOYSA-N",
+          "basis": "Exact InChIKey ATHGHQPFGPMSJY-UHFFFAOYSA-N. Member of the MetaboAnalyst 'Arginine and Proline Metabolism' set (polyamine branch).",
+          "confidence": "medium"
+        },
+        {
+          "id": 58,
+          "name": "gamma-Aminobutyric acid (GABA)",
+          "formula": "C4H9NO2",
+          "pubchem_cid": "119",
+          "inchikey": "BTCSSZJGUNDROE-UHFFFAOYSA-N",
+          "basis": "Exact InChIKey BTCSSZJGUNDROE-UHFFFAOYSA-N (CID 119). Member of the MetaboAnalyst arginine/proline set; glutamate->GABA branch in KEGG map00330.",
+          "confidence": "medium"
+        },
+        {
+          "id": 105,
+          "name": "4-Guanidinobutyric acid",
+          "formula": "C5H11N3O2",
+          "pubchem_cid": "500",
+          "inchikey": "TUHVEAJXIMEOSA-UHFFFAOYSA-N",
+          "basis": "Exact InChIKey TUHVEAJXIMEOSA-UHFFFAOYSA-N (CID 500). Member of the MetaboAnalyst arginine/proline set (GABA->guanidinobutyrate branch).",
+          "confidence": "medium"
+        },
+        {
+          "id": 129,
+          "name": "cis-4-Hydroxy-D-proline",
+          "formula": "C5H9NO3",
+          "pubchem_cid": "440014",
+          "inchikey": "PMMYEEVYMWASQN-QWWZWVQMSA-N",
+          "basis": "InChIKey SKELETON match only: PMMYEEVYMWASQN (our cis-D-isomer ...-QWWZWVQMSA-N vs the pathway member trans-4-OH-L-proline ...-DMTCNVIQSA-N, SMP0000020 CID 5810).",
+          "confidence": "low"
+        }
+      ],
+      "coverage_gaps": [
+        "L-Ornithine (AHLPHDHHMVZTML / CID 6262) - core member, absent from 388",
+        "L-Citrulline (RHGKLRLOHDJJDR / CID 9750; appears in SMP0000020 as 'gamma-Ureidonorvaline' CID 6992098) - absent from 388",
+        "Argininosuccinic acid (KDZOASGQNOPSCU / CID 16950) - absent",
+        "Urea (XSQUKJJJFZCRTK / CID 1176) - absent (our 'tetramethylurea' and 'N-carbamoylputrescine' are NOT urea)",
+        "Creatine (CVSVTCORWBXHQV / CID 586) - absent",
+        "Creatinine (DDRJAANPRJIHGJ) - absent",
+        "Phosphocreatine / N-methyl-N-(N-phosphonocarbamimidoyl)glycine (DRBBFCLWYRJSJZ / CID 587) - absent",
+        "Guanidoacetic acid / glycocyamine (BPMFZUMJYQTVII / CID 3946848) - absent",
+        "Agmatine (QYPPJABKJHAVHS) - absent (only acylated derivatives present)",
+        "Putrescine (KIDHWZJUCRJVML) - absent",
+        "Spermine (PFNFFQXMRSDOHW) - absent",
+        "Sarcosine / N-methylglycine (FSYKKLYZXJSNPZ) - absent",
+        "(S)-1-Pyrroline-5-carboxylate / P5C (DWAKNKKXGALPNW / CID 1196) - absent",
+        "L-Glutamate 5-semialdehyde (KABXUUFDPUOJMW / CID 193305) - absent",
+        "N-omega-Hydroxy-L-arginine / NOHA (FQWRAVYMZULPNK / CID 440849) - absent",
+        "trans-4-Hydroxy-L-proline (PMMYEEVYMWASQN-DMTCNVIQSA-N / CID 5810) - correct stereoisomer absent; only cis-D-isomer (id 129) is present"
+      ],
+      "rejected": [
+        {
+          "compound_name": "3-Hydroxyproline (id 360)",
+          "reason": "Considered as an alternative hydroxyproline but REJECTED: 3-hydroxyproline (InChIKey BJBUEDPLEOHJGE, CID 150779) is a distinct positional isomer; the pathway member is 4-hydroxyproline (skeleton PMMYEEVYMWASQN). Different skeleton, not a member."
+        },
+        {
+          "compound_name": "N~2~-Acetyl-L-ornithine (id 171)",
+          "reason": "Not a member of the strict SMP0000020 list nor the standard MetaboAnalyst arginine/proline set. N-acetylornithine belongs to the acetylated ornithine-biosynthesis route, not this pathway's defined metabolite set. Its skeleton JRLGPAXAGHMNOL does NOT match the citrulline member (gamma-ureidonorvaline / RHGKLRLOHDJJDR). Borderline; not confirmed."
+        },
+        {
+          "compound_name": "1-(4-Aminobutyl)urea = N-Carbamoylputrescine (id 81)",
+          "reason": "Genuine polyamine-branch intermediate (arginine->agmatine->N-carbamoylputrescine->putrescine) present in KEGG map00330 (plant/microbial branch) but NOT in the human SMP0000020 list nor the standard human MetaboAnalyst arginine/proline metabolite set. Excluded to avoid a false positive against the named reference; surfaced in notes."
+        },
+        {
+          "compound_name": "Acetylagmatine / benzoylagmatine / propanoylagmatine (ids 110,120,185)",
+          "reason": "Acylated agmatine derivatives, not agmatine itself and not set members. The set member would be agmatine (QYPPJABKJHAVHS), which is absent from our 388."
+        }
+      ]
+    },
+    {
+      "pathway": "Amino Sugar Metabolism",
+      "comparison": "Both (Conventional + Organic)",
+      "set_size": 30,
+      "detected": [
+        {
+          "id": 27,
+          "name": "L-Glutamic acid",
+          "formula": "C5H9NO4",
+          "pubchem_cid": "33032",
+          "inchikey": "WHUUTDBJXJRKMK-VKHMYHEASA-N",
+          "basis": "Exact InChIKey match. Our id 26 (L-Glutamate) IK WHUUTDBJXJRKMK-VKHMYHEASA-N, CID 33032 == pathway member CID 33032 L-Glutamic acid, identical full InChIKey. L-Glutamate is the product of the GFAT reaction in this pathway.",
+          "confidence": "high"
+        },
+        {
+          "id": 151,
+          "name": "Glutamine",
+          "formula": "C5H10N2O3",
+          "pubchem_cid": "5961",
+          "inchikey": "ZDXPYRJPNDTMRX-VKHMYHEASA-N",
+          "basis": "Exact InChIKey match. Our id 151 (Glutamine) IK ZDXPYRJPNDTMRX-VKHMYHEASA-N == pathway member CID 5961 L-Glutamine, identical InChIKey including stereo layer. Glutamine is the genuine amino donor in the GFAT reaction (fructose-6-P + L-glutamine -> glucosamine-6-P + L-glutamate), a defining step of this pathway.",
+          "confidence": "high"
+        }
+      ],
+      "coverage_gaps": [
+        "Fructose 6-phosphate (CID 69507, GSXOAOHZAIYLCY) - absent from 388",
+        "beta-D-fructose (CID 439709, RFSUNEUAIZKAJO) - absent (note: our file has D-glucose/glucose and two unrelated fructofuranose derivatives ids 84/122, but no free beta-D-fructose)",
+        "D-Glucosamine (CID 439213, MSWZFWKMSRAUBD) - absent",
+        "Glucosamine 6-phosphate (CID 439217, XHMJOUIAFHJHBW) - absent",
+        "N-Acetyl-D-glucosamine (CID 439174, OVRNDRQMDRJTHS) - absent (note: our id 371 N-Acetylglucosaminitol skeleton DWAICOVNOFPYLS is the reduced alditol, a DIFFERENT compound, not this member)",
+        "N-Acetyl-D-glucosamine 1-phosphate (CID 440272, FZLJPEPAYPUMMR) - absent",
+        "N-Acetyl-D-glucosamine 6-phosphate (CID 440996, BRGMHAYQAZFZDJ) - absent",
+        "N-Acetyl-D-mannosamine (CID 11096158, OVRNDRQMDRJTHS-OZRXBMAMSA-N) - absent",
+        "N-Acetyl-D-mannosamine 6-phosphate (CID 440273, BRGMHAYQAZFZDJ-UOLFYFMNSA-N) - absent",
+        "N-Acetylneuraminic acid / Neu5Ac (CID 445063, SQVRNKJHWKZAKO) - absent",
+        "N-Acetylneuraminate 9-phosphate (CID 53477814, SQMNIXJSBCSNCI) - absent",
+        "CMP-N-acetylneuraminate / CMP-Neu5Ac (CID 448209, TXCIAUNLDRJGJZ) - absent",
+        "UDP-N-acetylglucosamine (CID 445675, LFTYTUAZOPRMMI) - absent",
+        "Chitin-related disaccharide carbamate (CID 22833609, HSRZMOSQMYFZBL) - absent",
+        "Chitin-related trisaccharide / chitotriose deriv. (CID 21252321, DJHJJVWPFGHIPH) - absent",
+        "Acetyl-CoA (CID 444493, ZSLZBFCDCINBPY) - absent",
+        "CoA-thioester member CID 6816 (RGJOEKWQDUBAIZ, formula C21H36N7O16P3S) - absent",
+        "Acetic acid (CID 176, QTBSBXVTEAMEQO) - absent",
+        "Pyruvic acid (CID 1060, LCTONWCANYUPML) - absent",
+        "Phosphoenolpyruvate (CID 1005, DTBNBXWJWCWCIK) - absent",
+        "ATP (CID 5957, ZKHQWZAMYRWXGA) - absent",
+        "ADP (CID 6022, XTWYTFMLZFPYCI) - absent",
+        "UTP (CID 6133, PGAVKCOVUIYSFO) - absent",
+        "UDP (CID 6031, XCCTYIAWTASOJW) - absent",
+        "CTP (CID 6176, PCDQPRRSZKQHHS) - absent",
+        "Ammonia (CID 222, QGZKDVFQNNGYKY) - absent",
+        "Phosphate (CID 1061, NBIIXXVUZAFLBC) - absent",
+        "Pyrophosphate (CID 644102, XPPKVPWEQAFLFU) - absent",
+        "Water (CID 962, XLYOFNOQVPJJNP) - absent"
+      ],
+      "rejected": [
+        {
+          "compound_name": "DL-Glutamic acid",
+          "reason": "REJECTED as a confident hit - skeleton-only match, stereochemistry mismatch. Our id 18 is DL-glutamic acid: racemic, achiral InChIKey WHUUTDBJXJRKMK-UHFFFAOYSA-N, PubChem CID 611. The genuine pathway member is specifically L-glutamic acid (CID 33032, InChIKey WHUUTDBJXJRKMK-VKHMYHEASA-N). They share the 14-char InChIKey skeleton (WHUUTDBJXJRKMK) but differ in the stereo block - they are distinct PubChem compounds. The prior pass itself flagged this only 'medium'. The L-specific member is already fully covered by the stereo-correct entries id 26 and id 27, so counting the racemic DL form adds a stereochemistry false positive rather than new coverage. Note: if MetaboAnalyst name-level matching is being applied loosely, a skeleton-level annotation could be defended, but on InChIKey-skeleton-preferred adversarial criteria this is not a confirmed member."
+        }
+      ]
+    },
+    {
+      "pathway": "Methionine Metabolism",
+      "comparison": "GAP Organic vs No GAP",
+      "set_size": 37,
+      "detected": [
+        {
+          "id": 6,
+          "name": "Adenosine",
+          "formula": "C10H13N5O4",
+          "pubchem_cid": "60961",
+          "inchikey": "OIRDTQYFTABQOQ-KQYNXXCUSA-N",
+          "basis": "InChIKey-skeleton match OIRDTQYFTABQOQ; our id 6 = OIRDTQYFTABQOQ-KQYNXXCUSA-N (CID 60961) = standard adenosine. Member named 'Adenosine' in set.",
+          "confidence": "high"
+        },
+        {
+          "id": 32,
+          "name": "Methionine",
+          "formula": "C5H11NO2S",
+          "pubchem_cid": "6137",
+          "inchikey": "FFEARJCKVFRZRR-BYPYZUCNSA-N",
+          "basis": "Full InChIKey match: our id 32 = FFEARJCKVFRZRR-BYPYZUCNSA-N; PubChem L-methionine InChIKey = FFEARJCKVFRZRR-BYPYZUCNSA-N (CID 6137). Identical including stereochemistry.",
+          "confidence": "high"
+        },
+        {
+          "id": 42,
+          "name": "Serine",
+          "formula": "C3H7NO3",
+          "pubchem_cid": "5951",
+          "inchikey": "MTCFGRXMJLQNBG-REOHCLBHSA-N",
+          "basis": "Full InChIKey match: our id 42 = MTCFGRXMJLQNBG-REOHCLBHSA-N; PubChem L-serine InChIKey = MTCFGRXMJLQNBG-REOHCLBHSA-N (CID 5951). Identical including stereochemistry.",
+          "confidence": "high"
+        },
+        {
+          "id": 44,
+          "name": "Spermidine",
+          "formula": "C7H19N3",
+          "pubchem_cid": "1102",
+          "inchikey": "ATHGHQPFGPMSJY-UHFFFAOYSA-N",
+          "basis": "Full InChIKey + skeleton match ATHGHQPFGPMSJY-UHFFFAOYSA-N; our id 44 = CID 1102; formula C7H19N3 confirmed. Member 'Spermidine' present in set.",
+          "confidence": "high"
+        },
+        {
+          "id": 127,
+          "name": "Choline",
+          "formula": "C5H13NO",
+          "pubchem_cid": "305",
+          "inchikey": "OEYIOHPDSNJKLS-UHFFFAOYSA-N",
+          "basis": "Full InChIKey + skeleton match OEYIOHPDSNJKLS-UHFFFAOYSA-N; our id 127 = CID 305. Member 'Choline' present in set.",
+          "confidence": "high"
+        },
+        {
+          "id": 154,
+          "name": "H-Met(O)-OH",
+          "formula": "C5H11NO3S",
+          "pubchem_cid": "158980",
+          "inchikey": "QEFRNWWLZKMPFJ-YGVKFDHGSA-N",
+          "basis": "InChIKey-skeleton match QEFRNWWLZKMPFJ; our id 154 = QEFRNWWLZKMPFJ-YGVKFDHGSA-N, CID 158980, formula C5H11NO3S, IUPAC '(2S)-2-amino-4-methylsulfinylbutanoic acid' = L-methionine sulfoxide. SMPDB member listed generically as 'Methionine sulfoxide'.",
+          "confidence": "high"
+        }
+      ],
+      "coverage_gaps": [
+        "S-Adenosylmethionine (SAM)",
+        "S-Adenosylhomocysteine (SAH)",
+        "Homocysteine (L-homocysteine)",
+        "L-Cystathionine",
+        "L-Cysteine",
+        "L-Homoserine",
+        "Adenosine monophosphate (AMP)",
+        "2-Ketobutyric acid (2-oxobutanoate)",
+        "2-Oxo-4-methylthiobutanoic acid (4-methylthio-2-oxobutanoate)",
+        "Betaine",
+        "Dimethylglycine",
+        "Sarcosine",
+        "Glycine",
+        "Putrescine",
+        "S-Adenosylmethioninamine (decarboxylated SAM)",
+        "5'-Methylthioadenosine (MTA)",
+        "5-Methylthioribose 1-phosphate",
+        "5-Methyltetrahydrofolic acid",
+        "Tetrahydrofolic acid",
+        "5,10-Methylene-THF",
+        "10-Formyltetrahydrofolate",
+        "Adenosine triphosphate (ATP)",
+        "NAD",
+        "NADH",
+        "FAD",
+        "Pyridoxal 5'-phosphate",
+        "Phosphate",
+        "Pyrophosphate",
+        "Water",
+        "Oxygen",
+        "Carbon dioxide",
+        "Ammonia",
+        "Hydrogen peroxide",
+        "Magnesium",
+        "Potassium",
+        "Zinc",
+        "Zinc (II) ion"
+      ],
+      "rejected": []
+    },
+    {
+      "pathway": "Phosphatidylethanolamine Biosynthesis",
+      "comparison": "GAP Organic vs No GAP",
+      "set_size": 12,
+      "detected": [
+        {
+          "id": 42,
+          "name": "Serine",
+          "formula": "C3H7NO3",
+          "pubchem_cid": "5951",
+          "inchikey": "MTCFGRXMJLQNBG-REOHCLBHSA-N",
+          "basis": "InChIKey exact + skeleton (MTCFGRXMJLQNBG-REOHCLBHSA-N). PubChem CID 5951 verified = '(2S)-2-amino-3-hydroxypropanoic acid' = L-serine (HMDB0000187). File id 42.",
+          "confidence": "high"
+        },
+        {
+          "id": 182,
+          "name": "phosphoethanolamine",
+          "formula": "C2H8NO4P",
+          "pubchem_cid": "1015",
+          "inchikey": "SUHOOTKUPISOBE-UHFFFAOYSA-N",
+          "basis": "InChIKey exact + skeleton (SUHOOTKUPISOBE-UHFFFAOYSA-N). PubChem CID 1015 verified = '2-aminoethyl dihydrogen phosphate' (C2H8NO4P) = O-phosphoethanolamine = KEGG C00346 / HMDB0000224. File id 182.",
+          "confidence": "high"
+        }
+      ],
+      "coverage_gaps": [
+        "Phosphatidylethanolamine (generic class node) - absent from the 388 (only specific lyso/acyl PE species like id 97 2-linoleoyl-sn-glycero-3-phosphoethanolamine, which do not match the generic class member by InChIKey)",
+        "Phosphatidic acid - absent",
+        "1,2-Diacyl-sn-glycerol (Diacylglycerol) - absent",
+        "Cytidine triphosphate (CTP) - absent (file has Cytidine id 134, the nucleoside, but NOT CTP)",
+        "CDP-Ethanolamine - absent",
+        "Ethanolamine - absent (skeleton HZAXFHJVJLSVMW not present; file has ethanolamides, N-lactoylethanolamine, triethanolamine, choline - none are free ethanolamine)",
+        "Cytidine monophosphate (CMP) - absent (Cytidine id 134 is the nucleoside, not the nucleotide CMP; not a substitute)",
+        "Phosphatidylserine (generic class node) - absent",
+        "Phosphatidylcholine (generic class node) - absent (file has specific species PC(16:0/0:0) id 62, PC(18:1/0:0) id 63, which do not match the generic class member by InChIKey)",
+        "Pyrophosphate (Diphosphate) - absent"
+      ],
+      "rejected": []
+    },
+    {
+      "pathway": "Glycine and Serine Metabolism",
+      "comparison": "GAP Organic vs No GAP",
+      "set_size": 28,
+      "detected": [
+        {
+          "id": 8,
+          "name": "Arginine",
+          "formula": "C6H14N4O2",
+          "pubchem_cid": "6322",
+          "inchikey": "ODKSFYDXXFIFQN-BYPYZUCNSA-N",
+          "basis": "InChIKey exact (ODKSFYDXXFIFQN-BYPYZUCNSA-N); our id 8 cid 6322 == pathway member 'protonated arginine' CID 28782 (identical full InChIKey)",
+          "confidence": "high"
+        },
+        {
+          "id": 27,
+          "name": "L-Glutamic acid",
+          "formula": "C5H9NO4",
+          "pubchem_cid": "33032",
+          "inchikey": "WHUUTDBJXJRKMK-VKHMYHEASA-N",
+          "basis": "InChIKey exact (WHUUTDBJXJRKMK-VKHMYHEASA-N); our id 27 (and duplicate id 26) cid 33032 == pathway member CID 33032",
+          "confidence": "high"
+        },
+        {
+          "id": 32,
+          "name": "Methionine",
+          "formula": "C5H11NO2S",
+          "pubchem_cid": "6137",
+          "inchikey": "FFEARJCKVFRZRR-BYPYZUCNSA-N",
+          "basis": "InChIKey exact (FFEARJCKVFRZRR-BYPYZUCNSA-N); our id 32 cid 6137 == pathway member CID 6137",
+          "confidence": "high"
+        },
+        {
+          "id": 42,
+          "name": "Serine",
+          "formula": "C3H7NO3",
+          "pubchem_cid": "5951",
+          "inchikey": "MTCFGRXMJLQNBG-REOHCLBHSA-N",
+          "basis": "InChIKey exact (MTCFGRXMJLQNBG-REOHCLBHSA-N); our id 42 cid 5951 == pathway member CID 5951",
+          "confidence": "high"
+        },
+        {
+          "id": 106,
+          "name": "5-Aminolevulinic acid",
+          "formula": "C5H9NO3",
+          "pubchem_cid": "137",
+          "inchikey": "ZGXJTSGNIOSYLO-UHFFFAOYSA-N",
+          "basis": "InChIKey exact (ZGXJTSGNIOSYLO-UHFFFAOYSA-N); our id 106 cid 137 == pathway member CID 137",
+          "confidence": "high"
+        },
+        {
+          "id": 113,
+          "name": "alpha-Ketoglutaric acid",
+          "formula": "C5H6O5",
+          "pubchem_cid": "51",
+          "inchikey": "KPGXRSRHYNQIFN-UHFFFAOYSA-N",
+          "basis": "InChIKey exact (KPGXRSRHYNQIFN-UHFFFAOYSA-N); our id 113 cid 51 == pathway member CID 51",
+          "confidence": "high"
+        }
+      ],
+      "coverage_gaps": [
+        "Glycine (CID 5257127 alpha-glycine / DHMQDGOQFOQNFH) - core member, not in our 388",
+        "L-Cysteine (CID 5862 / XUJNEKJLAYXESH) - not in our 388",
+        "Sarcosine / N-methylglycine (CID 1088 / FSYKKLYZXJSNPZ) - not in our 388",
+        "Dimethylglycine (CID 673 / FFDGPVCHZBVARC) - not in our 388",
+        "Betaine / trimethylglycine (CID 247 / KWIUHFFTVRNATP) - not in our 388",
+        "Creatine (CID 586 / CVSVTCORWBXHQV) - not in our 388",
+        "Guanidinoacetic acid / glycocyamine (CID 3946848 / BPMFZUMJYQTVII) - not in our 388",
+        "L-Homocysteine (CID 49791978 / FFFHZYDWPBMWHY) - not in our 388",
+        "S-Adenosylmethionine (CID 24762165 / MEFKEPWMEQBLKI) - not in our 388",
+        "S-Adenosylhomocysteine (CID 25246222 / ZJUKTBDSGOFHSH) - not in our 388",
+        "L-Cystathionine (CID 25243997 / ILRYLPWNYFXEMH) - not in our 388",
+        "O-Phospho-L-serine / phosphoserine (CID 57689797 / BZQFBWGGLXLEPQ) - not in our 388",
+        "Phosphohydroxypyruvic acid (CID 105 / LFLUCDOSYQPJJBE) - not in our 388",
+        "3-Phosphoglyceric acid (CID 724 / OSJPPGNTCRNQQC) - not in our 388",
+        "D-Glyceric acid (CID 439194 / RBNPOMFGQQGHHO) - not in our 388",
+        "Hydroxypyruvic acid (CID 964 / HHDDCCUIIUWNGJ) - not in our 388",
+        "Glyoxylic acid (CID 760 / HHLFWLYXYJOTON) - not in our 388",
+        "L-Alanine (CID 5950 / QNAYBMKLOCPYGJ) - not in our 388",
+        "Pyruvic acid (CID 1060 / LCTONWCANYUPML) - not in our 388",
+        "2-Oxobutanoic acid / 2-ketobutyrate (CID 58 / TYEYBOSBBBHJIV) - not in our 388",
+        "Methylglyoxal / pyruvaldehyde (CID 880 / AIJULSRZWUXGPQ) - not in our 388",
+        "Aminoacetone (CID 215 / BCDGQXUMWHRQCB) - SMP0000004 member, not in our 388",
+        "2-Amino-3-ketobutyric acid (CID 440033 / SAUCHDKDCUROAO) - SMP0000004 member, not in our 388"
+      ],
+      "rejected": []
+    },
+    {
+      "pathway": "Betaine Metabolism",
+      "comparison": "GAP Organic vs No GAP",
+      "set_size": 18,
+      "detected": [
+        {
+          "id": 6,
+          "name": "Adenosine",
+          "formula": "C10H13N5O4",
+          "pubchem_cid": "60961",
+          "inchikey": "OIRDTQYFTABQOQ-KQYNXXCUSA-N",
+          "basis": "InChIKey-skeleton OIRDTQYFTABQOQ; file id 6 CID 60961 == pathway CID 60961. PubChem REST confirms CID 60961 = Adenosine = OIRDTQYFTABQOQ-KQYNXXCUSA-N. Pathway member (SAH hydrolysis product in the embedded methionine cycle).",
+          "confidence": "high"
+        },
+        {
+          "id": 32,
+          "name": "Methionine",
+          "formula": "C5H11NO2S",
+          "pubchem_cid": "6137",
+          "inchikey": "FFEARJCKVFRZRR-BYPYZUCNSA-N",
+          "basis": "InChIKey-skeleton FFEARJCKVFRZRR; file id 32 CID 6137 == pathway CID 6137. PubChem REST confirms CID 6137 = L-Methionine = FFEARJCKVFRZRR-BYPYZUCNSA-N. Pathway member (product of homocysteine remethylation).",
+          "confidence": "high"
+        },
+        {
+          "id": 127,
+          "name": "Choline",
+          "formula": "C5H13NO",
+          "pubchem_cid": "305",
+          "inchikey": "OEYIOHPDSNJKLS-UHFFFAOYSA-N",
+          "basis": "InChIKey-skeleton OEYIOHPDSNJKLS; file id 127 CID 305 == pathway CID 305. PubChem REST confirms CID 305 = Choline = OEYIOHPDSNJKLS-UHFFFAOYSA-N. Pathway member (oxidized to betaine aldehyde).",
+          "confidence": "high"
+        }
+      ],
+      "coverage_gaps": [
+        "Betaine (CID 247, KWIUHFFTVRNATP) - absent from 388 file",
+        "Betaine aldehyde (CID 249, SXKNCCSPZDCRFD) - absent",
+        "N,N-Dimethylglycine / Dimethylglycine (CID 673, FFDGPVCHZBVARC) - absent",
+        "L-Homocysteine (CID 49791978, FFFHZYDWPBMWHY) - absent",
+        "S-Adenosylmethionine / Ademetionine (CID 24762165, MEFKEPWMEQBLKI) - absent",
+        "S-Adenosylhomocysteine (CID 25246222, ZJUKTBDSGOFHSH) - absent",
+        "5-Methyltetrahydrofolate (CID 439234, ZNOVTXRBGFNYRX) - absent",
+        "Tetrahydrofolate (CID 13781857, MSTNYGQPCMXVAQ) - absent",
+        "Coenzyme Q1 / Ubiquinone-1 (CID 4462, SOECUQMRSRVZQQ) - absent",
+        "NAD+ (CID 5893, BAWFJGJZGIEFAR) - absent",
+        "NADH (CID 439153, BOPGDPNILDQYTO) - absent",
+        "ATP (CID 5957, ZKHQWZAMYRWXGA) - absent",
+        "Water (CID 962, XLYOFNOQVPJJNP) - absent",
+        "Phosphate (CID 1061, NBIIXXVUZAFLBC) - absent",
+        "Pyrophosphate (CID 644102, XPPKVPWEQAFLFU) - absent"
+      ],
+      "rejected": []
+    },
+    {
+      "pathway": "Homocysteine Degradation",
+      "comparison": "GAP Organic vs No GAP",
+      "set_size": 7,
+      "detected": [
+        {
+          "id": 42,
+          "name": "Serine",
+          "formula": "C3H7NO3",
+          "pubchem_cid": "5951",
+          "inchikey": "MTCFGRXMJLQNBG-REOHCLBHSA-N",
+          "basis": "Full InChIKey match. Our file id 42 'Serine' has InChIKey MTCFGRXMJLQNBG-REOHCLBHSA-N (PubChem CID 5951), whose -REOHCLBHSA-N stereo layer is the (2S) L-configuration = L-Serine, the exact pathway member. Skeleton MTCFGRXMJLQNBG also matches. L-Serine is the co-substrate condensed with L-homocysteine by cystathionine beta-synthase to form L-cystathionine in SMP0000455.",
+          "confidence": "high"
+        }
+      ],
+      "coverage_gaps": [
+        "L-Homocysteine (InChIKey skeleton FFFHZYDWPBMWHY) - absent from our 388, not detected in the elderberry study",
+        "L-Cystathionine (InChIKey skeleton ILRYLPWNYFXEMH) - absent from our 388",
+        "L-Cysteine (InChIKey skeleton XUHLIOGYNNSAEQ) - absent from our 388",
+        "2-Ketobutyric acid / 2-oxobutanoate / alpha-ketobutyrate (InChIKey skeleton TYEYBOSBBBHJIV) - absent from our 388",
+        "Ammonia (InChIKey skeleton QGZKDVFQNNGYKY) - absent from our 388",
+        "Water (InChIKey skeleton XLYOFNOQVPJJNP) - absent from our 388"
+      ],
+      "rejected": []
+    }
+  ],
+  "unresolved": []
+}
