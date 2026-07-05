@@ -35,6 +35,9 @@ const ni = idx("Name");
 const fi = idx("Formula") >= 0 ? idx("Formula") : idx("Molecular Formula");
 const ci = idx("PubChem CID");
 const ki = idx("InChIKey");
+// the lit-synth report's two judgement columns: where it's documented, and whether the detection is real
+const oi = idx("Documented occurrence (lit.)");
+const di = idx("What this detection is");
 
 const compounds = [];
 for (let r = 1; r < rows.length; r++) {
@@ -47,6 +50,8 @@ for (let r = 1; r < rows.length; r++) {
     pubchem_cid: ci >= 0 ? norm(rows[r][ci]) : "",
     inchikey: ki >= 0 ? norm(rows[r][ki]) : "",
     inchikey_skeleton: ki >= 0 ? norm(rows[r][ki]).split("-")[0] : "",
+    occurrence: oi >= 0 ? norm(rows[r][oi]) : "",
+    detection: di >= 0 ? norm(rows[r][di]) : "",
   });
 }
 

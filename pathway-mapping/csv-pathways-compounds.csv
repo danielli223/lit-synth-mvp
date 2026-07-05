@@ -1,14 +1,15 @@
-Pathway,Enriched in,# compounds,Compound 1,Compound 2,Compound 3,Compound 4,Compound 5,Compound 6,Compound 7,Compound 8
-Ammonia Recycling,Both (Conventional + Organic),8,alpha-Ketoglutaric acid,Asparagine,DL-Glutamic acid,Glutamine,Histidine,L-Glutamate [+1 dup],Serine,L-Pyroglutamic acid/5-Oxo-proline (low·stereo/parent)
-Beta-Alanine Metabolism,GAP Conventional vs No GAP,5,alpha-Ketoglutaric acid,D-Pantothenic acid,DL-Glutamic acid,Histidine,L-Glutamate [+1 dup]
-Aspartate Metabolism,GAP Conventional vs No GAP,6,alpha-Ketoglutaric acid,Arginine,Asparagine,DL-Glutamic acid,Glutamine,L-Glutamate [+1 dup]
-"Valine, Leucine and Isoleucine Degradation",GAP Conventional vs No GAP,6,alpha-Ketoglutaric acid,DL-Glutamic acid,Isoleucine,L-Glutamate [+1 dup],Leucine,Valine
-Phenylalanine and Tyrosine Metabolism,GAP Conventional vs No GAP,5,alpha-Ketoglutaric acid,DL-Glutamic acid,L-Glutamate [+1 dup],Phenylalanine,Tyrosine
-Malate-Aspartate Shuttle,GAP Conventional vs No GAP,3,alpha-Ketoglutaric acid,DL-Glutamic acid,L-Glutamate [+1 dup]
-Arginine and Proline Metabolism,GAP Conventional vs No GAP,7,alpha-Ketoglutaric acid,Arginine,cis-4-Hydroxy-D-proline,DL-Glutamic acid,L-Glutamate [+1 dup],Proline,L-Pyroglutamic acid/5-Oxo-proline (low·stereo/parent)
-Amino Sugar Metabolism,Both (Conventional + Organic),4,DL-Glutamic acid,Glutamine,L-Glutamate [+1 dup],N-Acetylglucosaminitol (low·stereo/parent)
-Methionine Metabolism,GAP Organic vs No GAP,5,Choline,H-Met(O)-OH,Methionine,Serine,Spermidine
-Phosphatidylethanolamine Biosynthesis,GAP Organic vs No GAP,4,Choline,phosphoethanolamine,Serine,Cytidine (low·stereo/parent)
-Glycine and Serine Metabolism,GAP Organic vs No GAP,7,5-Aminolevulinic acid,alpha-Ketoglutaric acid,Arginine,DL-Glutamic acid,L-Glutamate [+1 dup],Methionine,Serine
-Betaine Metabolism,GAP Organic vs No GAP,3,Adenosine,Choline,Methionine
-Homocysteine Degradation,GAP Organic vs No GAP,1,Serine
+Legend:  'Enriched in' = which enrichment comparison flagged the pathway (GAP = your treatment groups; Conventional and Organic each vs No-GAP; 'Both' = flagged in both).   '[+N dup]' = the same compound was also detected under N other names.   'Source (SMPDB)' links the pathway's official metabolite list.
+Pathway,Enriched in,# compounds,Source (SMPDB),Compound 1,Compound 2,Compound 3,Compound 4,Compound 5,Compound 6
+Ammonia Recycling,Both (Conventional + Organic),6,smpdb.ca/view/SMP0000009,Asparagine,Glutamine,Histidine,L-Glutamate [+2 dup],Serine,alpha-Ketoglutaric acid
+Beta-Alanine Metabolism,GAP Conventional vs No GAP,4,smpdb.ca/view/SMP0000007,D-Pantothenic acid,Histidine,L-Glutamate [+2 dup],alpha-Ketoglutaric acid,,
+Aspartate Metabolism,GAP Conventional vs No GAP,5,smpdb.ca/view/SMP0000067,Arginine,Asparagine,Glutamine,L-Glutamate [+2 dup],alpha-Ketoglutaric acid,
+"Valine, Leucine and Isoleucine Degradation",GAP Conventional vs No GAP,5,smpdb.ca/view/SMP0000032,Isoleucine,L-Glutamate [+2 dup],Leucine,Valine,alpha-Ketoglutaric acid,
+Phenylalanine and Tyrosine Metabolism,GAP Conventional vs No GAP,4,smpdb.ca/view/SMP0000008,L-Glutamate [+2 dup],Phenylalanine,Tyrosine,alpha-Ketoglutaric acid,,
+Malate-Aspartate Shuttle,GAP Conventional vs No GAP,2,smpdb.ca/view/SMP0000129,L-Glutamate [+2 dup],alpha-Ketoglutaric acid,,,,
+Arginine and Proline Metabolism,GAP Conventional vs No GAP,4,smpdb.ca/view/SMP0000020,Arginine,L-Glutamate [+2 dup],Proline,alpha-Ketoglutaric acid,,
+Amino Sugar Metabolism,Both (Conventional + Organic),2,smpdb.ca/view/SMP0000045,Glutamine,L-Glutamate [+2 dup],,,,
+Methionine Metabolism,GAP Organic vs No GAP,5,smpdb.ca/view/SMP0000033,Methionine sulfoxide (H-Met(O)-OH),Methionine,Serine,Choline,Spermidine,
+Phosphatidylethanolamine Biosynthesis,GAP Organic vs No GAP,3,smpdb.ca/view/SMP0000026,Serine,Choline,phosphoethanolamine,,,
+Glycine and Serine Metabolism,GAP Organic vs No GAP,6,smpdb.ca/view/SMP0000004,Arginine,L-Glutamate [+2 dup],Methionine,Serine,5-Aminolevulinic acid,alpha-Ketoglutaric acid
+Betaine Metabolism,GAP Organic vs No GAP,3,smpdb.ca/view/SMP0000123,Adenosine,Methionine,Choline,,,
+Homocysteine Degradation,GAP Organic vs No GAP,1,smpdb.ca/view/SMP0000455,Serine,,,,,

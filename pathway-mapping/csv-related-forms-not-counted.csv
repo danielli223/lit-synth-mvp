@@ -1,0 +1,7 @@
+Related forms detected — NOT counted as pathway members (for your review)
+"These compounds are chemically related to a pathway member (a stereoisomer, parent, or derivative) but are NOT the exact molecule, so they are excluded from the membership counts. Listed here only in case they matter when you check up/down-regulation."
+Compound (detected),Formula,PubChem CID,Related to pathway member,Pathway(s),Why it's not a direct member
+cis-4-Hydroxy-D-proline,C5H9NO3,440014,4-Hydroxy-L-proline (trans-4-hydroxy-L-proline),Arginine and Proline Metabolism,"Different stereoisomer (cis-D) from the pathway's member trans-4-hydroxy-L-proline (CID 5810), which was NOT in the 388 — this peak is most likely ordinary trans-L-hydroxyproline mislabeled. Verify before counting."
+Cytidine,C9H13N3O5,6175,Cytidine monophosphate,Phosphatidylethanolamine Biosynthesis,"Dephosphorylated parent nucleoside of cytidine monophosphate (CMP) — related, not identical."
+L-Pyroglutamic acid/5-Oxo-proline,C5H7NO3,7405,L-Pyroglutamic acid/5-Oxo-proline; L-Glutamic acid,Ammonia Recycling; Arginine and Proline Metabolism,Cyclized (lactam) derivative of glutamate — interconverts with it but is a distinct molecule (and often a sample-prep artifact of glutamate/glutamine).
+N-Acetylglucosaminitol,C8H17NO6,165206,N-Acetyl-D-glucosamine,Amino Sugar Metabolism,"Reduced (sugar-alcohol) form of N-acetylglucosamine — a derivative, not the listed member."

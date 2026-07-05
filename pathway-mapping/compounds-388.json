@@ -1,5 +1,5 @@
 {
-  "source": "/Users/bytedance/Downloads/elderberry-study-388 (1).xlsx",
+  "source": "./elderberry-study-388.xlsx",
   "count": 388,
   "with_inchikey": 374,
   "with_cid": 374,
@@ -10,7 +10,9 @@
       "formula": "C21H38O4",
       "pubchem_cid": "5283469",
       "inchikey": "WECGLUPZRHILCT-HZJYTTRNSA-N",
-      "inchikey_skeleton": "WECGLUPZRHILCT"
+      "inchikey_skeleton": "WECGLUPZRHILCT",
+      "occurrence": "Elderberry",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 2,
@@ -18,7 +20,9 @@
       "formula": "C21H42O4",
       "pubchem_cid": "22035687",
       "inchikey": "HFPRYXALJSRPBC-UHFFFAOYSA-N",
-      "inchikey_skeleton": "HFPRYXALJSRPBC"
+      "inchikey_skeleton": "HFPRYXALJSRPBC",
+      "occurrence": "Elderberry",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 3,
@@ -26,7 +30,9 @@
       "formula": "C21H36O4",
       "pubchem_cid": "11674746",
       "inchikey": "ZCCLDKGWJIREQF-PDBXOOCHSA-N",
-      "inchikey_skeleton": "ZCCLDKGWJIREQF"
+      "inchikey_skeleton": "ZCCLDKGWJIREQF",
+      "occurrence": "Elderberry",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 4,
@@ -34,7 +40,9 @@
       "formula": "C7H6O3",
       "pubchem_cid": "135",
       "inchikey": "FJKROLUGYXJWQN-UHFFFAOYSA-N",
-      "inchikey_skeleton": "FJKROLUGYXJWQN"
+      "inchikey_skeleton": "FJKROLUGYXJWQN",
+      "occurrence": "Elderberry",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 5,
@@ -42,7 +50,9 @@
       "formula": "C5H5N5",
       "pubchem_cid": "190",
       "inchikey": "GFFGJBXGBJISGV-UHFFFAOYSA-N",
-      "inchikey_skeleton": "GFFGJBXGBJISGV"
+      "inchikey_skeleton": "GFFGJBXGBJISGV",
+      "occurrence": "Elderberry",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 6,
@@ -50,7 +60,9 @@
       "formula": "C10H13N5O4",
       "pubchem_cid": "60961",
       "inchikey": "OIRDTQYFTABQOQ-KQYNXXCUSA-N",
-      "inchikey_skeleton": "OIRDTQYFTABQOQ"
+      "inchikey_skeleton": "OIRDTQYFTABQOQ",
+      "occurrence": "Elderberry",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 7,
@@ -58,7 +70,9 @@
       "formula": "C20H27NO11",
       "pubchem_cid": "656516",
       "inchikey": "XUCIJNAGGSZNQT-JHSLDZJXSA-N",
-      "inchikey_skeleton": "XUCIJNAGGSZNQT"
+      "inchikey_skeleton": "XUCIJNAGGSZNQT",
+      "occurrence": "Elderberry",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 8,
@@ -66,7 +80,9 @@
       "formula": "C6H14N4O2",
       "pubchem_cid": "6322",
       "inchikey": "ODKSFYDXXFIFQN-BYPYZUCNSA-N",
-      "inchikey_skeleton": "ODKSFYDXXFIFQN"
+      "inchikey_skeleton": "ODKSFYDXXFIFQN",
+      "occurrence": "Elderberry",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 9,
@@ -74,7 +90,9 @@
       "formula": "C4H8N2O3",
       "pubchem_cid": "6267",
       "inchikey": "DCXYFEDJOCDNAF-REOHCLBHSA-N",
-      "inchikey_skeleton": "DCXYFEDJOCDNAF"
+      "inchikey_skeleton": "DCXYFEDJOCDNAF",
+      "occurrence": "Elderberry",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 10,
@@ -82,7 +100,9 @@
       "formula": "C22H44O2",
       "pubchem_cid": "8215",
       "inchikey": "UKMSUNONTOPOIO-UHFFFAOYSA-N",
-      "inchikey_skeleton": "UKMSUNONTOPOIO"
+      "inchikey_skeleton": "UKMSUNONTOPOIO",
+      "occurrence": "Elderberry",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 11,
@@ -90,7 +110,9 @@
       "formula": "C30H50O2",
       "pubchem_cid": "72326",
       "inchikey": "FVWJYYTZTCVBKE-ROUWMTJPSA-N",
-      "inchikey_skeleton": "FVWJYYTZTCVBKE"
+      "inchikey_skeleton": "FVWJYYTZTCVBKE",
+      "occurrence": "Elderberry",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 12,
@@ -98,7 +120,9 @@
       "formula": "C30H50O2",
       "pubchem_cid": "72326",
       "inchikey": "FVWJYYTZTCVBKE-ROUWMTJPSA-N",
-      "inchikey_skeleton": "FVWJYYTZTCVBKE"
+      "inchikey_skeleton": "FVWJYYTZTCVBKE",
+      "occurrence": "Elderberry",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 13,
@@ -106,7 +130,9 @@
       "formula": "C9H8O4",
       "pubchem_cid": "689043",
       "inchikey": "QAIPRVGONGVQAS-DUXPYHPUSA-N",
-      "inchikey_skeleton": "QAIPRVGONGVQAS"
+      "inchikey_skeleton": "QAIPRVGONGVQAS",
+      "occurrence": "Elderberry",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 14,
@@ -114,7 +140,9 @@
       "formula": "C16H18O9",
       "pubchem_cid": "1794427",
       "inchikey": "CWVRJTMFETXNAD-JUHZACGLSA-N",
-      "inchikey_skeleton": "CWVRJTMFETXNAD"
+      "inchikey_skeleton": "CWVRJTMFETXNAD",
+      "occurrence": "Elderberry",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 15,
@@ -122,7 +150,9 @@
       "formula": "C6H12O6",
       "pubchem_cid": "107526",
       "inchikey": "GZCGUPFRVQAUEE-SLPGGIOYSA-N",
-      "inchikey_skeleton": "GZCGUPFRVQAUEE"
+      "inchikey_skeleton": "GZCGUPFRVQAUEE",
+      "occurrence": "Elderberry",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 16,
@@ -130,7 +160,9 @@
       "formula": "C9H17NO5",
       "pubchem_cid": "6613",
       "inchikey": "GHOKWGTUZJEAQD-ZETCQYMHSA-N",
-      "inchikey_skeleton": "GHOKWGTUZJEAQD"
+      "inchikey_skeleton": "GHOKWGTUZJEAQD",
+      "occurrence": "Elderberry",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 17,
@@ -138,7 +170,9 @@
       "formula": "C11H16O2",
       "pubchem_cid": "6432173",
       "inchikey": "IMKHDCBNRDRUEB-LLVKDONJSA-N",
-      "inchikey_skeleton": "IMKHDCBNRDRUEB"
+      "inchikey_skeleton": "IMKHDCBNRDRUEB",
+      "occurrence": "Elderberry",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 18,
@@ -146,7 +180,9 @@
       "formula": "C5H9NO4",
       "pubchem_cid": "611",
       "inchikey": "WHUUTDBJXJRKMK-UHFFFAOYSA-N",
-      "inchikey_skeleton": "WHUUTDBJXJRKMK"
+      "inchikey_skeleton": "WHUUTDBJXJRKMK",
+      "occurrence": "Elderberry",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 19,
@@ -154,7 +190,9 @@
       "formula": "C10H10O4",
       "pubchem_cid": "445858",
       "inchikey": "KSEBMYQBYZTDHS-HWKANZROSA-N",
-      "inchikey_skeleton": "KSEBMYQBYZTDHS"
+      "inchikey_skeleton": "KSEBMYQBYZTDHS",
+      "occurrence": "Elderberry",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 20,
@@ -162,7 +200,9 @@
       "formula": "C7H12O6",
       "pubchem_cid": "6508",
       "inchikey": "AAWZDTNXLSGCEK-LNVDRNJUSA-N",
-      "inchikey_skeleton": "AAWZDTNXLSGCEK"
+      "inchikey_skeleton": "AAWZDTNXLSGCEK",
+      "occurrence": "Elderberry",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 21,
@@ -170,7 +210,9 @@
       "formula": "C6H12O6",
       "pubchem_cid": "5793",
       "inchikey": "WQZGKKKJIJFFOK-GASJEMHNSA-N",
-      "inchikey_skeleton": "WQZGKKKJIJFFOK"
+      "inchikey_skeleton": "WQZGKKKJIJFFOK",
+      "occurrence": "Elderberry",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 22,
@@ -178,7 +220,9 @@
       "formula": "C6H9N3O2",
       "pubchem_cid": "6274",
       "inchikey": "HNDVDQJCIGZPNO-YFKPBYRVSA-N",
-      "inchikey_skeleton": "HNDVDQJCIGZPNO"
+      "inchikey_skeleton": "HNDVDQJCIGZPNO",
+      "occurrence": "Elderberry",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 23,
@@ -186,7 +230,9 @@
       "formula": "C6H13NO2",
       "pubchem_cid": "6306",
       "inchikey": "AGPKZVBTJJNPAG-WHFBIAKZSA-N",
-      "inchikey_skeleton": "AGPKZVBTJJNPAG"
+      "inchikey_skeleton": "AGPKZVBTJJNPAG",
+      "occurrence": "Elderberry",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 24,
@@ -194,7 +240,9 @@
       "formula": "C27H30O14",
       "pubchem_cid": "5318767",
       "inchikey": "RTATXGUCZHCSNG-QHWHWDPRSA-N",
-      "inchikey_skeleton": "RTATXGUCZHCSNG"
+      "inchikey_skeleton": "RTATXGUCZHCSNG",
+      "occurrence": "Elderberry",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 25,
@@ -202,7 +250,9 @@
       "formula": "C27H30O14",
       "pubchem_cid": "5318767",
       "inchikey": "RTATXGUCZHCSNG-QHWHWDPRSA-N",
-      "inchikey_skeleton": "RTATXGUCZHCSNG"
+      "inchikey_skeleton": "RTATXGUCZHCSNG",
+      "occurrence": "Elderberry",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 26,
@@ -210,7 +260,9 @@
       "formula": "C5H9NO4",
       "pubchem_cid": "33032",
       "inchikey": "WHUUTDBJXJRKMK-VKHMYHEASA-N",
-      "inchikey_skeleton": "WHUUTDBJXJRKMK"
+      "inchikey_skeleton": "WHUUTDBJXJRKMK",
+      "occurrence": "Elderberry",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 27,
@@ -218,7 +270,9 @@
       "formula": "C5H9NO4",
       "pubchem_cid": "33032",
       "inchikey": "WHUUTDBJXJRKMK-VKHMYHEASA-N",
-      "inchikey_skeleton": "WHUUTDBJXJRKMK"
+      "inchikey_skeleton": "WHUUTDBJXJRKMK",
+      "occurrence": "Elderberry",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 28,
@@ -226,7 +280,9 @@
       "formula": "C19H38O4",
       "pubchem_cid": "11359451",
       "inchikey": "QHZLMUACJMDIAE-GOSISDBHSA-N",
-      "inchikey_skeleton": "QHZLMUACJMDIAE"
+      "inchikey_skeleton": "QHZLMUACJMDIAE",
+      "occurrence": "Elderberry",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 29,
@@ -234,7 +290,9 @@
       "formula": "C12H24O2",
       "pubchem_cid": "3893",
       "inchikey": "POULHZVOKOAJMA-UHFFFAOYSA-N",
-      "inchikey_skeleton": "POULHZVOKOAJMA"
+      "inchikey_skeleton": "POULHZVOKOAJMA",
+      "occurrence": "Elderberry",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 30,
@@ -242,7 +300,9 @@
       "formula": "C6H13NO2",
       "pubchem_cid": "6106",
       "inchikey": "ROHFNLRQFUQHCH-YFKPBYRVSA-N",
-      "inchikey_skeleton": "ROHFNLRQFUQHCH"
+      "inchikey_skeleton": "ROHFNLRQFUQHCH",
+      "occurrence": "Elderberry",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 31,
@@ -250,7 +310,9 @@
       "formula": "C18H30O2",
       "pubchem_cid": "5280934",
       "inchikey": "DTOSIQBPPRVQHS-PDBXOOCHSA-N",
-      "inchikey_skeleton": "DTOSIQBPPRVQHS"
+      "inchikey_skeleton": "DTOSIQBPPRVQHS",
+      "occurrence": "Elderberry",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 32,
@@ -258,7 +320,9 @@
       "formula": "C5H11NO2S",
       "pubchem_cid": "6137",
       "inchikey": "FFEARJCKVFRZRR-BYPYZUCNSA-N",
-      "inchikey_skeleton": "FFEARJCKVFRZRR"
+      "inchikey_skeleton": "FFEARJCKVFRZRR",
+      "occurrence": "Elderberry",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 33,
@@ -266,7 +330,9 @@
       "formula": "C15H12O2",
       "pubchem_cid": "",
       "inchikey": "",
-      "inchikey_skeleton": ""
+      "inchikey_skeleton": "",
+      "occurrence": "Elderberry",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 34,
@@ -274,7 +340,9 @@
       "formula": "C30H48O3",
       "pubchem_cid": "10494",
       "inchikey": "MIJYXULNPSFWEK-GTOFXWBISA-N",
-      "inchikey_skeleton": "MIJYXULNPSFWEK"
+      "inchikey_skeleton": "MIJYXULNPSFWEK",
+      "occurrence": "Elderberry",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 35,
@@ -282,7 +350,9 @@
       "formula": "C18H34O2",
       "pubchem_cid": "445639",
       "inchikey": "ZQPPMHVWECSIRJ-KTKRTIGZSA-N",
-      "inchikey_skeleton": "ZQPPMHVWECSIRJ"
+      "inchikey_skeleton": "ZQPPMHVWECSIRJ",
+      "occurrence": "Elderberry",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 36,
@@ -290,7 +360,9 @@
       "formula": "C9H8O3",
       "pubchem_cid": "637542",
       "inchikey": "NGSWKAQJJWESNS-ZZXKWVIFSA-N",
-      "inchikey_skeleton": "NGSWKAQJJWESNS"
+      "inchikey_skeleton": "NGSWKAQJJWESNS",
+      "occurrence": "Elderberry",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 37,
@@ -298,7 +370,9 @@
       "formula": "C16H32O2",
       "pubchem_cid": "985",
       "inchikey": "IPCSVZSSVZVIGE-UHFFFAOYSA-N",
-      "inchikey_skeleton": "IPCSVZSSVZVIGE"
+      "inchikey_skeleton": "IPCSVZSSVZVIGE",
+      "occurrence": "Elderberry",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 38,
@@ -306,7 +380,9 @@
       "formula": "C9H11NO2",
       "pubchem_cid": "6140",
       "inchikey": "COLNVLDHVKWLRT-QMMMGPOBSA-N",
-      "inchikey_skeleton": "COLNVLDHVKWLRT"
+      "inchikey_skeleton": "COLNVLDHVKWLRT",
+      "occurrence": "Elderberry",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 39,
@@ -314,7 +390,9 @@
       "formula": "C5H9NO2",
       "pubchem_cid": "145742",
       "inchikey": "ONIBWKKTOPOVIA-BYPYZUCNSA-N",
-      "inchikey_skeleton": "ONIBWKKTOPOVIA"
+      "inchikey_skeleton": "ONIBWKKTOPOVIA",
+      "occurrence": "Elderberry",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 40,
@@ -322,7 +400,9 @@
       "formula": "C21H20O12",
       "pubchem_cid": "5280804",
       "inchikey": "OVSQVDMCBVZWGM-QSOFNFLRSA-N",
-      "inchikey_skeleton": "OVSQVDMCBVZWGM"
+      "inchikey_skeleton": "OVSQVDMCBVZWGM",
+      "occurrence": "Elderberry",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 41,
@@ -330,7 +410,9 @@
       "formula": "C14H17NO6",
       "pubchem_cid": "91434",
       "inchikey": "ZKSZEJFBGODIJW-YOVYLDAJSA-N",
-      "inchikey_skeleton": "ZKSZEJFBGODIJW"
+      "inchikey_skeleton": "ZKSZEJFBGODIJW",
+      "occurrence": "Elderberry",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 42,
@@ -338,7 +420,9 @@
       "formula": "C3H7NO3",
       "pubchem_cid": "5951",
       "inchikey": "MTCFGRXMJLQNBG-REOHCLBHSA-N",
-      "inchikey_skeleton": "MTCFGRXMJLQNBG"
+      "inchikey_skeleton": "MTCFGRXMJLQNBG",
+      "occurrence": "Elderberry",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 43,
@@ -346,7 +430,9 @@
       "formula": "C7H10O5",
       "pubchem_cid": "8742",
       "inchikey": "JXOHGGNKMLTUBP-HSUXUTPPSA-N",
-      "inchikey_skeleton": "JXOHGGNKMLTUBP"
+      "inchikey_skeleton": "JXOHGGNKMLTUBP",
+      "occurrence": "Elderberry",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 44,
@@ -354,7 +440,9 @@
       "formula": "C7H19N3",
       "pubchem_cid": "1102",
       "inchikey": "ATHGHQPFGPMSJY-UHFFFAOYSA-N",
-      "inchikey_skeleton": "ATHGHQPFGPMSJY"
+      "inchikey_skeleton": "ATHGHQPFGPMSJY",
+      "occurrence": "Elderberry",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 45,
@@ -362,7 +450,9 @@
       "formula": "C18H36O2",
       "pubchem_cid": "5281",
       "inchikey": "QIQXTHQIDYTFRH-UHFFFAOYSA-N",
-      "inchikey_skeleton": "QIQXTHQIDYTFRH"
+      "inchikey_skeleton": "QIQXTHQIDYTFRH",
+      "occurrence": "Elderberry",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 46,
@@ -370,7 +460,9 @@
       "formula": "C4H9NO3",
       "pubchem_cid": "6288",
       "inchikey": "AYFVYJQAPQTCCC-GBXIJSLDSA-N",
-      "inchikey_skeleton": "AYFVYJQAPQTCCC"
+      "inchikey_skeleton": "AYFVYJQAPQTCCC",
+      "occurrence": "Elderberry",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 47,
@@ -378,7 +470,9 @@
       "formula": "C11H12N2O2",
       "pubchem_cid": "6305",
       "inchikey": "QIVBCDIJIAJPQS-VIFPVBQESA-N",
-      "inchikey_skeleton": "QIVBCDIJIAJPQS"
+      "inchikey_skeleton": "QIVBCDIJIAJPQS",
+      "occurrence": "Elderberry",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 48,
@@ -386,7 +480,9 @@
       "formula": "C9H11NO3",
       "pubchem_cid": "6057",
       "inchikey": "OUYCCCASQSFEME-QMMMGPOBSA-N",
-      "inchikey_skeleton": "OUYCCCASQSFEME"
+      "inchikey_skeleton": "OUYCCCASQSFEME",
+      "occurrence": "Elderberry",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 49,
@@ -394,7 +490,9 @@
       "formula": "C30H48O3",
       "pubchem_cid": "64945",
       "inchikey": "WCGUUGGRBIKTOS-GPOJBZKASA-N",
-      "inchikey_skeleton": "WCGUUGGRBIKTOS"
+      "inchikey_skeleton": "WCGUUGGRBIKTOS",
+      "occurrence": "Elderberry",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 50,
@@ -402,7 +500,9 @@
       "formula": "C5H11NO2",
       "pubchem_cid": "6287",
       "inchikey": "KZSNJWFQEVHDMF-BYPYZUCNSA-N",
-      "inchikey_skeleton": "KZSNJWFQEVHDMF"
+      "inchikey_skeleton": "KZSNJWFQEVHDMF",
+      "occurrence": "Elderberry",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 51,
@@ -410,7 +510,9 @@
       "formula": "C18H30O2",
       "pubchem_cid": "5280934",
       "inchikey": "DTOSIQBPPRVQHS-PDBXOOCHSA-N",
-      "inchikey_skeleton": "DTOSIQBPPRVQHS"
+      "inchikey_skeleton": "DTOSIQBPPRVQHS",
+      "occurrence": "Elderberry",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 52,
@@ -418,7 +520,9 @@
       "formula": "C20H35NO2",
       "pubchem_cid": "5283449",
       "inchikey": "HBJXRRXWHSHZPU-PDBXOOCHSA-N",
-      "inchikey_skeleton": "HBJXRRXWHSHZPU"
+      "inchikey_skeleton": "HBJXRRXWHSHZPU",
+      "occurrence": "Elderberry",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 53,
@@ -426,7 +530,9 @@
       "formula": "C18H36O3",
       "pubchem_cid": "7789",
       "inchikey": "ULQISTXYYBZJSJ-UHFFFAOYSA-N",
-      "inchikey_skeleton": "ULQISTXYYBZJSJ"
+      "inchikey_skeleton": "ULQISTXYYBZJSJ",
+      "occurrence": "Other berry",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 54,
@@ -434,7 +540,9 @@
       "formula": "C6H11NO3",
       "pubchem_cid": "18189",
       "inchikey": "UZTFMUBKZQVKLK-UHFFFAOYSA-N",
-      "inchikey_skeleton": "UZTFMUBKZQVKLK"
+      "inchikey_skeleton": "UZTFMUBKZQVKLK",
+      "occurrence": "Other berry",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 55,
@@ -442,7 +550,9 @@
       "formula": "C29H46O",
       "pubchem_cid": "44263331",
       "inchikey": "XPRWWANUPMYKMF-HVEGQNEHSA-N",
-      "inchikey_skeleton": "XPRWWANUPMYKMF"
+      "inchikey_skeleton": "XPRWWANUPMYKMF",
+      "occurrence": "Other berry",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 56,
@@ -450,7 +560,9 @@
       "formula": "C7H6O2",
       "pubchem_cid": "243",
       "inchikey": "WPYMKLBDIGXBTP-UHFFFAOYSA-N",
-      "inchikey_skeleton": "WPYMKLBDIGXBTP"
+      "inchikey_skeleton": "WPYMKLBDIGXBTP",
+      "occurrence": "Other berry",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 57,
@@ -458,7 +570,9 @@
       "formula": "C12H22O5",
       "pubchem_cid": "95385",
       "inchikey": "PDSCSYLDRHAHOX-UHFFFAOYSA-N",
-      "inchikey_skeleton": "PDSCSYLDRHAHOX"
+      "inchikey_skeleton": "PDSCSYLDRHAHOX",
+      "occurrence": "Other berry",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 58,
@@ -466,7 +580,9 @@
       "formula": "C4H9NO2",
       "pubchem_cid": "119",
       "inchikey": "BTCSSZJGUNDROE-UHFFFAOYSA-N",
-      "inchikey_skeleton": "BTCSSZJGUNDROE"
+      "inchikey_skeleton": "BTCSSZJGUNDROE",
+      "occurrence": "Other berry",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 59,
@@ -474,7 +590,9 @@
       "formula": "C16H22O9",
       "pubchem_cid": "161036",
       "inchikey": "VSJGJMKGNMDJCI-ZASXJUAOSA-N",
-      "inchikey_skeleton": "VSJGJMKGNMDJCI"
+      "inchikey_skeleton": "VSJGJMKGNMDJCI",
+      "occurrence": "Other berry",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 60,
@@ -482,7 +600,9 @@
       "formula": "C5H7NO3",
       "pubchem_cid": "7405",
       "inchikey": "ODHCTXKNWHHXJC-VKHMYHEASA-N",
-      "inchikey_skeleton": "ODHCTXKNWHHXJC"
+      "inchikey_skeleton": "ODHCTXKNWHHXJC",
+      "occurrence": "Other berry",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 61,
@@ -490,7 +610,9 @@
       "formula": "C18H30O2",
       "pubchem_cid": "5282822",
       "inchikey": "DTOSIQBPPRVQHS-IUQGRGSQSA-N",
-      "inchikey_skeleton": "DTOSIQBPPRVQHS"
+      "inchikey_skeleton": "DTOSIQBPPRVQHS",
+      "occurrence": "Other berry",
+      "detection": "oxidation / processing artifact"
     },
     {
       "id": 62,
@@ -498,7 +620,9 @@
       "formula": "C24H50NO7P",
       "pubchem_cid": "460602",
       "inchikey": "ASWBNKHCZGQVJV-HSZRJFAPSA-N",
-      "inchikey_skeleton": "ASWBNKHCZGQVJV"
+      "inchikey_skeleton": "ASWBNKHCZGQVJV",
+      "occurrence": "Other berry",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 63,
@@ -506,7 +630,9 @@
       "formula": "C26H52NO7P",
       "pubchem_cid": "16081932",
       "inchikey": "YAMUFBLWGFFICM-PTGWMXDISA-N",
-      "inchikey_skeleton": "YAMUFBLWGFFICM"
+      "inchikey_skeleton": "YAMUFBLWGFFICM",
+      "occurrence": "Other berry",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 64,
@@ -514,7 +640,9 @@
       "formula": "C6H8O2",
       "pubchem_cid": "643460",
       "inchikey": "WSWCOQWTEOXDQX-MQQKCMAXSA-N",
-      "inchikey_skeleton": "WSWCOQWTEOXDQX"
+      "inchikey_skeleton": "WSWCOQWTEOXDQX",
+      "occurrence": "Other berry",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 65,
@@ -522,7 +650,9 @@
       "formula": "C18H28O2",
       "pubchem_cid": "5312508",
       "inchikey": "JIWBIWFOSCKQMA-LTKCOYKYSA-N",
-      "inchikey_skeleton": "JIWBIWFOSCKQMA"
+      "inchikey_skeleton": "JIWBIWFOSCKQMA",
+      "occurrence": "Other berry",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 66,
@@ -530,7 +660,9 @@
       "formula": "C18H34O4",
       "pubchem_cid": "10236635",
       "inchikey": "CQSLTKIXAJTQGA-FLIBITNWSA-N",
-      "inchikey_skeleton": "CQSLTKIXAJTQGA"
+      "inchikey_skeleton": "CQSLTKIXAJTQGA",
+      "occurrence": "Other plant",
+      "detection": "oxidation / processing artifact"
     },
     {
       "id": 67,
@@ -538,7 +670,9 @@
       "formula": "C18H32O4",
       "pubchem_cid": "6437847",
       "inchikey": "JDSRHVWSAMTSSN-BSZOFBHHSA-N",
-      "inchikey_skeleton": "JDSRHVWSAMTSSN"
+      "inchikey_skeleton": "JDSRHVWSAMTSSN",
+      "occurrence": "Other plant",
+      "detection": "oxidation / processing artifact"
     },
     {
       "id": 68,
@@ -546,7 +680,9 @@
       "formula": "C10H19NO",
       "pubchem_cid": "91461",
       "inchikey": "HDVAWXXJVMJBAR-VHSXEESVSA-N",
-      "inchikey_skeleton": "HDVAWXXJVMJBAR"
+      "inchikey_skeleton": "HDVAWXXJVMJBAR",
+      "occurrence": "Other plant",
+      "detection": "foreign — shouldn't be in elderberry"
     },
     {
       "id": 69,
@@ -554,7 +690,9 @@
       "formula": "C15H25NO2",
       "pubchem_cid": "10911986",
       "inchikey": "BHBDCRJVCZOPFM-XBFCOCLRSA-N",
-      "inchikey_skeleton": "BHBDCRJVCZOPFM"
+      "inchikey_skeleton": "BHBDCRJVCZOPFM",
+      "occurrence": "Other plant",
+      "detection": "foreign — shouldn't be in elderberry"
     },
     {
       "id": 70,
@@ -562,7 +700,9 @@
       "formula": "C18H32O5",
       "pubchem_cid": "23872026",
       "inchikey": "ADHVWICOFLYDST-MKZMYESJSA-N",
-      "inchikey_skeleton": "ADHVWICOFLYDST"
+      "inchikey_skeleton": "ADHVWICOFLYDST",
+      "occurrence": "Other plant",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 71,
@@ -570,7 +710,9 @@
       "formula": "C30H46O3",
       "pubchem_cid": "66556826",
       "inchikey": "UVBLDLGZDSGCSN-MOLRDKPXSA-N",
-      "inchikey_skeleton": "UVBLDLGZDSGCSN"
+      "inchikey_skeleton": "UVBLDLGZDSGCSN",
+      "occurrence": "Other plant",
+      "detection": "foreign — shouldn't be in elderberry"
     },
     {
       "id": 72,
@@ -578,7 +720,9 @@
       "formula": "C16H26O6",
       "pubchem_cid": "10710378",
       "inchikey": "IPOIBBMZOXJYFV-RMPHEQRESA-N",
-      "inchikey_skeleton": "IPOIBBMZOXJYFV"
+      "inchikey_skeleton": "IPOIBBMZOXJYFV",
+      "occurrence": "Other plant",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 73,
@@ -586,7 +730,9 @@
       "formula": "C22H39NO",
       "pubchem_cid": "91746724",
       "inchikey": "PCWWIOUZYOPZHT-WMVGRUGPSA-N",
-      "inchikey_skeleton": "PCWWIOUZYOPZHT"
+      "inchikey_skeleton": "PCWWIOUZYOPZHT",
+      "occurrence": "Other plant",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 74,
@@ -594,7 +740,9 @@
       "formula": "C25H43NO",
       "pubchem_cid": "101634668",
       "inchikey": "MKEWSYYOWWKTAK-AEPHKGLBSA-N",
-      "inchikey_skeleton": "MKEWSYYOWWKTAK"
+      "inchikey_skeleton": "MKEWSYYOWWKTAK",
+      "occurrence": "Other plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 75,
@@ -602,7 +750,9 @@
       "formula": "C23H39NO",
       "pubchem_cid": "131751247",
       "inchikey": "HFWMTBWJCPVZTO-ZQACVTJVSA-N",
-      "inchikey_skeleton": "HFWMTBWJCPVZTO"
+      "inchikey_skeleton": "HFWMTBWJCPVZTO",
+      "occurrence": "Other plant",
+      "detection": "foreign — shouldn't be in elderberry"
     },
     {
       "id": 76,
@@ -610,7 +760,9 @@
       "formula": "C22H41NO",
       "pubchem_cid": "101713141",
       "inchikey": "QQCGKIZHTJLRNN-JUJVUSMPSA-N",
-      "inchikey_skeleton": "QQCGKIZHTJLRNN"
+      "inchikey_skeleton": "QQCGKIZHTJLRNN",
+      "occurrence": "Other plant",
+      "detection": "foreign — shouldn't be in elderberry"
     },
     {
       "id": 77,
@@ -618,7 +770,9 @@
       "formula": "C14H20O2",
       "pubchem_cid": "129650344",
       "inchikey": "AGXXOOILRXZQTH-UHFFFAOYSA-N",
-      "inchikey_skeleton": "AGXXOOILRXZQTH"
+      "inchikey_skeleton": "AGXXOOILRXZQTH",
+      "occurrence": "Other plant",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 78,
@@ -626,7 +780,9 @@
       "formula": "C18H37NO3",
       "pubchem_cid": "14757419",
       "inchikey": "CQKNELOTFUSOTP-ZHACJKMWSA-N",
-      "inchikey_skeleton": "CQKNELOTFUSOTP"
+      "inchikey_skeleton": "CQKNELOTFUSOTP",
+      "occurrence": "Other plant",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 79,
@@ -634,7 +790,9 @@
       "formula": "C18H35NO",
       "pubchem_cid": "5283387",
       "inchikey": "FATBGEAMYMYZAF-KTKRTIGZSA-N",
-      "inchikey_skeleton": "FATBGEAMYMYZAF"
+      "inchikey_skeleton": "FATBGEAMYMYZAF",
+      "occurrence": "Other plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 80,
@@ -642,7 +800,9 @@
       "formula": "C21H41NO",
       "pubchem_cid": "6430518",
       "inchikey": "VRAFLAJRBDTYBS-UHFFFAOYSA-N",
-      "inchikey_skeleton": "VRAFLAJRBDTYBS"
+      "inchikey_skeleton": "VRAFLAJRBDTYBS",
+      "occurrence": "Other plant",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 81,
@@ -650,7 +810,9 @@
       "formula": "C5H13N3O",
       "pubchem_cid": "502",
       "inchikey": "YANFYYGANIYHGI-UHFFFAOYSA-N",
-      "inchikey_skeleton": "YANFYYGANIYHGI"
+      "inchikey_skeleton": "YANFYYGANIYHGI",
+      "occurrence": "Other plant",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 82,
@@ -658,7 +820,9 @@
       "formula": "C13H16O3",
       "pubchem_cid": "13308867",
       "inchikey": "SXPHHWILAWXFLE-UHFFFAOYSA-N",
-      "inchikey_skeleton": "SXPHHWILAWXFLE"
+      "inchikey_skeleton": "SXPHHWILAWXFLE",
+      "occurrence": "Other plant",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 83,
@@ -666,7 +830,9 @@
       "formula": "C24H41NO",
       "pubchem_cid": "85697559",
       "inchikey": "XPASABMPOWTXIB-UHFFFAOYSA-N",
-      "inchikey_skeleton": "XPASABMPOWTXIB"
+      "inchikey_skeleton": "XPASABMPOWTXIB",
+      "occurrence": "Other plant",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 84,
@@ -674,7 +840,9 @@
       "formula": "C10H19NO7",
       "pubchem_cid": "131752417",
       "inchikey": "HUEOABWGBTXQNF-SFKDOBOXSA-N",
-      "inchikey_skeleton": "HUEOABWGBTXQNF"
+      "inchikey_skeleton": "HUEOABWGBTXQNF",
+      "occurrence": "Other plant",
+      "detection": "oxidation / processing artifact"
     },
     {
       "id": 85,
@@ -682,7 +850,9 @@
       "formula": "C20H39NO",
       "pubchem_cid": "247220",
       "inchikey": "ULDNZNZTSYZQKK-UHFFFAOYSA-N",
-      "inchikey_skeleton": "ULDNZNZTSYZQKK"
+      "inchikey_skeleton": "ULDNZNZTSYZQKK",
+      "occurrence": "Other plant",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 86,
@@ -690,7 +860,9 @@
       "formula": "C15H31O7P",
       "pubchem_cid": "52929750",
       "inchikey": "STTKJLVEXMKLNA-CQSZACIVSA-N",
-      "inchikey_skeleton": "STTKJLVEXMKLNA"
+      "inchikey_skeleton": "STTKJLVEXMKLNA",
+      "occurrence": "Other plant",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 87,
@@ -698,7 +870,9 @@
       "formula": "C21H44NO7P",
       "pubchem_cid": "9547069",
       "inchikey": "YVYMBNSKXOXSKW-HXUWFJFHSA-N",
-      "inchikey_skeleton": "YVYMBNSKXOXSKW"
+      "inchikey_skeleton": "YVYMBNSKXOXSKW",
+      "occurrence": "Other plant",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 88,
@@ -706,7 +880,9 @@
       "formula": "C19H34O4",
       "pubchem_cid": "45782986",
       "inchikey": "FHGZOCAZNHYWAL-UHFFFAOYSA-N",
-      "inchikey_skeleton": "FHGZOCAZNHYWAL"
+      "inchikey_skeleton": "FHGZOCAZNHYWAL",
+      "occurrence": "Other plant",
+      "detection": "foreign — shouldn't be in elderberry"
     },
     {
       "id": 89,
@@ -714,7 +890,9 @@
       "formula": "C25H48O4",
       "pubchem_cid": "6438186",
       "inchikey": "TZDOBCZHGBGJLS-KTKRTIGZSA-N",
-      "inchikey_skeleton": "TZDOBCZHGBGJLS"
+      "inchikey_skeleton": "TZDOBCZHGBGJLS",
+      "occurrence": "Other plant",
+      "detection": "foreign — shouldn't be in elderberry"
     },
     {
       "id": 90,
@@ -722,7 +900,9 @@
       "formula": "C8H18O3",
       "pubchem_cid": "85279741",
       "inchikey": "NGACGNKKNNNNHK-UHFFFAOYSA-N",
-      "inchikey_skeleton": "NGACGNKKNNNNHK"
+      "inchikey_skeleton": "NGACGNKKNNNNHK",
+      "occurrence": "Other plant",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 91,
@@ -730,7 +910,9 @@
       "formula": "C21H34O4",
       "pubchem_cid": "168115",
       "inchikey": "AIULWNKTYPZYAN-SFHVURJKSA-N",
-      "inchikey_skeleton": "AIULWNKTYPZYAN"
+      "inchikey_skeleton": "AIULWNKTYPZYAN",
+      "occurrence": "Other plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 92,
@@ -738,7 +920,9 @@
       "formula": "C18H33NO4",
       "pubchem_cid": "24836820",
       "inchikey": "WRADPCFZZWXOTI-BMRADRMJSA-N",
-      "inchikey_skeleton": "WRADPCFZZWXOTI"
+      "inchikey_skeleton": "WRADPCFZZWXOTI",
+      "occurrence": "Other plant",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 93,
@@ -746,7 +930,9 @@
       "formula": "C17H32O3",
       "pubchem_cid": "3015189",
       "inchikey": "OHLQBKZXSJYBMK-UHFFFAOYSA-N",
-      "inchikey_skeleton": "OHLQBKZXSJYBMK"
+      "inchikey_skeleton": "OHLQBKZXSJYBMK",
+      "occurrence": "Other plant",
+      "detection": "foreign — shouldn't be in elderberry"
     },
     {
       "id": 94,
@@ -754,7 +940,9 @@
       "formula": "C21H34O3",
       "pubchem_cid": "495571",
       "inchikey": "VYVVNCBNYVCVGC-UHFFFAOYSA-N",
-      "inchikey_skeleton": "VYVVNCBNYVCVGC"
+      "inchikey_skeleton": "VYVVNCBNYVCVGC",
+      "occurrence": "Other plant",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 95,
@@ -762,7 +950,9 @@
       "formula": "C6H11NO",
       "pubchem_cid": "550747",
       "inchikey": "FYCFJMPASVKULQ-UHFFFAOYSA-N",
-      "inchikey_skeleton": "FYCFJMPASVKULQ"
+      "inchikey_skeleton": "FYCFJMPASVKULQ",
+      "occurrence": "Other plant",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 96,
@@ -770,7 +960,9 @@
       "formula": "C4H9NO2",
       "pubchem_cid": "6657",
       "inchikey": "QWCKQJZIFLGMSD-UHFFFAOYSA-N",
-      "inchikey_skeleton": "QWCKQJZIFLGMSD"
+      "inchikey_skeleton": "QWCKQJZIFLGMSD",
+      "occurrence": "Other plant",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 97,
@@ -778,7 +970,9 @@
       "formula": "C23H44NO7P",
       "pubchem_cid": "53480926",
       "inchikey": "SVRBKLJIDJHADS-USWSLJGRSA-N",
-      "inchikey_skeleton": "SVRBKLJIDJHADS"
+      "inchikey_skeleton": "SVRBKLJIDJHADS",
+      "occurrence": "Other plant",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 98,
@@ -786,7 +980,9 @@
       "formula": "C19H36O4",
       "pubchem_cid": "3624980",
       "inchikey": "NLBYRERHXBTBBR-UHFFFAOYSA-N",
-      "inchikey_skeleton": "NLBYRERHXBTBBR"
+      "inchikey_skeleton": "NLBYRERHXBTBBR",
+      "occurrence": "Other plant",
+      "detection": "foreign — shouldn't be in elderberry"
     },
     {
       "id": 99,
@@ -794,7 +990,9 @@
       "formula": "C10H14S",
       "pubchem_cid": "566107",
       "inchikey": "UAGFAMQTBLSQSU-UHFFFAOYSA-N",
-      "inchikey_skeleton": "UAGFAMQTBLSQSU"
+      "inchikey_skeleton": "UAGFAMQTBLSQSU",
+      "occurrence": "Other plant",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 100,
@@ -802,7 +1000,9 @@
       "formula": "C28H48O3",
       "pubchem_cid": "16061345",
       "inchikey": "URNVSZVQLKHKDE-WAFXAADMSA-N",
-      "inchikey_skeleton": "URNVSZVQLKHKDE"
+      "inchikey_skeleton": "URNVSZVQLKHKDE",
+      "occurrence": "Other plant",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 101,
@@ -810,7 +1010,9 @@
       "formula": "C5H12OS",
       "pubchem_cid": "520682",
       "inchikey": "GBCGIJAYTBMFHI-UHFFFAOYSA-N",
-      "inchikey_skeleton": "GBCGIJAYTBMFHI"
+      "inchikey_skeleton": "GBCGIJAYTBMFHI",
+      "occurrence": "Other plant",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 102,
@@ -818,7 +1020,9 @@
       "formula": "C15H22O2",
       "pubchem_cid": "73219",
       "inchikey": "DOZRDZLFLOODMB-UHFFFAOYSA-N",
-      "inchikey_skeleton": "DOZRDZLFLOODMB"
+      "inchikey_skeleton": "DOZRDZLFLOODMB",
+      "occurrence": "Other plant",
+      "detection": "oxidation / processing artifact"
     },
     {
       "id": 103,
@@ -826,7 +1030,9 @@
       "formula": "C29H48O2",
       "pubchem_cid": "21145202",
       "inchikey": "HCOOTBJPHHNRCV-AQTSNUJDSA-N",
-      "inchikey_skeleton": "HCOOTBJPHHNRCV"
+      "inchikey_skeleton": "HCOOTBJPHHNRCV",
+      "occurrence": "Other plant",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 104,
@@ -834,7 +1040,9 @@
       "formula": "C29H48O2",
       "pubchem_cid": "21145202",
       "inchikey": "HCOOTBJPHHNRCV-AQTSNUJDSA-N",
-      "inchikey_skeleton": "HCOOTBJPHHNRCV"
+      "inchikey_skeleton": "HCOOTBJPHHNRCV",
+      "occurrence": "Other plant",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 105,
@@ -842,7 +1050,9 @@
       "formula": "C5H11N3O2",
       "pubchem_cid": "500",
       "inchikey": "TUHVEAJXIMEOSA-UHFFFAOYSA-N",
-      "inchikey_skeleton": "TUHVEAJXIMEOSA"
+      "inchikey_skeleton": "TUHVEAJXIMEOSA",
+      "occurrence": "Other plant",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 106,
@@ -850,7 +1060,9 @@
       "formula": "C5H9NO3",
       "pubchem_cid": "137",
       "inchikey": "ZGXJTSGNIOSYLO-UHFFFAOYSA-N",
-      "inchikey_skeleton": "ZGXJTSGNIOSYLO"
+      "inchikey_skeleton": "ZGXJTSGNIOSYLO",
+      "occurrence": "Other plant",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 107,
@@ -858,7 +1070,9 @@
       "formula": "C19H32O2",
       "pubchem_cid": "21718552",
       "inchikey": "KOJYENXGDXRGDK-ZUGARUELSA-N",
-      "inchikey_skeleton": "KOJYENXGDXRGDK"
+      "inchikey_skeleton": "KOJYENXGDXRGDK",
+      "occurrence": "Other plant",
+      "detection": "oxidation / processing artifact"
     },
     {
       "id": 108,
@@ -866,7 +1080,9 @@
       "formula": "C8H16N2O3",
       "pubchem_cid": "92907",
       "inchikey": "VEYYWZRYIYDQJM-ZETCQYMHSA-N",
-      "inchikey_skeleton": "VEYYWZRYIYDQJM"
+      "inchikey_skeleton": "VEYYWZRYIYDQJM",
+      "occurrence": "Other plant",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 109,
@@ -874,7 +1090,9 @@
       "formula": "C8H9NO",
       "pubchem_cid": "904",
       "inchikey": "FZERHIULMFGESH-UHFFFAOYSA-N",
-      "inchikey_skeleton": "FZERHIULMFGESH"
+      "inchikey_skeleton": "FZERHIULMFGESH",
+      "occurrence": "Other plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 110,
@@ -882,7 +1100,9 @@
       "formula": "C7H16N4O",
       "pubchem_cid": "439661",
       "inchikey": "JMACEDIUUMWDIC-UHFFFAOYSA-N",
-      "inchikey_skeleton": "JMACEDIUUMWDIC"
+      "inchikey_skeleton": "JMACEDIUUMWDIC",
+      "occurrence": "Other plant",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 111,
@@ -890,7 +1110,9 @@
       "formula": "C9H17NO4",
       "pubchem_cid": "7045767",
       "inchikey": "RDHQFKQIGNGIED-MRVPVSSYSA-N",
-      "inchikey_skeleton": "RDHQFKQIGNGIED"
+      "inchikey_skeleton": "RDHQFKQIGNGIED",
+      "occurrence": "Other plant",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 112,
@@ -898,7 +1120,9 @@
       "formula": "C15H24O3",
       "pubchem_cid": "181557",
       "inchikey": "QVMGKSVFLSTTEO-YJNKXOJESA-N",
-      "inchikey_skeleton": "QVMGKSVFLSTTEO"
+      "inchikey_skeleton": "QVMGKSVFLSTTEO",
+      "occurrence": "Other plant",
+      "detection": "foreign — shouldn't be in elderberry"
     },
     {
       "id": 113,
@@ -906,7 +1130,9 @@
       "formula": "C5H6O5",
       "pubchem_cid": "51",
       "inchikey": "KPGXRSRHYNQIFN-UHFFFAOYSA-N",
-      "inchikey_skeleton": "KPGXRSRHYNQIFN"
+      "inchikey_skeleton": "KPGXRSRHYNQIFN",
+      "occurrence": "Other plant",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 114,
@@ -914,7 +1140,9 @@
       "formula": "C22H36O3",
       "pubchem_cid": "167551",
       "inchikey": "ADFWQBGTDJIESE-UHFFFAOYSA-N",
-      "inchikey_skeleton": "ADFWQBGTDJIESE"
+      "inchikey_skeleton": "ADFWQBGTDJIESE",
+      "occurrence": "Other plant",
+      "detection": "foreign — shouldn't be in elderberry"
     },
     {
       "id": 115,
@@ -922,7 +1150,9 @@
       "formula": "C19H30O2",
       "pubchem_cid": "10635",
       "inchikey": "NVKAWKQGWWIWPM-ABEVXSGRSA-N",
-      "inchikey_skeleton": "NVKAWKQGWWIWPM"
+      "inchikey_skeleton": "NVKAWKQGWWIWPM",
+      "occurrence": "Other plant",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 116,
@@ -930,7 +1160,9 @@
       "formula": "C7H13NO4",
       "pubchem_cid": "101122",
       "inchikey": "JUQLUIFNNFIIKC-UHFFFAOYSA-N",
-      "inchikey_skeleton": "JUQLUIFNNFIIKC"
+      "inchikey_skeleton": "JUQLUIFNNFIIKC",
+      "occurrence": "Other plant",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 117,
@@ -938,7 +1170,9 @@
       "formula": "C20H38O2",
       "pubchem_cid": "5282768",
       "inchikey": "BITHHVVYSMSWAG-KTKRTIGZSA-N",
-      "inchikey_skeleton": "BITHHVVYSMSWAG"
+      "inchikey_skeleton": "BITHHVVYSMSWAG",
+      "occurrence": "Other plant",
+      "detection": "foreign — shouldn't be in elderberry"
     },
     {
       "id": 118,
@@ -946,7 +1180,9 @@
       "formula": "C10H12O4",
       "pubchem_cid": "20525",
       "inchikey": "IAJBQAYHSQIQRE-UHFFFAOYSA-N",
-      "inchikey_skeleton": "IAJBQAYHSQIQRE"
+      "inchikey_skeleton": "IAJBQAYHSQIQRE",
+      "occurrence": "Other plant",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 119,
@@ -954,7 +1190,9 @@
       "formula": "C13H10O",
       "pubchem_cid": "3102",
       "inchikey": "RWCCWEUUXYIKHB-UHFFFAOYSA-N",
-      "inchikey_skeleton": "RWCCWEUUXYIKHB"
+      "inchikey_skeleton": "RWCCWEUUXYIKHB",
+      "occurrence": "Other plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 120,
@@ -962,7 +1200,9 @@
       "formula": "C12H18N4O",
       "pubchem_cid": "439689",
       "inchikey": "ZRBMNUPECIGKKJ-UHFFFAOYSA-N",
-      "inchikey_skeleton": "ZRBMNUPECIGKKJ"
+      "inchikey_skeleton": "ZRBMNUPECIGKKJ",
+      "occurrence": "Other plant",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 121,
@@ -970,7 +1210,9 @@
       "formula": "C8H9NO",
       "pubchem_cid": "80654",
       "inchikey": "IIBOGKHTXBPGEI-UHFFFAOYSA-N",
-      "inchikey_skeleton": "IIBOGKHTXBPGEI"
+      "inchikey_skeleton": "IIBOGKHTXBPGEI",
+      "occurrence": "Other plant",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 122,
@@ -978,7 +1220,9 @@
       "formula": "C12H20O10",
       "pubchem_cid": "196181",
       "inchikey": "KSRQDWNGXKYIDO-TWOHWVPZSA-N",
-      "inchikey_skeleton": "KSRQDWNGXKYIDO"
+      "inchikey_skeleton": "KSRQDWNGXKYIDO",
+      "occurrence": "Other plant",
+      "detection": "foreign — shouldn't be in elderberry"
     },
     {
       "id": 123,
@@ -986,7 +1230,9 @@
       "formula": "C12H15NO7",
       "pubchem_cid": "442629",
       "inchikey": "ASJDJBXXEHTEBW-GPTQDWHKSA-N",
-      "inchikey_skeleton": "ASJDJBXXEHTEBW"
+      "inchikey_skeleton": "ASJDJBXXEHTEBW",
+      "occurrence": "Other plant",
+      "detection": "foreign — shouldn't be in elderberry"
     },
     {
       "id": 124,
@@ -994,7 +1240,9 @@
       "formula": "C15H24O",
       "pubchem_cid": "31404",
       "inchikey": "NLZUEZXRPGMBCV-UHFFFAOYSA-N",
-      "inchikey_skeleton": "NLZUEZXRPGMBCV"
+      "inchikey_skeleton": "NLZUEZXRPGMBCV",
+      "occurrence": "Other plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 125,
@@ -1002,7 +1250,9 @@
       "formula": "C6H11NO",
       "pubchem_cid": "7768",
       "inchikey": "JBKVHLHDHHXQEQ-UHFFFAOYSA-N",
-      "inchikey_skeleton": "JBKVHLHDHHXQEQ"
+      "inchikey_skeleton": "JBKVHLHDHHXQEQ",
+      "occurrence": "Other plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 126,
@@ -1010,7 +1260,9 @@
       "formula": "C17H35NO",
       "pubchem_cid": "47346",
       "inchikey": "AMLDBWWQKYLAHJ-UHFFFAOYSA-N",
-      "inchikey_skeleton": "AMLDBWWQKYLAHJ"
+      "inchikey_skeleton": "AMLDBWWQKYLAHJ",
+      "occurrence": "Other plant",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 127,
@@ -1018,7 +1270,9 @@
       "formula": "C5H13NO",
       "pubchem_cid": "305",
       "inchikey": "OEYIOHPDSNJKLS-UHFFFAOYSA-N",
-      "inchikey_skeleton": "OEYIOHPDSNJKLS"
+      "inchikey_skeleton": "OEYIOHPDSNJKLS",
+      "occurrence": "Other plant",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 128,
@@ -1026,7 +1280,9 @@
       "formula": "C8H20NO6P",
       "pubchem_cid": "657272",
       "inchikey": "SUHOQUVVVLNYQR-MRVPVSSYSA-N",
-      "inchikey_skeleton": "SUHOQUVVVLNYQR"
+      "inchikey_skeleton": "SUHOQUVVVLNYQR",
+      "occurrence": "Other plant",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 129,
@@ -1034,7 +1290,9 @@
       "formula": "C5H9NO3",
       "pubchem_cid": "440014",
       "inchikey": "PMMYEEVYMWASQN-QWWZWVQMSA-N",
-      "inchikey_skeleton": "PMMYEEVYMWASQN"
+      "inchikey_skeleton": "PMMYEEVYMWASQN",
+      "occurrence": "Other plant",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 130,
@@ -1042,7 +1300,9 @@
       "formula": "C9H6O2",
       "pubchem_cid": "323",
       "inchikey": "ZYGHJZDHTFUPRJ-UHFFFAOYSA-N",
-      "inchikey_skeleton": "ZYGHJZDHTFUPRJ"
+      "inchikey_skeleton": "ZYGHJZDHTFUPRJ",
+      "occurrence": "Other plant",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 131,
@@ -1050,7 +1310,9 @@
       "formula": "C8H6O",
       "pubchem_cid": "9223",
       "inchikey": "IANQTJSKSUMEQM-UHFFFAOYSA-N",
-      "inchikey_skeleton": "IANQTJSKSUMEQM"
+      "inchikey_skeleton": "IANQTJSKSUMEQM",
+      "occurrence": "Other plant",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 132,
@@ -1058,7 +1320,9 @@
       "formula": "C15H22",
       "pubchem_cid": "92139",
       "inchikey": "VMYXUZSZMNBRCN-UHFFFAOYSA-N",
-      "inchikey_skeleton": "VMYXUZSZMNBRCN"
+      "inchikey_skeleton": "VMYXUZSZMNBRCN",
+      "occurrence": "Other plant",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 133,
@@ -1066,7 +1330,9 @@
       "formula": "C27H41NO2",
       "pubchem_cid": "442972",
       "inchikey": "QASFUMOKHFSJGL-LAFRSMQTSA-N",
-      "inchikey_skeleton": "QASFUMOKHFSJGL"
+      "inchikey_skeleton": "QASFUMOKHFSJGL",
+      "occurrence": "Other plant",
+      "detection": "foreign — shouldn't be in elderberry"
     },
     {
       "id": 134,
@@ -1074,7 +1340,9 @@
       "formula": "C9H13N3O5",
       "pubchem_cid": "6175",
       "inchikey": "UHDGCWIWMRVCDJ-XVFCMESISA-N",
-      "inchikey_skeleton": "UHDGCWIWMRVCDJ"
+      "inchikey_skeleton": "UHDGCWIWMRVCDJ",
+      "occurrence": "Other plant",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 135,
@@ -1082,7 +1350,9 @@
       "formula": "C12H22O11",
       "pubchem_cid": "439186",
       "inchikey": "GUBGYTABKSRVRQ-PICCSMPSSA-N",
-      "inchikey_skeleton": "GUBGYTABKSRVRQ"
+      "inchikey_skeleton": "GUBGYTABKSRVRQ",
+      "occurrence": "Other plant",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 136,
@@ -1090,7 +1360,9 @@
       "formula": "C6H10O6",
       "pubchem_cid": "736",
       "inchikey": "PHOQVHQSTUBQQK-UHFFFAOYSA-N",
-      "inchikey_skeleton": "PHOQVHQSTUBQQK"
+      "inchikey_skeleton": "PHOQVHQSTUBQQK",
+      "occurrence": "Other plant",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 137,
@@ -1098,7 +1370,9 @@
       "formula": "C25H33NO11",
       "pubchem_cid": "441257",
       "inchikey": "MTAVTRZTGFLKSC-ONGZBVEHSA-N",
-      "inchikey_skeleton": "MTAVTRZTGFLKSC"
+      "inchikey_skeleton": "MTAVTRZTGFLKSC",
+      "occurrence": "Other plant",
+      "detection": "foreign — shouldn't be in elderberry"
     },
     {
       "id": 138,
@@ -1106,7 +1380,9 @@
       "formula": "C12H17NO6",
       "pubchem_cid": "73604",
       "inchikey": "HBCFZAXOSTUEHA-ZSOJELSESA-N",
-      "inchikey_skeleton": "HBCFZAXOSTUEHA"
+      "inchikey_skeleton": "HBCFZAXOSTUEHA",
+      "occurrence": "Other plant",
+      "detection": "foreign — shouldn't be in elderberry"
     },
     {
       "id": 139,
@@ -1114,7 +1390,9 @@
       "formula": "C10H18N2O3",
       "pubchem_cid": "445027",
       "inchikey": "AUTOLBMXDDTRRT-JGVFFNPUSA-N",
-      "inchikey_skeleton": "AUTOLBMXDDTRRT"
+      "inchikey_skeleton": "AUTOLBMXDDTRRT",
+      "occurrence": "Other plant",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 140,
@@ -1122,7 +1400,9 @@
       "formula": "C12H14O4",
       "pubchem_cid": "6781",
       "inchikey": "FLKPEMZONWLCSK-UHFFFAOYSA-N",
-      "inchikey_skeleton": "FLKPEMZONWLCSK"
+      "inchikey_skeleton": "FLKPEMZONWLCSK",
+      "occurrence": "Other plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 141,
@@ -1130,7 +1410,9 @@
       "formula": "C9H14N2O6",
       "pubchem_cid": "94312",
       "inchikey": "ZPTBLXKRQACLCR-XVFCMESISA-N",
-      "inchikey_skeleton": "ZPTBLXKRQACLCR"
+      "inchikey_skeleton": "ZPTBLXKRQACLCR",
+      "occurrence": "Other plant",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 142,
@@ -1138,7 +1420,9 @@
       "formula": "C9H18N2O3",
       "pubchem_cid": "259583",
       "inchikey": "RDIKFPRVLJLMER-UHFFFAOYSA-N",
-      "inchikey_skeleton": "RDIKFPRVLJLMER"
+      "inchikey_skeleton": "RDIKFPRVLJLMER",
+      "occurrence": "Other plant",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 143,
@@ -1146,7 +1430,9 @@
       "formula": "C22H45NO",
       "pubchem_cid": "76468",
       "inchikey": "ORAWFNKFUWGRJG-UHFFFAOYSA-N",
-      "inchikey_skeleton": "ORAWFNKFUWGRJG"
+      "inchikey_skeleton": "ORAWFNKFUWGRJG",
+      "occurrence": "Other plant",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 144,
@@ -1154,7 +1440,9 @@
       "formula": "C12H21NO2",
       "pubchem_cid": "442855",
       "inchikey": "JWTAWEGUCCQPAM-USWWRNFRSA-N",
-      "inchikey_skeleton": "JWTAWEGUCCQPAM"
+      "inchikey_skeleton": "JWTAWEGUCCQPAM",
+      "occurrence": "Other plant",
+      "detection": "foreign — shouldn't be in elderberry"
     },
     {
       "id": 145,
@@ -1162,7 +1450,9 @@
       "formula": "C22H43NO",
       "pubchem_cid": "5365371",
       "inchikey": "UAUDZVJPLUQNMU-KTKRTIGZSA-N",
-      "inchikey_skeleton": "UAUDZVJPLUQNMU"
+      "inchikey_skeleton": "UAUDZVJPLUQNMU",
+      "occurrence": "Other plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 146,
@@ -1170,7 +1460,9 @@
       "formula": "C9H10O3",
       "pubchem_cid": "8434",
       "inchikey": "NUVBSKCKDOMJSU-UHFFFAOYSA-N",
-      "inchikey_skeleton": "NUVBSKCKDOMJSU"
+      "inchikey_skeleton": "NUVBSKCKDOMJSU",
+      "occurrence": "Other plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 147,
@@ -1178,7 +1470,9 @@
       "formula": "C22H26O6",
       "pubchem_cid": "73117",
       "inchikey": "PEUUVVGQIVMSAW-RZTYQLBFSA-N",
-      "inchikey_skeleton": "PEUUVVGQIVMSAW"
+      "inchikey_skeleton": "PEUUVVGQIVMSAW",
+      "occurrence": "Other plant",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 148,
@@ -1186,7 +1480,9 @@
       "formula": "C15H12O2",
       "pubchem_cid": "10251",
       "inchikey": "ZONYXWQDUYMKFB-UHFFFAOYSA-N",
-      "inchikey_skeleton": "ZONYXWQDUYMKFB"
+      "inchikey_skeleton": "ZONYXWQDUYMKFB",
+      "occurrence": "Other plant",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 149,
@@ -1194,7 +1490,9 @@
       "formula": "C17H24O4",
       "pubchem_cid": "162952",
       "inchikey": "KMNVXQHNIWUUSE-UHFFFAOYSA-N",
-      "inchikey_skeleton": "KMNVXQHNIWUUSE"
+      "inchikey_skeleton": "KMNVXQHNIWUUSE",
+      "occurrence": "Other plant",
+      "detection": "oxidation / processing artifact"
     },
     {
       "id": 150,
@@ -1202,7 +1500,9 @@
       "formula": "C6H12O7",
       "pubchem_cid": "10690",
       "inchikey": "RGHNJXZEOKUKBD-SQOUGZDYSA-N",
-      "inchikey_skeleton": "RGHNJXZEOKUKBD"
+      "inchikey_skeleton": "RGHNJXZEOKUKBD",
+      "occurrence": "Other plant",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 151,
@@ -1210,7 +1510,9 @@
       "formula": "C5H10N2O3",
       "pubchem_cid": "5961",
       "inchikey": "ZDXPYRJPNDTMRX-VKHMYHEASA-N",
-      "inchikey_skeleton": "ZDXPYRJPNDTMRX"
+      "inchikey_skeleton": "ZDXPYRJPNDTMRX",
+      "occurrence": "Other plant",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 152,
@@ -1218,7 +1520,9 @@
       "formula": "C30H46O4",
       "pubchem_cid": "10114",
       "inchikey": "MPDGHEJMBKOTSU-YKLVYJNSSA-N",
-      "inchikey_skeleton": "MPDGHEJMBKOTSU"
+      "inchikey_skeleton": "MPDGHEJMBKOTSU",
+      "occurrence": "Other plant",
+      "detection": "foreign — shouldn't be in elderberry"
     },
     {
       "id": 153,
@@ -1226,7 +1530,9 @@
       "formula": "C5H9N3O4",
       "pubchem_cid": "439918",
       "inchikey": "VVHOUVWJCQOYGG-REOHCLBHSA-N",
-      "inchikey_skeleton": "VVHOUVWJCQOYGG"
+      "inchikey_skeleton": "VVHOUVWJCQOYGG",
+      "occurrence": "Other plant",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 154,
@@ -1234,7 +1540,9 @@
       "formula": "C5H11NO3S",
       "pubchem_cid": "158980",
       "inchikey": "QEFRNWWLZKMPFJ-YGVKFDHGSA-N",
-      "inchikey_skeleton": "QEFRNWWLZKMPFJ"
+      "inchikey_skeleton": "QEFRNWWLZKMPFJ",
+      "occurrence": "Other plant",
+      "detection": "oxidation / processing artifact"
     },
     {
       "id": 155,
@@ -1242,7 +1550,9 @@
       "formula": "C10H8O3",
       "pubchem_cid": "5280567",
       "inchikey": "HSHNITRMYYLLCV-UHFFFAOYSA-N",
-      "inchikey_skeleton": "HSHNITRMYYLLCV"
+      "inchikey_skeleton": "HSHNITRMYYLLCV",
+      "occurrence": "Other plant",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 156,
@@ -1250,7 +1560,9 @@
       "formula": "C26H28O15",
       "pubchem_cid": "44566720",
       "inchikey": "RXAXTTGJEMODPY-CJNLAGEVSA-N",
-      "inchikey_skeleton": "RXAXTTGJEMODPY"
+      "inchikey_skeleton": "RXAXTTGJEMODPY",
+      "occurrence": "Other plant",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 157,
@@ -1258,7 +1570,9 @@
       "formula": "C10H18N2O5",
       "pubchem_cid": "7015683",
       "inchikey": "AQAKHZVPOOGUCK-XPUUQOCRSA-N",
-      "inchikey_skeleton": "AQAKHZVPOOGUCK"
+      "inchikey_skeleton": "AQAKHZVPOOGUCK",
+      "occurrence": "Other plant",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 158,
@@ -1266,7 +1580,9 @@
       "formula": "C12H24N2O3",
       "pubchem_cid": "76807",
       "inchikey": "LCPYQJIKPJDLLB-UWVGGRQHSA-N",
-      "inchikey_skeleton": "LCPYQJIKPJDLLB"
+      "inchikey_skeleton": "LCPYQJIKPJDLLB",
+      "occurrence": "Other plant",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 159,
@@ -1274,7 +1590,9 @@
       "formula": "C11H20N2O3",
       "pubchem_cid": "80817",
       "inchikey": "VTJUNIYRYIAIHF-IUCAKERBSA-N",
-      "inchikey_skeleton": "VTJUNIYRYIAIHF"
+      "inchikey_skeleton": "VTJUNIYRYIAIHF",
+      "occurrence": "Other plant",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 160,
@@ -1282,7 +1600,9 @@
       "formula": "C18H33NO",
       "pubchem_cid": "6435901",
       "inchikey": "SFIHQZFZMWZOJV-HZJYTTRNSA-N",
-      "inchikey_skeleton": "SFIHQZFZMWZOJV"
+      "inchikey_skeleton": "SFIHQZFZMWZOJV",
+      "occurrence": "Other plant",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 161,
@@ -1290,7 +1610,9 @@
       "formula": "C20H34O2",
       "pubchem_cid": "5367460",
       "inchikey": "JYYFMIOPGOFNPK-AGRJPVHOSA-N",
-      "inchikey_skeleton": "JYYFMIOPGOFNPK"
+      "inchikey_skeleton": "JYYFMIOPGOFNPK",
+      "occurrence": "Other plant",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 162,
@@ -1298,7 +1620,9 @@
       "formula": "C20H37NO2",
       "pubchem_cid": "5283446",
       "inchikey": "KQXDGUVSAAQARU-HZJYTTRNSA-N",
-      "inchikey_skeleton": "KQXDGUVSAAQARU"
+      "inchikey_skeleton": "KQXDGUVSAAQARU",
+      "occurrence": "Other plant",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 163,
@@ -1306,7 +1630,9 @@
       "formula": "C4H5NO3",
       "pubchem_cid": "5280451",
       "inchikey": "FSQQTNAZHBEJLS-UPHRSURJSA-N",
-      "inchikey_skeleton": "FSQQTNAZHBEJLS"
+      "inchikey_skeleton": "FSQQTNAZHBEJLS",
+      "occurrence": "Other plant",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 164,
@@ -1314,7 +1640,9 @@
       "formula": "C20H36O2",
       "pubchem_cid": "5282184",
       "inchikey": "FMMOOAYVCKXGMF-MURFETPASA-N",
-      "inchikey_skeleton": "FMMOOAYVCKXGMF"
+      "inchikey_skeleton": "FMMOOAYVCKXGMF",
+      "occurrence": "Other plant",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 165,
@@ -1322,7 +1650,9 @@
       "formula": "C30H48O4",
       "pubchem_cid": "73659",
       "inchikey": "MDZKJHQSJHYOHJ-LLICELPBSA-N",
-      "inchikey_skeleton": "MDZKJHQSJHYOHJ"
+      "inchikey_skeleton": "MDZKJHQSJHYOHJ",
+      "occurrence": "Other plant",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 166,
@@ -1330,7 +1660,9 @@
       "formula": "C6H10O5",
       "pubchem_cid": "1662",
       "inchikey": "NPOAOTPXWNWTSH-UHFFFAOYSA-N",
-      "inchikey_skeleton": "NPOAOTPXWNWTSH"
+      "inchikey_skeleton": "NPOAOTPXWNWTSH",
+      "occurrence": "Other plant",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 167,
@@ -1338,7 +1670,9 @@
       "formula": "C17H18N2O5",
       "pubchem_cid": "135438593",
       "inchikey": "LWXJBFFPVPUUSL-KWVIEREISA-N",
-      "inchikey_skeleton": "LWXJBFFPVPUUSL"
+      "inchikey_skeleton": "LWXJBFFPVPUUSL",
+      "occurrence": "Other plant",
+      "detection": "foreign — shouldn't be in elderberry"
     },
     {
       "id": 168,
@@ -1346,7 +1680,9 @@
       "formula": "C21H40O4",
       "pubchem_cid": "5283468",
       "inchikey": "RZRNAYUHWVFMIP-KTKRTIGZSA-N",
-      "inchikey_skeleton": "RZRNAYUHWVFMIP"
+      "inchikey_skeleton": "RZRNAYUHWVFMIP",
+      "occurrence": "Other plant",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 169,
@@ -1354,7 +1690,9 @@
       "formula": "C21H36O4",
       "pubchem_cid": "11953925",
       "inchikey": "CFWFJIRDZVFKJB-GRZKGYEASA-N",
-      "inchikey_skeleton": "CFWFJIRDZVFKJB"
+      "inchikey_skeleton": "CFWFJIRDZVFKJB",
+      "occurrence": "Other plant",
+      "detection": "foreign — shouldn't be in elderberry"
     },
     {
       "id": 170,
@@ -1362,7 +1700,9 @@
       "formula": "C5H11NO3",
       "pubchem_cid": "95457",
       "inchikey": "RZCHTMXTKQHYDT-UHFFFAOYSA-N",
-      "inchikey_skeleton": "RZCHTMXTKQHYDT"
+      "inchikey_skeleton": "RZCHTMXTKQHYDT",
+      "occurrence": "Other plant",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 171,
@@ -1370,7 +1710,9 @@
       "formula": "C7H14N2O3",
       "pubchem_cid": "439232",
       "inchikey": "JRLGPAXAGHMNOL-LURJTMIESA-N",
-      "inchikey_skeleton": "JRLGPAXAGHMNOL"
+      "inchikey_skeleton": "JRLGPAXAGHMNOL",
+      "occurrence": "Other plant",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 172,
@@ -1378,7 +1720,9 @@
       "formula": "C21H22O10",
       "pubchem_cid": "92794",
       "inchikey": "DLIKSSGEMUFQOK-SFTVRKLSSA-N",
-      "inchikey_skeleton": "DLIKSSGEMUFQOK"
+      "inchikey_skeleton": "DLIKSSGEMUFQOK",
+      "occurrence": "Other plant",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 173,
@@ -1386,7 +1730,9 @@
       "formula": "C6H5NO2",
       "pubchem_cid": "938",
       "inchikey": "PVNIIMVLHYAWGP-UHFFFAOYSA-N",
-      "inchikey_skeleton": "PVNIIMVLHYAWGP"
+      "inchikey_skeleton": "PVNIIMVLHYAWGP",
+      "occurrence": "Other plant",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 174,
@@ -1394,7 +1740,9 @@
       "formula": "C6H6N2O",
       "pubchem_cid": "936",
       "inchikey": "DFPAKSUCGFBDDF-UHFFFAOYSA-N",
-      "inchikey_skeleton": "DFPAKSUCGFBDDF"
+      "inchikey_skeleton": "DFPAKSUCGFBDDF",
+      "occurrence": "Other plant",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 175,
@@ -1402,7 +1750,9 @@
       "formula": "C18H34O4",
       "pubchem_cid": "53851542",
       "inchikey": "GQEOLYBERRZZCE-UHFFFAOYSA-N",
-      "inchikey_skeleton": "GQEOLYBERRZZCE"
+      "inchikey_skeleton": "GQEOLYBERRZZCE",
+      "occurrence": "Other plant",
+      "detection": "oxidation / processing artifact"
     },
     {
       "id": 176,
@@ -1410,7 +1760,9 @@
       "formula": "C20H35NO",
       "pubchem_cid": "71665601",
       "inchikey": "QJFBVQUFPMOHQK-YXGHSTMBSA-N",
-      "inchikey_skeleton": "QJFBVQUFPMOHQK"
+      "inchikey_skeleton": "QJFBVQUFPMOHQK",
+      "occurrence": "Other plant",
+      "detection": "foreign — shouldn't be in elderberry"
     },
     {
       "id": 177,
@@ -1418,7 +1770,9 @@
       "formula": "C18H32O2",
       "pubchem_cid": "68167",
       "inchikey": "RGTIBVZDHOMOKC-UHFFFAOYSA-N",
-      "inchikey_skeleton": "RGTIBVZDHOMOKC"
+      "inchikey_skeleton": "RGTIBVZDHOMOKC",
+      "occurrence": "Other plant",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 178,
@@ -1426,7 +1780,9 @@
       "formula": "C18H35NO",
       "pubchem_cid": "5283387",
       "inchikey": "FATBGEAMYMYZAF-KTKRTIGZSA-N",
-      "inchikey_skeleton": "FATBGEAMYMYZAF"
+      "inchikey_skeleton": "FATBGEAMYMYZAF",
+      "occurrence": "Other plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 179,
@@ -1434,7 +1790,9 @@
       "formula": "C20H39NO2",
       "pubchem_cid": "5283454",
       "inchikey": "BOWVQLFMWHZBEF-KTKRTIGZSA-N",
-      "inchikey_skeleton": "BOWVQLFMWHZBEF"
+      "inchikey_skeleton": "BOWVQLFMWHZBEF",
+      "occurrence": "Other plant",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 180,
@@ -1442,7 +1800,9 @@
       "formula": "C20H39NO2",
       "pubchem_cid": "5283454",
       "inchikey": "BOWVQLFMWHZBEF-KTKRTIGZSA-N",
-      "inchikey_skeleton": "BOWVQLFMWHZBEF"
+      "inchikey_skeleton": "BOWVQLFMWHZBEF",
+      "occurrence": "Other plant",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 181,
@@ -1450,7 +1810,9 @@
       "formula": "C3H10NO4P",
       "pubchem_cid": "439436",
       "inchikey": "HZDCAHRLLXEQFY-UHFFFAOYSA-N",
-      "inchikey_skeleton": "HZDCAHRLLXEQFY"
+      "inchikey_skeleton": "HZDCAHRLLXEQFY",
+      "occurrence": "Other plant",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 182,
@@ -1458,7 +1820,9 @@
       "formula": "C2H8NO4P",
       "pubchem_cid": "1015",
       "inchikey": "SUHOOTKUPISOBE-UHFFFAOYSA-N",
-      "inchikey_skeleton": "SUHOOTKUPISOBE"
+      "inchikey_skeleton": "SUHOOTKUPISOBE",
+      "occurrence": "Other plant",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 183,
@@ -1466,7 +1830,9 @@
       "formula": "C6H11NO2",
       "pubchem_cid": "849",
       "inchikey": "HXEACLLIILLPRG-UHFFFAOYSA-N",
-      "inchikey_skeleton": "HXEACLLIILLPRG"
+      "inchikey_skeleton": "HXEACLLIILLPRG",
+      "occurrence": "Other plant",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 184,
@@ -1474,7 +1840,9 @@
       "formula": "C13H16O3",
       "pubchem_cid": "12565",
       "inchikey": "PTIDGSWTMLSGAH-UHFFFAOYSA-N",
-      "inchikey_skeleton": "PTIDGSWTMLSGAH"
+      "inchikey_skeleton": "PTIDGSWTMLSGAH",
+      "occurrence": "Other plant",
+      "detection": "foreign — shouldn't be in elderberry"
     },
     {
       "id": 185,
@@ -1482,7 +1850,9 @@
       "formula": "C8H18N4O",
       "pubchem_cid": "439760",
       "inchikey": "WVTOFVPEEGNUHR-UHFFFAOYSA-N",
-      "inchikey_skeleton": "WVTOFVPEEGNUHR"
+      "inchikey_skeleton": "WVTOFVPEEGNUHR",
+      "occurrence": "Other plant",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 186,
@@ -1490,7 +1860,9 @@
       "formula": "C18H30O2",
       "pubchem_cid": "5281126",
       "inchikey": "CUXYLFPMQMFGPL-BGDVVUGTSA-N",
-      "inchikey_skeleton": "CUXYLFPMQMFGPL"
+      "inchikey_skeleton": "CUXYLFPMQMFGPL",
+      "occurrence": "Other plant",
+      "detection": "foreign — shouldn't be in elderberry"
     },
     {
       "id": 187,
@@ -1498,7 +1870,9 @@
       "formula": "C6H6O3",
       "pubchem_cid": "1057",
       "inchikey": "WQGWDDDVZFFDIG-UHFFFAOYSA-N",
-      "inchikey_skeleton": "WQGWDDDVZFFDIG"
+      "inchikey_skeleton": "WQGWDDDVZFFDIG",
+      "occurrence": "Other plant",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 188,
@@ -1506,7 +1880,9 @@
       "formula": "C19H36O3",
       "pubchem_cid": "5354133",
       "inchikey": "XKGDWZQXVZSXAO-ADYSOMBNSA-N",
-      "inchikey_skeleton": "XKGDWZQXVZSXAO"
+      "inchikey_skeleton": "XKGDWZQXVZSXAO",
+      "occurrence": "Other plant",
+      "detection": "oxidation / processing artifact"
     },
     {
       "id": 189,
@@ -1514,7 +1890,9 @@
       "formula": "C17H24O3",
       "pubchem_cid": "5281794",
       "inchikey": "OQWKEEOHDMUXEO-BQYQJAHWSA-N",
-      "inchikey_skeleton": "OQWKEEOHDMUXEO"
+      "inchikey_skeleton": "OQWKEEOHDMUXEO",
+      "occurrence": "Other plant",
+      "detection": "foreign — shouldn't be in elderberry"
     },
     {
       "id": 190,
@@ -1522,7 +1900,9 @@
       "formula": "C18H37NO",
       "pubchem_cid": "31292",
       "inchikey": "LYRFLYHAGKPMFH-UHFFFAOYSA-N",
-      "inchikey_skeleton": "LYRFLYHAGKPMFH"
+      "inchikey_skeleton": "LYRFLYHAGKPMFH",
+      "occurrence": "Other plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 191,
@@ -1530,7 +1910,9 @@
       "formula": "C20H41NO2",
       "pubchem_cid": "27902",
       "inchikey": "OTGQIQQTPXJQRG-UHFFFAOYSA-N",
-      "inchikey_skeleton": "OTGQIQQTPXJQRG"
+      "inchikey_skeleton": "OTGQIQQTPXJQRG",
+      "occurrence": "Other plant",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 192,
@@ -1538,7 +1920,9 @@
       "formula": "C19H34O2",
       "pubchem_cid": "12921",
       "inchikey": "PQRKPYLNZGDCFH-UHFFFAOYSA-N",
-      "inchikey_skeleton": "PQRKPYLNZGDCFH"
+      "inchikey_skeleton": "PQRKPYLNZGDCFH",
+      "occurrence": "Other plant",
+      "detection": "foreign — shouldn't be in elderberry"
     },
     {
       "id": 193,
@@ -1546,7 +1930,9 @@
       "formula": "C10H17NO5",
       "pubchem_cid": "6453952",
       "inchikey": "HXATVKDSYDWTCX-UHFFFAOYSA-N",
-      "inchikey_skeleton": "HXATVKDSYDWTCX"
+      "inchikey_skeleton": "HXATVKDSYDWTCX",
+      "occurrence": "Other plant",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 194,
@@ -1554,7 +1940,9 @@
       "formula": "C7H10O4",
       "pubchem_cid": "5312",
       "inchikey": "WYEPBHZLDUPIOD-UHFFFAOYSA-N",
-      "inchikey_skeleton": "WYEPBHZLDUPIOD"
+      "inchikey_skeleton": "WYEPBHZLDUPIOD",
+      "occurrence": "Other plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 195,
@@ -1562,7 +1950,9 @@
       "formula": "C23H41NO2",
       "pubchem_cid": "177562",
       "inchikey": "QTNGLMWAVBOBLJ-RCFZRFIHSA-N",
-      "inchikey_skeleton": "QTNGLMWAVBOBLJ"
+      "inchikey_skeleton": "QTNGLMWAVBOBLJ",
+      "occurrence": "Other plant",
+      "detection": "foreign — shouldn't be in elderberry"
     },
     {
       "id": 196,
@@ -1570,7 +1960,9 @@
       "formula": "C11H9NO2",
       "pubchem_cid": "5375048",
       "inchikey": "PLVPPLCLBIEYEA-AATRIKPKSA-N",
-      "inchikey_skeleton": "PLVPPLCLBIEYEA"
+      "inchikey_skeleton": "PLVPPLCLBIEYEA",
+      "occurrence": "Other plant",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 197,
@@ -1578,7 +1970,9 @@
       "formula": "C9H17NO",
       "pubchem_cid": "13220",
       "inchikey": "JWUXJYZVKZKLTJ-UHFFFAOYSA-N",
-      "inchikey_skeleton": "JWUXJYZVKZKLTJ"
+      "inchikey_skeleton": "JWUXJYZVKZKLTJ",
+      "occurrence": "Other plant",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 198,
@@ -1586,7 +1980,9 @@
       "formula": "C6H15NO3",
       "pubchem_cid": "7618",
       "inchikey": "GSEJCLTVZPLZKY-UHFFFAOYSA-N",
-      "inchikey_skeleton": "GSEJCLTVZPLZKY"
+      "inchikey_skeleton": "GSEJCLTVZPLZKY",
+      "occurrence": "Other plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 199,
@@ -1594,7 +1990,9 @@
       "formula": "C29H48O2",
       "pubchem_cid": "160608",
       "inchikey": "ICFXJOAKQGDRCT-ZIHMWMKCSA-N",
-      "inchikey_skeleton": "ICFXJOAKQGDRCT"
+      "inchikey_skeleton": "ICFXJOAKQGDRCT",
+      "occurrence": "Other plant",
+      "detection": "oxidation / processing artifact"
     },
     {
       "id": 200,
@@ -1602,7 +2000,9 @@
       "formula": "C11H18N2O5S2",
       "pubchem_cid": "101630431",
       "inchikey": "VTEHWEWRSAXLHY-YUMQZZPRSA-N",
-      "inchikey_skeleton": "VTEHWEWRSAXLHY"
+      "inchikey_skeleton": "VTEHWEWRSAXLHY",
+      "occurrence": "Other plant",
+      "detection": "foreign — shouldn't be in elderberry"
     },
     {
       "id": 201,
@@ -1610,7 +2010,9 @@
       "formula": "C16H24O2",
       "pubchem_cid": "6005821",
       "inchikey": "QCHZKUPVENJLAW-FYWRMAATSA-N",
-      "inchikey_skeleton": "QCHZKUPVENJLAW"
+      "inchikey_skeleton": "QCHZKUPVENJLAW",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 202,
@@ -1618,7 +2020,9 @@
       "formula": "C11H16N4O4",
       "pubchem_cid": "2819101",
       "inchikey": "KXFIZCLANBNOOB-UHFFFAOYSA-N",
-      "inchikey_skeleton": "KXFIZCLANBNOOB"
+      "inchikey_skeleton": "KXFIZCLANBNOOB",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 203,
@@ -1626,7 +2030,9 @@
       "formula": "C23H30O2",
       "pubchem_cid": "73557527",
       "inchikey": "FIZFZQIBGCHOJY-UHFFFAOYSA-N",
-      "inchikey_skeleton": "FIZFZQIBGCHOJY"
+      "inchikey_skeleton": "FIZFZQIBGCHOJY",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 204,
@@ -1634,7 +2040,9 @@
       "formula": "C8H16N6OS2",
       "pubchem_cid": "6399216",
       "inchikey": "ARIFZLJIERKKEL-UHFFFAOYSA-N",
-      "inchikey_skeleton": "ARIFZLJIERKKEL"
+      "inchikey_skeleton": "ARIFZLJIERKKEL",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 205,
@@ -1642,7 +2050,9 @@
       "formula": "C8H7N3O5",
       "pubchem_cid": "5323714",
       "inchikey": "PLHJDBGFXBMTGZ-WEVVVXLNSA-N",
-      "inchikey_skeleton": "PLHJDBGFXBMTGZ"
+      "inchikey_skeleton": "PLHJDBGFXBMTGZ",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 206,
@@ -1650,7 +2060,9 @@
       "formula": "C7H14N4",
       "pubchem_cid": "19773253",
       "inchikey": "VPTPVJMIJOZPON-UHFFFAOYSA-N",
-      "inchikey_skeleton": "VPTPVJMIJOZPON"
+      "inchikey_skeleton": "VPTPVJMIJOZPON",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 207,
@@ -1658,7 +2070,9 @@
       "formula": "C10H16O3",
       "pubchem_cid": "62017",
       "inchikey": "GIFAYASOTQVRTG-UHFFFAOYSA-N",
-      "inchikey_skeleton": "GIFAYASOTQVRTG"
+      "inchikey_skeleton": "GIFAYASOTQVRTG",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 208,
@@ -1666,7 +2080,9 @@
       "formula": "C14H22",
       "pubchem_cid": "136810",
       "inchikey": "ILNDSSCEZZFNGE-UHFFFAOYSA-N",
-      "inchikey_skeleton": "ILNDSSCEZZFNGE"
+      "inchikey_skeleton": "ILNDSSCEZZFNGE",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 209,
@@ -1674,7 +2090,9 @@
       "formula": "C20H20N4",
       "pubchem_cid": "356286",
       "inchikey": "WBXJMZDZLIIGIP-UHFFFAOYSA-N",
-      "inchikey_skeleton": "WBXJMZDZLIIGIP"
+      "inchikey_skeleton": "WBXJMZDZLIIGIP",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 210,
@@ -1682,7 +2100,9 @@
       "formula": "C19H30O3",
       "pubchem_cid": "21139727",
       "inchikey": "PIXFHVWJOVNKQK-CJWOFWMHSA-N",
-      "inchikey_skeleton": "PIXFHVWJOVNKQK"
+      "inchikey_skeleton": "PIXFHVWJOVNKQK",
+      "occurrence": "Non-plant",
+      "detection": "foreign — shouldn't be in elderberry"
     },
     {
       "id": 211,
@@ -1690,7 +2110,9 @@
       "formula": "C17H24O4",
       "pubchem_cid": "",
       "inchikey": "",
-      "inchikey_skeleton": ""
+      "inchikey_skeleton": "",
+      "occurrence": "Non-plant",
+      "detection": "foreign — shouldn't be in elderberry"
     },
     {
       "id": 212,
@@ -1698,7 +2120,9 @@
       "formula": "C22H36O4",
       "pubchem_cid": "5271806",
       "inchikey": "CTQQHQGBBMYJPT-DZFVFWAGSA-N",
-      "inchikey_skeleton": "CTQQHQGBBMYJPT"
+      "inchikey_skeleton": "CTQQHQGBBMYJPT",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 213,
@@ -1706,7 +2130,9 @@
       "formula": "C19H31NO2",
       "pubchem_cid": "248417",
       "inchikey": "NEHHFSVRZKWSKW-KYQPOWKGSA-N",
-      "inchikey_skeleton": "NEHHFSVRZKWSKW"
+      "inchikey_skeleton": "NEHHFSVRZKWSKW",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 214,
@@ -1714,7 +2140,9 @@
       "formula": "C6H14O3",
       "pubchem_cid": "8146",
       "inchikey": "XXJWXESWEXIICW-UHFFFAOYSA-N",
-      "inchikey_skeleton": "XXJWXESWEXIICW"
+      "inchikey_skeleton": "XXJWXESWEXIICW",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 215,
@@ -1722,7 +2150,9 @@
       "formula": "C7H10N2O3S",
       "pubchem_cid": "2779747",
       "inchikey": "JYCIIMYFSHYOEI-UHFFFAOYSA-N",
-      "inchikey_skeleton": "JYCIIMYFSHYOEI"
+      "inchikey_skeleton": "JYCIIMYFSHYOEI",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 216,
@@ -1730,7 +2160,9 @@
       "formula": "C21H19N3O2",
       "pubchem_cid": "52817",
       "inchikey": "HIIHAYFNKUFGER-UHFFFAOYSA-N",
-      "inchikey_skeleton": "HIIHAYFNKUFGER"
+      "inchikey_skeleton": "HIIHAYFNKUFGER",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 217,
@@ -1738,7 +2170,9 @@
       "formula": "C6H15NO",
       "pubchem_cid": "7497",
       "inchikey": "BFSVOASYOCHEOV-UHFFFAOYSA-N",
-      "inchikey_skeleton": "BFSVOASYOCHEOV"
+      "inchikey_skeleton": "BFSVOASYOCHEOV",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 218,
@@ -1746,7 +2180,9 @@
       "formula": "C15H20N6OS",
       "pubchem_cid": "2810020",
       "inchikey": "KHFQUEQATRFZFS-UHFFFAOYSA-N",
-      "inchikey_skeleton": "KHFQUEQATRFZFS"
+      "inchikey_skeleton": "KHFQUEQATRFZFS",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 219,
@@ -1754,7 +2190,9 @@
       "formula": "C7H13NO5",
       "pubchem_cid": "25137912",
       "inchikey": "IFMHGOADXGYWMO-KVQBGUIXSA-N",
-      "inchikey_skeleton": "IFMHGOADXGYWMO"
+      "inchikey_skeleton": "IFMHGOADXGYWMO",
+      "occurrence": "Non-plant",
+      "detection": "foreign — shouldn't be in elderberry"
     },
     {
       "id": 220,
@@ -1762,7 +2200,9 @@
       "formula": "C23H38O4",
       "pubchem_cid": "5282280",
       "inchikey": "RCRCTBLIHCHWDZ-DOFZRALJSA-N",
-      "inchikey_skeleton": "RCRCTBLIHCHWDZ"
+      "inchikey_skeleton": "RCRCTBLIHCHWDZ",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 221,
@@ -1770,7 +2210,9 @@
       "formula": "C5H12N4O2",
       "pubchem_cid": "145791",
       "inchikey": "KPQHRDFCWBWTBA-UHFFFAOYSA-N",
-      "inchikey_skeleton": "KPQHRDFCWBWTBA"
+      "inchikey_skeleton": "KPQHRDFCWBWTBA",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 222,
@@ -1778,7 +2220,9 @@
       "formula": "C5H9O9P",
       "pubchem_cid": "134692098",
       "inchikey": "TXTFWFIPNSYGGP-UHFFFAOYSA-N",
-      "inchikey_skeleton": "TXTFWFIPNSYGGP"
+      "inchikey_skeleton": "TXTFWFIPNSYGGP",
+      "occurrence": "Non-plant",
+      "detection": "foreign — shouldn't be in elderberry"
     },
     {
       "id": 223,
@@ -1786,7 +2230,9 @@
       "formula": "C11H14N2O5",
       "pubchem_cid": "10400039",
       "inchikey": "VTXNIAJKDLEHGX-UHFFFAOYSA-N",
-      "inchikey_skeleton": "VTXNIAJKDLEHGX"
+      "inchikey_skeleton": "VTXNIAJKDLEHGX",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 224,
@@ -1794,7 +2240,9 @@
       "formula": "C6H11NO2",
       "pubchem_cid": "414564",
       "inchikey": "IPXNXMNCBXHYLQ-UHFFFAOYSA-N",
-      "inchikey_skeleton": "IPXNXMNCBXHYLQ"
+      "inchikey_skeleton": "IPXNXMNCBXHYLQ",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 225,
@@ -1802,7 +2250,9 @@
       "formula": "C18H34O",
       "pubchem_cid": "566940",
       "inchikey": "HTZLOIBLMXPDGR-UHFFFAOYSA-N",
-      "inchikey_skeleton": "HTZLOIBLMXPDGR"
+      "inchikey_skeleton": "HTZLOIBLMXPDGR",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 226,
@@ -1810,7 +2260,9 @@
       "formula": "C2H4Cl2O2",
       "pubchem_cid": "85275",
       "inchikey": "RUUBIFVWPACNLY-UHFFFAOYSA-N",
-      "inchikey_skeleton": "RUUBIFVWPACNLY"
+      "inchikey_skeleton": "RUUBIFVWPACNLY",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 227,
@@ -1818,7 +2270,9 @@
       "formula": "C9H19NO",
       "pubchem_cid": "549976",
       "inchikey": "VUZNLSBZRVZGIK-UHFFFAOYSA-N",
-      "inchikey_skeleton": "VUZNLSBZRVZGIK"
+      "inchikey_skeleton": "VUZNLSBZRVZGIK",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 228,
@@ -1826,7 +2280,9 @@
       "formula": "C6H15NO2",
       "pubchem_cid": "40751",
       "inchikey": "WCYGORCMAJDYJN-UHFFFAOYSA-N",
-      "inchikey_skeleton": "WCYGORCMAJDYJN"
+      "inchikey_skeleton": "WCYGORCMAJDYJN",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 229,
@@ -1834,7 +2290,9 @@
       "formula": "C6H4Br2O2",
       "pubchem_cid": "76852",
       "inchikey": "IELUPRVYGHTVHQ-UHFFFAOYSA-N",
-      "inchikey_skeleton": "IELUPRVYGHTVHQ"
+      "inchikey_skeleton": "IELUPRVYGHTVHQ",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 230,
@@ -1842,7 +2300,9 @@
       "formula": "C8H11N",
       "pubchem_cid": "6896",
       "inchikey": "UFFBMTHBGFGIHF-UHFFFAOYSA-N",
-      "inchikey_skeleton": "UFFBMTHBGFGIHF"
+      "inchikey_skeleton": "UFFBMTHBGFGIHF",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 231,
@@ -1850,7 +2310,9 @@
       "formula": "C8H13NO4",
       "pubchem_cid": "130846",
       "inchikey": "FIXDIFPJOFIIEC-UHFFFAOYSA-N",
-      "inchikey_skeleton": "FIXDIFPJOFIIEC"
+      "inchikey_skeleton": "FIXDIFPJOFIIEC",
+      "occurrence": "Non-plant",
+      "detection": "foreign — shouldn't be in elderberry"
     },
     {
       "id": 232,
@@ -1858,7 +2320,9 @@
       "formula": "C19H35NO",
       "pubchem_cid": "46781856",
       "inchikey": "DZFRYNPJLZCKSC-UHFFFAOYSA-N",
-      "inchikey_skeleton": "DZFRYNPJLZCKSC"
+      "inchikey_skeleton": "DZFRYNPJLZCKSC",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 233,
@@ -1866,7 +2330,9 @@
       "formula": "C21H28F2O2",
       "pubchem_cid": "242128",
       "inchikey": "OTTUKNSDVUSPGW-WOEIGVFJSA-N",
-      "inchikey_skeleton": "OTTUKNSDVUSPGW"
+      "inchikey_skeleton": "OTTUKNSDVUSPGW",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 234,
@@ -1874,7 +2340,9 @@
       "formula": "C15H19N3O",
       "pubchem_cid": "",
       "inchikey": "",
-      "inchikey_skeleton": ""
+      "inchikey_skeleton": "",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 235,
@@ -1882,7 +2350,9 @@
       "formula": "C18H14N4OS",
       "pubchem_cid": "",
       "inchikey": "",
-      "inchikey_skeleton": ""
+      "inchikey_skeleton": "",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 236,
@@ -1890,7 +2360,9 @@
       "formula": "C18H18N4O2",
       "pubchem_cid": "2813279",
       "inchikey": "LYDHPCCGXZZPIB-UHFFFAOYSA-N",
-      "inchikey_skeleton": "LYDHPCCGXZZPIB"
+      "inchikey_skeleton": "LYDHPCCGXZZPIB",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 237,
@@ -1898,7 +2370,9 @@
       "formula": "C19H32O4",
       "pubchem_cid": "11954189",
       "inchikey": "FZPHMACGWIAGFA-UHFFFAOYSA-N",
-      "inchikey_skeleton": "FZPHMACGWIAGFA"
+      "inchikey_skeleton": "FZPHMACGWIAGFA",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 238,
@@ -1906,7 +2380,9 @@
       "formula": "C27H34O4",
       "pubchem_cid": "91746434",
       "inchikey": "LPIXSKJJCANUQD-QNEBEIHSSA-N",
-      "inchikey_skeleton": "LPIXSKJJCANUQD"
+      "inchikey_skeleton": "LPIXSKJJCANUQD",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 239,
@@ -1914,7 +2390,9 @@
       "formula": "C16H8O2",
       "pubchem_cid": "316765",
       "inchikey": "YAIBDWAANBTYIA-UHFFFAOYSA-N",
-      "inchikey_skeleton": "YAIBDWAANBTYIA"
+      "inchikey_skeleton": "YAIBDWAANBTYIA",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 240,
@@ -1922,7 +2400,9 @@
       "formula": "C16H29NO2",
       "pubchem_cid": "5470308",
       "inchikey": "LWXKAVPXEDNHLL-VRUXTKGDSA-N",
-      "inchikey_skeleton": "LWXKAVPXEDNHLL"
+      "inchikey_skeleton": "LWXKAVPXEDNHLL",
+      "occurrence": "Non-plant",
+      "detection": "foreign — shouldn't be in elderberry"
     },
     {
       "id": 241,
@@ -1930,7 +2410,9 @@
       "formula": "C20H27N",
       "pubchem_cid": "3678",
       "inchikey": "ZPFXAOWNKLFJDN-UHFFFAOYSA-N",
-      "inchikey_skeleton": "ZPFXAOWNKLFJDN"
+      "inchikey_skeleton": "ZPFXAOWNKLFJDN",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 242,
@@ -1938,7 +2420,9 @@
       "formula": "C17H22N2O6S2",
       "pubchem_cid": "11452716",
       "inchikey": "MAVDNGWEBZTACC-HNNXBMFYSA-N",
-      "inchikey_skeleton": "MAVDNGWEBZTACC"
+      "inchikey_skeleton": "MAVDNGWEBZTACC",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 243,
@@ -1946,7 +2430,9 @@
       "formula": "C17H28O5",
       "pubchem_cid": "3000469",
       "inchikey": "NLYNIRQVMRLPIQ-XQLAAWPRSA-N",
-      "inchikey_skeleton": "NLYNIRQVMRLPIQ"
+      "inchikey_skeleton": "NLYNIRQVMRLPIQ",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 244,
@@ -1954,7 +2440,9 @@
       "formula": "C4H4N2O3",
       "pubchem_cid": "6211",
       "inchikey": "HNYOPLTXPVRDBG-UHFFFAOYSA-N",
-      "inchikey_skeleton": "HNYOPLTXPVRDBG"
+      "inchikey_skeleton": "HNYOPLTXPVRDBG",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 245,
@@ -1962,7 +2450,9 @@
       "formula": "C15H18O3S",
       "pubchem_cid": "2825167",
       "inchikey": "NDXFVKUYBIAXDF-UHFFFAOYSA-N",
-      "inchikey_skeleton": "NDXFVKUYBIAXDF"
+      "inchikey_skeleton": "NDXFVKUYBIAXDF",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 246,
@@ -1970,7 +2460,9 @@
       "formula": "C24H38O4",
       "pubchem_cid": "22932",
       "inchikey": "RWPICVVBGZBXNA-UHFFFAOYSA-N",
-      "inchikey_skeleton": "RWPICVVBGZBXNA"
+      "inchikey_skeleton": "RWPICVVBGZBXNA",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 247,
@@ -1978,7 +2470,9 @@
       "formula": "C17H26O5",
       "pubchem_cid": "185781",
       "inchikey": "SJFIYVCSGNWVPJ-GKKOWQTJSA-N",
-      "inchikey_skeleton": "SJFIYVCSGNWVPJ"
+      "inchikey_skeleton": "SJFIYVCSGNWVPJ",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 248,
@@ -1986,7 +2480,9 @@
       "formula": "C15H24O2",
       "pubchem_cid": "6929",
       "inchikey": "HNURKXXMYARGAY-UHFFFAOYSA-N",
-      "inchikey_skeleton": "HNURKXXMYARGAY"
+      "inchikey_skeleton": "HNURKXXMYARGAY",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 249,
@@ -1994,7 +2490,9 @@
       "formula": "C7H15NO3",
       "pubchem_cid": "288",
       "inchikey": "PHIQHXFUZVPYII-UHFFFAOYSA-N",
-      "inchikey_skeleton": "PHIQHXFUZVPYII"
+      "inchikey_skeleton": "PHIQHXFUZVPYII",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 250,
@@ -2002,7 +2500,9 @@
       "formula": "C20H41NO3",
       "pubchem_cid": "9928060",
       "inchikey": "CRJGESKKUOMBCT-PMACEKPBSA-N",
-      "inchikey_skeleton": "CRJGESKKUOMBCT"
+      "inchikey_skeleton": "CRJGESKKUOMBCT",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 251,
@@ -2010,7 +2510,9 @@
       "formula": "C19H24N6O5S2",
       "pubchem_cid": "5479537",
       "inchikey": "HVFLCNVBZFFHBT-ZKDACBOMSA-N",
-      "inchikey_skeleton": "HVFLCNVBZFFHBT"
+      "inchikey_skeleton": "HVFLCNVBZFFHBT",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 252,
@@ -2018,7 +2520,9 @@
       "formula": "C19H41N",
       "pubchem_cid": "2681",
       "inchikey": "RLGQACBPNDBWTB-UHFFFAOYSA-N",
-      "inchikey_skeleton": "RLGQACBPNDBWTB"
+      "inchikey_skeleton": "RLGQACBPNDBWTB",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 253,
@@ -2026,7 +2530,9 @@
       "formula": "C17H30O",
       "pubchem_cid": "5315941",
       "inchikey": "ZKVZSBSZTMPBQR-UPHRSURJSA-N",
-      "inchikey_skeleton": "ZKVZSBSZTMPBQR"
+      "inchikey_skeleton": "ZKVZSBSZTMPBQR",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 254,
@@ -2034,7 +2540,9 @@
       "formula": "C8H16O4",
       "pubchem_cid": "3081371",
       "inchikey": "AJSDVNKVGFVAQU-PRJMDXOYSA-N",
-      "inchikey_skeleton": "AJSDVNKVGFVAQU"
+      "inchikey_skeleton": "AJSDVNKVGFVAQU",
+      "occurrence": "Non-plant",
+      "detection": "foreign — shouldn't be in elderberry"
     },
     {
       "id": 255,
@@ -2042,7 +2550,9 @@
       "formula": "C5H3N3",
       "pubchem_cid": "73172",
       "inchikey": "PMSVVUSIPKHUMT-UHFFFAOYSA-N",
-      "inchikey_skeleton": "PMSVVUSIPKHUMT"
+      "inchikey_skeleton": "PMSVVUSIPKHUMT",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 256,
@@ -2050,7 +2560,9 @@
       "formula": "C13H25NO2",
       "pubchem_cid": "71875",
       "inchikey": "MPOYJPINNSIHAK-UHFFFAOYSA-N",
-      "inchikey_skeleton": "MPOYJPINNSIHAK"
+      "inchikey_skeleton": "MPOYJPINNSIHAK",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 257,
@@ -2058,7 +2570,9 @@
       "formula": "C19H32O2",
       "pubchem_cid": "245230",
       "inchikey": "VNPJDUYJTSUJJA-JUKXBMAYSA-N",
-      "inchikey_skeleton": "VNPJDUYJTSUJJA"
+      "inchikey_skeleton": "VNPJDUYJTSUJJA",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 258,
@@ -2066,7 +2580,9 @@
       "formula": "C23H34N2O4S",
       "pubchem_cid": "122016",
       "inchikey": "CEPGVMDMVJGHFQ-UHFFFAOYSA-N",
-      "inchikey_skeleton": "CEPGVMDMVJGHFQ"
+      "inchikey_skeleton": "CEPGVMDMVJGHFQ",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 259,
@@ -2074,7 +2590,9 @@
       "formula": "C31H48O3",
       "pubchem_cid": "15250826",
       "inchikey": "ONFPYGOMAADWAT-OXUZYLMNSA-N",
-      "inchikey_skeleton": "ONFPYGOMAADWAT"
+      "inchikey_skeleton": "ONFPYGOMAADWAT",
+      "occurrence": "Non-plant",
+      "detection": "foreign — shouldn't be in elderberry"
     },
     {
       "id": 260,
@@ -2082,7 +2600,9 @@
       "formula": "C6H15O3PS2",
       "pubchem_cid": "13526",
       "inchikey": "WEBQKRLKWNIYKK-UHFFFAOYSA-N",
-      "inchikey_skeleton": "WEBQKRLKWNIYKK"
+      "inchikey_skeleton": "WEBQKRLKWNIYKK",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 261,
@@ -2090,7 +2610,9 @@
       "formula": "C24H38O4",
       "pubchem_cid": "8343",
       "inchikey": "BJQHLKABXJIVAM-UHFFFAOYSA-N",
-      "inchikey_skeleton": "BJQHLKABXJIVAM"
+      "inchikey_skeleton": "BJQHLKABXJIVAM",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 262,
@@ -2098,7 +2620,9 @@
       "formula": "C12H23N",
       "pubchem_cid": "7582",
       "inchikey": "XBPCUCUWBYBCDP-UHFFFAOYSA-N",
-      "inchikey_skeleton": "XBPCUCUWBYBCDP"
+      "inchikey_skeleton": "XBPCUCUWBYBCDP",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 263,
@@ -2106,7 +2630,9 @@
       "formula": "C4H10O3",
       "pubchem_cid": "8117",
       "inchikey": "MTHSVFCYNBDYFN-UHFFFAOYSA-N",
-      "inchikey_skeleton": "MTHSVFCYNBDYFN"
+      "inchikey_skeleton": "MTHSVFCYNBDYFN",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 264,
@@ -2114,7 +2640,9 @@
       "formula": "C6H10O5",
       "pubchem_cid": "3051",
       "inchikey": "FFYPMLJYZAEMQB-UHFFFAOYSA-N",
-      "inchikey_skeleton": "FFYPMLJYZAEMQB"
+      "inchikey_skeleton": "FFYPMLJYZAEMQB",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 265,
@@ -2122,7 +2650,9 @@
       "formula": "C8H12N2O4",
       "pubchem_cid": "441125",
       "inchikey": "BONQGFBLZGPXMG-PIYBLCFFSA-N",
-      "inchikey_skeleton": "BONQGFBLZGPXMG"
+      "inchikey_skeleton": "BONQGFBLZGPXMG",
+      "occurrence": "Non-plant",
+      "detection": "foreign — shouldn't be in elderberry"
     },
     {
       "id": 266,
@@ -2130,7 +2660,9 @@
       "formula": "C24H38O4",
       "pubchem_cid": "33934",
       "inchikey": "IJFPVINAQGWBRJ-UHFFFAOYSA-N",
-      "inchikey_skeleton": "IJFPVINAQGWBRJ"
+      "inchikey_skeleton": "IJFPVINAQGWBRJ",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 267,
@@ -2138,7 +2670,9 @@
       "formula": "C11H13NO6",
       "pubchem_cid": "73330464",
       "inchikey": "YIMYDTCOUQIDMT-SNAWJCMRSA-N",
-      "inchikey_skeleton": "YIMYDTCOUQIDMT"
+      "inchikey_skeleton": "YIMYDTCOUQIDMT",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 268,
@@ -2146,7 +2680,9 @@
       "formula": "C7H15NO3",
       "pubchem_cid": "288",
       "inchikey": "PHIQHXFUZVPYII-UHFFFAOYSA-N",
-      "inchikey_skeleton": "PHIQHXFUZVPYII"
+      "inchikey_skeleton": "PHIQHXFUZVPYII",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 269,
@@ -2154,7 +2690,9 @@
       "formula": "C21H36O4",
       "pubchem_cid": "11954376",
       "inchikey": "KTEHTTNELUAQFC-AHRHGKHWSA-N",
-      "inchikey_skeleton": "KTEHTTNELUAQFC"
+      "inchikey_skeleton": "KTEHTTNELUAQFC",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 270,
@@ -2162,7 +2700,9 @@
       "formula": "C8H11NO4",
       "pubchem_cid": "213056",
       "inchikey": "VTAARTQTOOYTES-RGDLXGNYSA-N",
-      "inchikey_skeleton": "VTAARTQTOOYTES"
+      "inchikey_skeleton": "VTAARTQTOOYTES",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 271,
@@ -2170,7 +2710,9 @@
       "formula": "C20H30O2",
       "pubchem_cid": "5282847",
       "inchikey": "JAZBEHYOTPTENJ-RCHUDCCISA-N",
-      "inchikey_skeleton": "JAZBEHYOTPTENJ"
+      "inchikey_skeleton": "JAZBEHYOTPTENJ",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 272,
@@ -2178,7 +2720,9 @@
       "formula": "C30H50O5",
       "pubchem_cid": "6918141",
       "inchikey": "FZEXGDDBXLBRTD-AYIMTCTASA-N",
-      "inchikey_skeleton": "FZEXGDDBXLBRTD"
+      "inchikey_skeleton": "FZEXGDDBXLBRTD",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 273,
@@ -2186,7 +2730,9 @@
       "formula": "C18H24N2O5",
       "pubchem_cid": "5462501",
       "inchikey": "LZFZMUMEGBBDTC-QEJZJMRPSA-N",
-      "inchikey_skeleton": "LZFZMUMEGBBDTC"
+      "inchikey_skeleton": "LZFZMUMEGBBDTC",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 274,
@@ -2194,7 +2740,9 @@
       "formula": "C22H35NO2",
       "pubchem_cid": "5283450",
       "inchikey": "OVKKNJPJQKTXIT-JLNKQSITSA-N",
-      "inchikey_skeleton": "OVKKNJPJQKTXIT"
+      "inchikey_skeleton": "OVKKNJPJQKTXIT",
+      "occurrence": "Non-plant",
+      "detection": "foreign — shouldn't be in elderberry"
     },
     {
       "id": 275,
@@ -2202,7 +2750,9 @@
       "formula": "C7H10N2O2S2",
       "pubchem_cid": "384908",
       "inchikey": "WAFDSQXKSGGKCD-UHFFFAOYSA-N",
-      "inchikey_skeleton": "WAFDSQXKSGGKCD"
+      "inchikey_skeleton": "WAFDSQXKSGGKCD",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 276,
@@ -2210,7 +2760,9 @@
       "formula": "C11H12O3",
       "pubchem_cid": "7170",
       "inchikey": "GKKZMYDNDDMXSE-UHFFFAOYSA-N",
-      "inchikey_skeleton": "GKKZMYDNDDMXSE"
+      "inchikey_skeleton": "GKKZMYDNDDMXSE",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 277,
@@ -2218,7 +2770,9 @@
       "formula": "C19H30O2",
       "pubchem_cid": "5880",
       "inchikey": "QGXBDMJGAMFCBF-BNSUEQOYSA-N",
-      "inchikey_skeleton": "QGXBDMJGAMFCBF"
+      "inchikey_skeleton": "QGXBDMJGAMFCBF",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 278,
@@ -2226,7 +2780,9 @@
       "formula": "C29H46O",
       "pubchem_cid": "443212",
       "inchikey": "LFQXEZVYNCBVDO-PBJLWWPKSA-N",
-      "inchikey_skeleton": "LFQXEZVYNCBVDO"
+      "inchikey_skeleton": "LFQXEZVYNCBVDO",
+      "occurrence": "Non-plant",
+      "detection": "foreign — shouldn't be in elderberry"
     },
     {
       "id": 279,
@@ -2234,7 +2790,9 @@
       "formula": "C29H46O",
       "pubchem_cid": "443212",
       "inchikey": "LFQXEZVYNCBVDO-PBJLWWPKSA-N",
-      "inchikey_skeleton": "LFQXEZVYNCBVDO"
+      "inchikey_skeleton": "LFQXEZVYNCBVDO",
+      "occurrence": "Non-plant",
+      "detection": "foreign — shouldn't be in elderberry"
     },
     {
       "id": 280,
@@ -2242,7 +2800,9 @@
       "formula": "C11H13N5O3",
       "pubchem_cid": "135409256",
       "inchikey": "KMUNHOKTIVSFRA-KXFIGUGUSA-N",
-      "inchikey_skeleton": "KMUNHOKTIVSFRA"
+      "inchikey_skeleton": "KMUNHOKTIVSFRA",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 281,
@@ -2250,7 +2810,9 @@
       "formula": "C19H33NO2",
       "pubchem_cid": "107970",
       "inchikey": "KKGQTZUTZRNORY-UHFFFAOYSA-N",
-      "inchikey_skeleton": "KKGQTZUTZRNORY"
+      "inchikey_skeleton": "KKGQTZUTZRNORY",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 282,
@@ -2258,7 +2820,9 @@
       "formula": "C14H21NO3",
       "pubchem_cid": "43359",
       "inchikey": "QTDRLOKFLJJHTG-UHFFFAOYSA-N",
-      "inchikey_skeleton": "QTDRLOKFLJJHTG"
+      "inchikey_skeleton": "QTDRLOKFLJJHTG",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 283,
@@ -2266,7 +2830,9 @@
       "formula": "C9H17NO2",
       "pubchem_cid": "3446",
       "inchikey": "UGJMXCAKCUNAIE-UHFFFAOYSA-N",
-      "inchikey_skeleton": "UGJMXCAKCUNAIE"
+      "inchikey_skeleton": "UGJMXCAKCUNAIE",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 284,
@@ -2274,7 +2840,9 @@
       "formula": "C21H27N5O4S",
       "pubchem_cid": "3478",
       "inchikey": "ZJJXGWJIGJFDTL-UHFFFAOYSA-N",
-      "inchikey_skeleton": "ZJJXGWJIGJFDTL"
+      "inchikey_skeleton": "ZJJXGWJIGJFDTL",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 285,
@@ -2282,7 +2850,9 @@
       "formula": "C20H38O3",
       "pubchem_cid": "5364420",
       "inchikey": "MUHFRORXWCGZGE-KTKRTIGZSA-N",
-      "inchikey_skeleton": "MUHFRORXWCGZGE"
+      "inchikey_skeleton": "MUHFRORXWCGZGE",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 286,
@@ -2290,7 +2860,9 @@
       "formula": "C6H12N4",
       "pubchem_cid": "4101",
       "inchikey": "VKYKSIONXSXAKP-UHFFFAOYSA-N",
-      "inchikey_skeleton": "VKYKSIONXSXAKP"
+      "inchikey_skeleton": "VKYKSIONXSXAKP",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 287,
@@ -2298,7 +2870,9 @@
       "formula": "C10H19NO5",
       "pubchem_cid": "28281",
       "inchikey": "SBBDHANTMHIRGW-QMMMGPOBSA-N",
-      "inchikey_skeleton": "SBBDHANTMHIRGW"
+      "inchikey_skeleton": "SBBDHANTMHIRGW",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 288,
@@ -2306,7 +2880,9 @@
       "formula": "C14H20N4O",
       "pubchem_cid": "27501",
       "inchikey": "MGSPDRWOUCPKNZ-UHFFFAOYSA-N",
-      "inchikey_skeleton": "MGSPDRWOUCPKNZ"
+      "inchikey_skeleton": "MGSPDRWOUCPKNZ",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 289,
@@ -2314,7 +2890,9 @@
       "formula": "C7H13NO3",
       "pubchem_cid": "546304",
       "inchikey": "ZRQXMKMBBMNNQC-UHFFFAOYSA-N",
-      "inchikey_skeleton": "ZRQXMKMBBMNNQC"
+      "inchikey_skeleton": "ZRQXMKMBBMNNQC",
+      "occurrence": "Non-plant",
+      "detection": "foreign — shouldn't be in elderberry"
     },
     {
       "id": 290,
@@ -2322,7 +2900,9 @@
       "formula": "C18H24N2O4",
       "pubchem_cid": "73672",
       "inchikey": "PMHURSZHKKJGBM-UHFFFAOYSA-N",
-      "inchikey_skeleton": "PMHURSZHKKJGBM"
+      "inchikey_skeleton": "PMHURSZHKKJGBM",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 291,
@@ -2330,7 +2910,9 @@
       "formula": "C18H28O2",
       "pubchem_cid": "6434236",
       "inchikey": "FZRBKIRIBLNOAM-WHVZTFIZSA-N",
-      "inchikey_skeleton": "FZRBKIRIBLNOAM"
+      "inchikey_skeleton": "FZRBKIRIBLNOAM",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 292,
@@ -2338,7 +2920,9 @@
       "formula": "C6H8O4",
       "pubchem_cid": "7272",
       "inchikey": "JJTUDXZGHPGLLC-UHFFFAOYSA-N",
-      "inchikey_skeleton": "JJTUDXZGHPGLLC"
+      "inchikey_skeleton": "JJTUDXZGHPGLLC",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 293,
@@ -2346,7 +2930,9 @@
       "formula": "C18H28N6O",
       "pubchem_cid": "71988",
       "inchikey": "NRIGRKAXOLMTSK-UHFFFAOYSA-N",
-      "inchikey_skeleton": "NRIGRKAXOLMTSK"
+      "inchikey_skeleton": "NRIGRKAXOLMTSK",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 294,
@@ -2354,7 +2940,9 @@
       "formula": "C18H35NO",
       "pubchem_cid": "42981",
       "inchikey": "AXTGDCSMTYGJND-UHFFFAOYSA-N",
-      "inchikey_skeleton": "AXTGDCSMTYGJND"
+      "inchikey_skeleton": "AXTGDCSMTYGJND",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 295,
@@ -2362,7 +2950,9 @@
       "formula": "C11H20N2O3",
       "pubchem_cid": "80817",
       "inchikey": "VTJUNIYRYIAIHF-IUCAKERBSA-N",
-      "inchikey_skeleton": "VTJUNIYRYIAIHF"
+      "inchikey_skeleton": "VTJUNIYRYIAIHF",
+      "occurrence": "Non-plant",
+      "detection": "foreign — shouldn't be in elderberry"
     },
     {
       "id": 296,
@@ -2370,7 +2960,9 @@
       "formula": "C15H29N3O5",
       "pubchem_cid": "119031",
       "inchikey": "OCSMOTCMPXTDND-OUAUKWLOSA-N",
-      "inchikey_skeleton": "OCSMOTCMPXTDND"
+      "inchikey_skeleton": "OCSMOTCMPXTDND",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 297,
@@ -2378,7 +2970,9 @@
       "formula": "C10H20N2O4",
       "pubchem_cid": "6151",
       "inchikey": "LEROTMJVBFSIMP-UHFFFAOYSA-N",
-      "inchikey_skeleton": "LEROTMJVBFSIMP"
+      "inchikey_skeleton": "LEROTMJVBFSIMP",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 298,
@@ -2386,7 +2980,9 @@
       "formula": "C9H18N2O4",
       "pubchem_cid": "4064",
       "inchikey": "NPPQSCRMBWNHMW-UHFFFAOYSA-N",
-      "inchikey_skeleton": "NPPQSCRMBWNHMW"
+      "inchikey_skeleton": "NPPQSCRMBWNHMW",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 299,
@@ -2394,7 +2990,9 @@
       "formula": "C11H15NO5",
       "pubchem_cid": "4107",
       "inchikey": "GNXFOGHNGIVQEH-UHFFFAOYSA-N",
-      "inchikey_skeleton": "GNXFOGHNGIVQEH"
+      "inchikey_skeleton": "GNXFOGHNGIVQEH",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 300,
@@ -2402,7 +3000,9 @@
       "formula": "C17H31NO2",
       "pubchem_cid": "85756565",
       "inchikey": "NWDLYWNGKGFCQE-UHFFFAOYSA-N",
-      "inchikey_skeleton": "NWDLYWNGKGFCQE"
+      "inchikey_skeleton": "NWDLYWNGKGFCQE",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 301,
@@ -2410,7 +3010,9 @@
       "formula": "C11H17NO",
       "pubchem_cid": "4178",
       "inchikey": "VLPIATFUUWWMKC-UHFFFAOYSA-N",
-      "inchikey_skeleton": "VLPIATFUUWWMKC"
+      "inchikey_skeleton": "VLPIATFUUWWMKC",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 302,
@@ -2418,7 +3020,9 @@
       "formula": "C18H26O3",
       "pubchem_cid": "173650",
       "inchikey": "NXIASLUNMKAUTN-WFKFIOEPSA-N",
-      "inchikey_skeleton": "NXIASLUNMKAUTN"
+      "inchikey_skeleton": "NXIASLUNMKAUTN",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 303,
@@ -2426,7 +3030,9 @@
       "formula": "C11H14N2O5",
       "pubchem_cid": "131750870",
       "inchikey": "HJLNKWYSKFDHDG-UHFFFAOYSA-N",
-      "inchikey_skeleton": "HJLNKWYSKFDHDG"
+      "inchikey_skeleton": "HJLNKWYSKFDHDG",
+      "occurrence": "Non-plant",
+      "detection": "foreign — shouldn't be in elderberry"
     },
     {
       "id": 304,
@@ -2434,7 +3040,9 @@
       "formula": "C10H17NO6",
       "pubchem_cid": "15284427",
       "inchikey": "OEZFTGUQNATVAL-SVRRBLITSA-N",
-      "inchikey_skeleton": "OEZFTGUQNATVAL"
+      "inchikey_skeleton": "OEZFTGUQNATVAL",
+      "occurrence": "Non-plant",
+      "detection": "foreign — shouldn't be in elderberry"
     },
     {
       "id": 305,
@@ -2442,7 +3050,9 @@
       "formula": "C22H41NO3",
       "pubchem_cid": "16759340",
       "inchikey": "NFYDTZXYPVTQHJ-KTKRTIGZSA-N",
-      "inchikey_skeleton": "NFYDTZXYPVTQHJ"
+      "inchikey_skeleton": "NFYDTZXYPVTQHJ",
+      "occurrence": "Non-plant",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 306,
@@ -2450,7 +3060,9 @@
       "formula": "C16H13N",
       "pubchem_cid": "7013",
       "inchikey": "XQVWYOYUZDUNRW-UHFFFAOYSA-N",
-      "inchikey_skeleton": "XQVWYOYUZDUNRW"
+      "inchikey_skeleton": "XQVWYOYUZDUNRW",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 307,
@@ -2458,7 +3070,9 @@
       "formula": "C13H15NO5",
       "pubchem_cid": "11579826",
       "inchikey": "PTSRBZOZSRJCKX-JTQLQIEISA-N",
-      "inchikey_skeleton": "PTSRBZOZSRJCKX"
+      "inchikey_skeleton": "PTSRBZOZSRJCKX",
+      "occurrence": "Non-plant",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 308,
@@ -2466,7 +3080,9 @@
       "formula": "C7H7N3O2",
       "pubchem_cid": "60991",
       "inchikey": "FMGUJLASXUBMOP-UHFFFAOYSA-N",
-      "inchikey_skeleton": "FMGUJLASXUBMOP"
+      "inchikey_skeleton": "FMGUJLASXUBMOP",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 309,
@@ -2474,7 +3090,9 @@
       "formula": "C16H33NO3",
       "pubchem_cid": "8430",
       "inchikey": "AOMUHOFOVNGZAN-UHFFFAOYSA-N",
-      "inchikey_skeleton": "AOMUHOFOVNGZAN"
+      "inchikey_skeleton": "AOMUHOFOVNGZAN",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 310,
@@ -2482,7 +3100,9 @@
       "formula": "C20H41NO2",
       "pubchem_cid": "6438166",
       "inchikey": "YRXOQXUDKDCXME-QWKHPXNBSA-N",
-      "inchikey_skeleton": "YRXOQXUDKDCXME"
+      "inchikey_skeleton": "YRXOQXUDKDCXME",
+      "occurrence": "Non-plant",
+      "detection": "foreign — shouldn't be in elderberry"
     },
     {
       "id": 311,
@@ -2490,7 +3110,9 @@
       "formula": "C18H21ClN2O2S",
       "pubchem_cid": "2729535",
       "inchikey": "YGKGQJPCGJXQCW-UHFFFAOYSA-N",
-      "inchikey_skeleton": "YGKGQJPCGJXQCW"
+      "inchikey_skeleton": "YGKGQJPCGJXQCW",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 312,
@@ -2498,7 +3120,9 @@
       "formula": "C17H17F3N2O2",
       "pubchem_cid": "2746341",
       "inchikey": "KRHSIRWKVLUHBT-UHFFFAOYSA-N",
-      "inchikey_skeleton": "KRHSIRWKVLUHBT"
+      "inchikey_skeleton": "KRHSIRWKVLUHBT",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 313,
@@ -2506,7 +3130,9 @@
       "formula": "C12H22N2O2",
       "pubchem_cid": "16",
       "inchikey": "HERSSAVMHCMYSQ-UHFFFAOYSA-N",
-      "inchikey_skeleton": "HERSSAVMHCMYSQ"
+      "inchikey_skeleton": "HERSSAVMHCMYSQ",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 314,
@@ -2514,7 +3140,9 @@
       "formula": "C18H35NO4",
       "pubchem_cid": "53477801",
       "inchikey": "DDTDJDZHDFMZED-UHFFFAOYSA-N",
-      "inchikey_skeleton": "DDTDJDZHDFMZED"
+      "inchikey_skeleton": "DDTDJDZHDFMZED",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 315,
@@ -2522,7 +3150,9 @@
       "formula": "C35H62O3",
       "pubchem_cid": "16386",
       "inchikey": "SSDSCDGVMJFTEQ-UHFFFAOYSA-N",
-      "inchikey_skeleton": "SSDSCDGVMJFTEQ"
+      "inchikey_skeleton": "SSDSCDGVMJFTEQ",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 316,
@@ -2530,7 +3160,9 @@
       "formula": "C15H18N6O",
       "pubchem_cid": "4592",
       "inchikey": "GTVPOLSIJWJJNY-UHFFFAOYSA-N",
-      "inchikey_skeleton": "GTVPOLSIJWJJNY"
+      "inchikey_skeleton": "GTVPOLSIJWJJNY",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 317,
@@ -2538,7 +3170,9 @@
       "formula": "C14H18N2O4",
       "pubchem_cid": "53735",
       "inchikey": "UWVQIROCRJWDKL-UHFFFAOYSA-N",
-      "inchikey_skeleton": "UWVQIROCRJWDKL"
+      "inchikey_skeleton": "UWVQIROCRJWDKL",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 318,
@@ -2546,7 +3180,9 @@
       "formula": "C18H29NO2",
       "pubchem_cid": "37464",
       "inchikey": "KQXKVJAGOJTNJS-HNNXBMFYSA-N",
-      "inchikey_skeleton": "KQXKVJAGOJTNJS"
+      "inchikey_skeleton": "KQXKVJAGOJTNJS",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 319,
@@ -2554,7 +3190,9 @@
       "formula": "C13H20N4O2",
       "pubchem_cid": "70569",
       "inchikey": "MRWQRJMESRRJJB-UHFFFAOYSA-N",
-      "inchikey_skeleton": "MRWQRJMESRRJJB"
+      "inchikey_skeleton": "MRWQRJMESRRJJB",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 320,
@@ -2562,7 +3200,9 @@
       "formula": "C19H32N2O5",
       "pubchem_cid": "107807",
       "inchikey": "IPVQLZZIHOAWMC-QXKUPLGCSA-N",
-      "inchikey_skeleton": "IPVQLZZIHOAWMC"
+      "inchikey_skeleton": "IPVQLZZIHOAWMC",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 321,
@@ -2570,7 +3210,9 @@
       "formula": "C7H17O4PS2",
       "pubchem_cid": "91523",
       "inchikey": "JAYZFNIOOYPIAH-UHFFFAOYSA-N",
-      "inchikey_skeleton": "JAYZFNIOOYPIAH"
+      "inchikey_skeleton": "JAYZFNIOOYPIAH",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 322,
@@ -2578,7 +3220,9 @@
       "formula": "C11H15NO",
       "pubchem_cid": "4762",
       "inchikey": "OOBHFESNSZDWIU-UHFFFAOYSA-N",
-      "inchikey_skeleton": "OOBHFESNSZDWIU"
+      "inchikey_skeleton": "OOBHFESNSZDWIU",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 323,
@@ -2586,7 +3230,9 @@
       "formula": "C12H10OS",
       "pubchem_cid": "13679",
       "inchikey": "JJHHIJFTHRNPIK-UHFFFAOYSA-N",
-      "inchikey_skeleton": "JJHHIJFTHRNPIK"
+      "inchikey_skeleton": "JJHHIJFTHRNPIK",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 324,
@@ -2594,7 +3240,9 @@
       "formula": "C14H20N2O2",
       "pubchem_cid": "4828",
       "inchikey": "JZQKKSLKJUAGIC-UHFFFAOYSA-N",
-      "inchikey_skeleton": "JZQKKSLKJUAGIC"
+      "inchikey_skeleton": "JZQKKSLKJUAGIC",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 325,
@@ -2602,7 +3250,9 @@
       "formula": "C5H11N3O",
       "pubchem_cid": "3019914",
       "inchikey": "BRYCUMKDWMEGMK-UHFFFAOYSA-N",
-      "inchikey_skeleton": "BRYCUMKDWMEGMK"
+      "inchikey_skeleton": "BRYCUMKDWMEGMK",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 326,
@@ -2610,7 +3260,9 @@
       "formula": "C12H20N2O3",
       "pubchem_cid": "4845",
       "inchikey": "VQDBNKDJNJQRDG-UHFFFAOYSA-N",
-      "inchikey_skeleton": "VQDBNKDJNJQRDG"
+      "inchikey_skeleton": "VQDBNKDJNJQRDG",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 327,
@@ -2618,7 +3270,9 @@
       "formula": "C21H34O4",
       "pubchem_cid": "254631",
       "inchikey": "WKFXHNDWEHDGQD-ZQRGSSBZSA-N",
-      "inchikey_skeleton": "WKFXHNDWEHDGQD"
+      "inchikey_skeleton": "WKFXHNDWEHDGQD",
+      "occurrence": "Non-plant",
+      "detection": "foreign — shouldn't be in elderberry"
     },
     {
       "id": 328,
@@ -2626,7 +3280,9 @@
       "formula": "C18H26N2O4",
       "pubchem_cid": "4922",
       "inchikey": "DGMKFQYCZXERLX-UHFFFAOYSA-N",
-      "inchikey_skeleton": "DGMKFQYCZXERLX"
+      "inchikey_skeleton": "DGMKFQYCZXERLX",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 329,
@@ -2634,7 +3290,9 @@
       "formula": "C9H20N2O2",
       "pubchem_cid": "32490",
       "inchikey": "WZZLDXDUQPOXNW-UHFFFAOYSA-N",
-      "inchikey_skeleton": "WZZLDXDUQPOXNW"
+      "inchikey_skeleton": "WZZLDXDUQPOXNW",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 330,
@@ -2642,7 +3300,9 @@
       "formula": "C16H29NO",
       "pubchem_cid": "6440480",
       "inchikey": "OKTQTXDNHCOLHT-AJKPHIATSA-N",
-      "inchikey_skeleton": "OKTQTXDNHCOLHT"
+      "inchikey_skeleton": "OKTQTXDNHCOLHT",
+      "occurrence": "Non-plant",
+      "detection": "foreign — shouldn't be in elderberry"
     },
     {
       "id": 331,
@@ -2650,7 +3310,9 @@
       "formula": "C19H31NO2",
       "pubchem_cid": "9548773",
       "inchikey": "HJCSQOSWSRPBOU-XTXNWKRWSA-N",
-      "inchikey_skeleton": "HJCSQOSWSRPBOU"
+      "inchikey_skeleton": "HJCSQOSWSRPBOU",
+      "occurrence": "Non-plant",
+      "detection": "foreign — shouldn't be in elderberry"
     },
     {
       "id": 332,
@@ -2658,7 +3320,9 @@
       "formula": "C18H35NO2",
       "pubchem_cid": "86160",
       "inchikey": "PUYXTUJWRLOUCW-UHFFFAOYSA-N",
-      "inchikey_skeleton": "PUYXTUJWRLOUCW"
+      "inchikey_skeleton": "PUYXTUJWRLOUCW",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 333,
@@ -2666,7 +3330,9 @@
       "formula": "C20H27N",
       "pubchem_cid": "23480",
       "inchikey": "UISARWKNNNHPGI-UHFFFAOYSA-N",
-      "inchikey_skeleton": "UISARWKNNNHPGI"
+      "inchikey_skeleton": "UISARWKNNNHPGI",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 334,
@@ -2674,7 +3340,9 @@
       "formula": "C11H22N2O3",
       "pubchem_cid": "7201299",
       "inchikey": "LJPDJTPZNJKXPW-QMMMGPOBSA-N",
-      "inchikey_skeleton": "LJPDJTPZNJKXPW"
+      "inchikey_skeleton": "LJPDJTPZNJKXPW",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 335,
@@ -2682,7 +3350,9 @@
       "formula": "C31H48O4",
       "pubchem_cid": "68644",
       "inchikey": "LTGBMQYUNNUCHA-DQUDHZTESA-N",
-      "inchikey_skeleton": "LTGBMQYUNNUCHA"
+      "inchikey_skeleton": "LTGBMQYUNNUCHA",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 336,
@@ -2690,7 +3360,9 @@
       "formula": "C8H18O5",
       "pubchem_cid": "8200",
       "inchikey": "UWHCKJMYHZGTIT-UHFFFAOYSA-N",
-      "inchikey_skeleton": "UWHCKJMYHZGTIT"
+      "inchikey_skeleton": "UWHCKJMYHZGTIT",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 337,
@@ -2698,7 +3370,9 @@
       "formula": "C10H22O5",
       "pubchem_cid": "8925",
       "inchikey": "ZUHZGEOKBKGPSW-UHFFFAOYSA-N",
-      "inchikey_skeleton": "ZUHZGEOKBKGPSW"
+      "inchikey_skeleton": "ZUHZGEOKBKGPSW",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 338,
@@ -2706,7 +3380,9 @@
       "formula": "C5H12N2O",
       "pubchem_cid": "12437",
       "inchikey": "AVQQQNCBBIEMEU-UHFFFAOYSA-N",
-      "inchikey_skeleton": "AVQQQNCBBIEMEU"
+      "inchikey_skeleton": "AVQQQNCBBIEMEU",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 339,
@@ -2714,7 +3390,9 @@
       "formula": "C16H26O3",
       "pubchem_cid": "5282970",
       "inchikey": "KBOVKDIBOBQLRS-QCNAHCIUSA-N",
-      "inchikey_skeleton": "KBOVKDIBOBQLRS"
+      "inchikey_skeleton": "KBOVKDIBOBQLRS",
+      "occurrence": "Non-plant",
+      "detection": "foreign — shouldn't be in elderberry"
     },
     {
       "id": 340,
@@ -2722,7 +3400,9 @@
       "formula": "C4H10O2S",
       "pubchem_cid": "5447",
       "inchikey": "YODZTKMDCQEPHD-UHFFFAOYSA-N",
-      "inchikey_skeleton": "YODZTKMDCQEPHD"
+      "inchikey_skeleton": "YODZTKMDCQEPHD",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 341,
@@ -2730,7 +3410,9 @@
       "formula": "C9H8O3",
       "pubchem_cid": "906624",
       "inchikey": "HALONVPKHYIEQU-HTQZYQBOSA-N",
-      "inchikey_skeleton": "HALONVPKHYIEQU"
+      "inchikey_skeleton": "HALONVPKHYIEQU",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 342,
@@ -2738,7 +3420,9 @@
       "formula": "C12H27O4P",
       "pubchem_cid": "31357",
       "inchikey": "STCOOQWBFONSKY-UHFFFAOYSA-N",
-      "inchikey_skeleton": "STCOOQWBFONSKY"
+      "inchikey_skeleton": "STCOOQWBFONSKY",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 343,
@@ -2746,7 +3430,9 @@
       "formula": "C19H39NO",
       "pubchem_cid": "32518",
       "inchikey": "YTOPFCCWCSOHFV-UHFFFAOYSA-N",
-      "inchikey_skeleton": "YTOPFCCWCSOHFV"
+      "inchikey_skeleton": "YTOPFCCWCSOHFV",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 344,
@@ -2754,7 +3440,9 @@
       "formula": "C12H27O4P",
       "pubchem_cid": "31355",
       "inchikey": "HRKAMJBPFPHCSD-UHFFFAOYSA-N",
-      "inchikey_skeleton": "HRKAMJBPFPHCSD"
+      "inchikey_skeleton": "HRKAMJBPFPHCSD",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 345,
@@ -2762,7 +3450,9 @@
       "formula": "C6H9NO3",
       "pubchem_cid": "5576",
       "inchikey": "IRYJRGCIQBGHIV-UHFFFAOYSA-N",
-      "inchikey_skeleton": "IRYJRGCIQBGHIV"
+      "inchikey_skeleton": "IRYJRGCIQBGHIV",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 346,
@@ -2770,7 +3460,9 @@
       "formula": "C4H11NO3",
       "pubchem_cid": "6503",
       "inchikey": "LENZDBCJOHFCAS-UHFFFAOYSA-N",
-      "inchikey_skeleton": "LENZDBCJOHFCAS"
+      "inchikey_skeleton": "LENZDBCJOHFCAS",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 347,
@@ -2778,7 +3470,9 @@
       "formula": "C22H38O5",
       "pubchem_cid": "5311236",
       "inchikey": "TVHAZVBUYQMHBC-SNHXEXRGSA-N",
-      "inchikey_skeleton": "TVHAZVBUYQMHBC"
+      "inchikey_skeleton": "TVHAZVBUYQMHBC",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 348,
@@ -2786,7 +3480,9 @@
       "formula": "C12H18N4O2",
       "pubchem_cid": "47845",
       "inchikey": "MTBUJUHRXVGLEF-UHFFFAOYSA-N",
-      "inchikey_skeleton": "MTBUJUHRXVGLEF"
+      "inchikey_skeleton": "MTBUJUHRXVGLEF",
+      "occurrence": "Non-plant",
+      "detection": "synthetic — contaminant / carry-over"
     },
     {
       "id": 349,
@@ -2794,7 +3490,9 @@
       "formula": "C20H36O3",
       "pubchem_cid": "85701050",
       "inchikey": "BMSUKKKAAVHUEW-UHFFFAOYSA-N",
-      "inchikey_skeleton": "BMSUKKKAAVHUEW"
+      "inchikey_skeleton": "BMSUKKKAAVHUEW",
+      "occurrence": "No documented occurrence",
+      "detection": "oxidation / processing artifact"
     },
     {
       "id": 350,
@@ -2802,7 +3500,9 @@
       "formula": "C18H28O2",
       "pubchem_cid": "54307922",
       "inchikey": "SIVLURJESSFFDP-UHFFFAOYSA-N",
-      "inchikey_skeleton": "SIVLURJESSFFDP"
+      "inchikey_skeleton": "SIVLURJESSFFDP",
+      "occurrence": "No documented occurrence",
+      "detection": "foreign — shouldn't be in elderberry"
     },
     {
       "id": 351,
@@ -2810,7 +3510,9 @@
       "formula": "C18H28O",
       "pubchem_cid": "85177598",
       "inchikey": "VWXPMSHGZMFPMK-UHFFFAOYSA-N",
-      "inchikey_skeleton": "VWXPMSHGZMFPMK"
+      "inchikey_skeleton": "VWXPMSHGZMFPMK",
+      "occurrence": "No documented occurrence",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 352,
@@ -2818,7 +3520,9 @@
       "formula": "C20H34O3",
       "pubchem_cid": "5283013",
       "inchikey": "QZCMHXPXGACWLJ-QWAPPMFBSA-N",
-      "inchikey_skeleton": "QZCMHXPXGACWLJ"
+      "inchikey_skeleton": "QZCMHXPXGACWLJ",
+      "occurrence": "No documented occurrence",
+      "detection": "foreign — shouldn't be in elderberry"
     },
     {
       "id": 353,
@@ -2826,7 +3530,9 @@
       "formula": "C19H36O2",
       "pubchem_cid": "5282256",
       "inchikey": "QWCJNFBLSZGETP-CLFYSBASSA-N",
-      "inchikey_skeleton": "QWCJNFBLSZGETP"
+      "inchikey_skeleton": "QWCJNFBLSZGETP",
+      "occurrence": "No documented occurrence",
+      "detection": "identity unresolved"
     },
     {
       "id": 354,
@@ -2834,7 +3540,9 @@
       "formula": "C20H22O3",
       "pubchem_cid": "45359486",
       "inchikey": "RRGRXDIGPVAQIW-UHFFFAOYSA-N",
-      "inchikey_skeleton": "RRGRXDIGPVAQIW"
+      "inchikey_skeleton": "RRGRXDIGPVAQIW",
+      "occurrence": "No documented occurrence",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 355,
@@ -2842,7 +3550,9 @@
       "formula": "C10H9NO",
       "pubchem_cid": "69089",
       "inchikey": "NWINIEGDLHHNLH-UHFFFAOYSA-N",
-      "inchikey_skeleton": "NWINIEGDLHHNLH"
+      "inchikey_skeleton": "NWINIEGDLHHNLH",
+      "occurrence": "No documented occurrence",
+      "detection": "foreign — shouldn't be in elderberry"
     },
     {
       "id": 356,
@@ -2850,7 +3560,9 @@
       "formula": "C11H12O",
       "pubchem_cid": "562563",
       "inchikey": "PBWQZEMADHTUIF-UHFFFAOYSA-N",
-      "inchikey_skeleton": "PBWQZEMADHTUIF"
+      "inchikey_skeleton": "PBWQZEMADHTUIF",
+      "occurrence": "No documented occurrence",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 357,
@@ -2858,7 +3570,9 @@
       "formula": "C8H6O",
       "pubchem_cid": "71442208",
       "inchikey": "MFQBYQJLDHIYCH-UHFFFAOYSA-N",
-      "inchikey_skeleton": "MFQBYQJLDHIYCH"
+      "inchikey_skeleton": "MFQBYQJLDHIYCH",
+      "occurrence": "No documented occurrence",
+      "detection": "identity unresolved"
     },
     {
       "id": 358,
@@ -2866,7 +3580,9 @@
       "formula": "C20H16O6",
       "pubchem_cid": "23815359",
       "inchikey": "SNMGCHVOXFNCCF-UHFFFAOYSA-N",
-      "inchikey_skeleton": "SNMGCHVOXFNCCF"
+      "inchikey_skeleton": "SNMGCHVOXFNCCF",
+      "occurrence": "No documented occurrence",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 359,
@@ -2874,7 +3590,9 @@
       "formula": "C26H45NO",
       "pubchem_cid": "164906",
       "inchikey": "RZPPEFJMRVRCDD-XSLNCIIRSA-N",
-      "inchikey_skeleton": "RZPPEFJMRVRCDD"
+      "inchikey_skeleton": "RZPPEFJMRVRCDD",
+      "occurrence": "No documented occurrence",
+      "detection": "foreign — shouldn't be in elderberry"
     },
     {
       "id": 360,
@@ -2882,7 +3600,9 @@
       "formula": "C5H9NO3",
       "pubchem_cid": "150779",
       "inchikey": "BJBUEDPLEOHJGE-BKLSDQPFSA-N",
-      "inchikey_skeleton": "BJBUEDPLEOHJGE"
+      "inchikey_skeleton": "BJBUEDPLEOHJGE",
+      "occurrence": "No documented occurrence",
+      "detection": "identity unresolved"
     },
     {
       "id": 361,
@@ -2890,7 +3610,9 @@
       "formula": "C22H36O3",
       "pubchem_cid": "75368758",
       "inchikey": "LZGVQJDYLAUCGI-UHFFFAOYSA-N",
-      "inchikey_skeleton": "LZGVQJDYLAUCGI"
+      "inchikey_skeleton": "LZGVQJDYLAUCGI",
+      "occurrence": "No documented occurrence",
+      "detection": "native — plausibly belongs"
     },
     {
       "id": 362,
@@ -2898,7 +3620,9 @@
       "formula": "C29H48O3",
       "pubchem_cid": "440507",
       "inchikey": "UQFZKTIHSICSPG-DSHYQQBWSA-N",
-      "inchikey_skeleton": "UQFZKTIHSICSPG"
+      "inchikey_skeleton": "UQFZKTIHSICSPG",
+      "occurrence": "No documented occurrence",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 363,
@@ -2906,7 +3630,9 @@
       "formula": "C12H22O3",
       "pubchem_cid": "61457",
       "inchikey": "IAJCTZJZXRAPDK-UHFFFAOYSA-N",
-      "inchikey_skeleton": "IAJCTZJZXRAPDK"
+      "inchikey_skeleton": "IAJCTZJZXRAPDK",
+      "occurrence": "No documented occurrence",
+      "detection": "oxidation / processing artifact"
     },
     {
       "id": 364,
@@ -2914,7 +3640,9 @@
       "formula": "C5H11N3O",
       "pubchem_cid": "559",
       "inchikey": "VCOFTLCIPLEZKE-UHFFFAOYSA-N",
-      "inchikey_skeleton": "VCOFTLCIPLEZKE"
+      "inchikey_skeleton": "VCOFTLCIPLEZKE",
+      "occurrence": "No documented occurrence",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 365,
@@ -2922,7 +3650,9 @@
       "formula": "C12H10O2S",
       "pubchem_cid": "5460102",
       "inchikey": "OOOXLVUNFHBSNL-UFBFGSQYSA-N",
-      "inchikey_skeleton": "OOOXLVUNFHBSNL"
+      "inchikey_skeleton": "OOOXLVUNFHBSNL",
+      "occurrence": "No documented occurrence",
+      "detection": "foreign — shouldn't be in elderberry"
     },
     {
       "id": 366,
@@ -2930,7 +3660,9 @@
       "formula": "C24H41NO2",
       "pubchem_cid": "2186",
       "inchikey": "FMVHVRYFQIXOAF-UHFFFAOYSA-N",
-      "inchikey_skeleton": "FMVHVRYFQIXOAF"
+      "inchikey_skeleton": "FMVHVRYFQIXOAF",
+      "occurrence": "No documented occurrence",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 367,
@@ -2938,7 +3670,9 @@
       "formula": "C18H30",
       "pubchem_cid": "5460658",
       "inchikey": "GRXPVLPQNMUNNX-MHJRRCNVSA-N",
-      "inchikey_skeleton": "GRXPVLPQNMUNNX"
+      "inchikey_skeleton": "GRXPVLPQNMUNNX",
+      "occurrence": "No documented occurrence",
+      "detection": "foreign — shouldn't be in elderberry"
     },
     {
       "id": 368,
@@ -2946,7 +3680,9 @@
       "formula": "C10H17NO5",
       "pubchem_cid": "133383",
       "inchikey": "HCVIJONZMYVLAW-ZETCQYMHSA-N",
-      "inchikey_skeleton": "HCVIJONZMYVLAW"
+      "inchikey_skeleton": "HCVIJONZMYVLAW",
+      "occurrence": "No documented occurrence",
+      "detection": "foreign — shouldn't be in elderberry"
     },
     {
       "id": 369,
@@ -2954,7 +3690,9 @@
       "formula": "C14H29NO",
       "pubchem_cid": "69492",
       "inchikey": "QEALYLRSRQDCRA-UHFFFAOYSA-N",
-      "inchikey_skeleton": "QEALYLRSRQDCRA"
+      "inchikey_skeleton": "QEALYLRSRQDCRA",
+      "occurrence": "No documented occurrence",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 370,
@@ -2962,7 +3700,9 @@
       "formula": "C30H48O4",
       "pubchem_cid": "",
       "inchikey": "",
-      "inchikey_skeleton": ""
+      "inchikey_skeleton": "",
+      "occurrence": "No documented occurrence",
+      "detection": "identity unresolved"
     },
     {
       "id": 371,
@@ -2970,7 +3710,9 @@
       "formula": "C8H17NO6",
       "pubchem_cid": "165206",
       "inchikey": "DWAICOVNOFPYLS-LXGUWJNJSA-N",
-      "inchikey_skeleton": "DWAICOVNOFPYLS"
+      "inchikey_skeleton": "DWAICOVNOFPYLS",
+      "occurrence": "No documented occurrence",
+      "detection": "identity unresolved"
     },
     {
       "id": 372,
@@ -2978,7 +3720,9 @@
       "formula": "C7H15NO",
       "pubchem_cid": "439790",
       "inchikey": "RSPBQSYWXAROOO-UHFFFAOYSA-N",
-      "inchikey_skeleton": "RSPBQSYWXAROOO"
+      "inchikey_skeleton": "RSPBQSYWXAROOO",
+      "occurrence": "No documented occurrence",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 373,
@@ -2986,7 +3730,9 @@
       "formula": "C10H13NO2",
       "pubchem_cid": "6951135",
       "inchikey": "SCIFESDRCALIIM-VIFPVBQESA-N",
-      "inchikey_skeleton": "SCIFESDRCALIIM"
+      "inchikey_skeleton": "SCIFESDRCALIIM",
+      "occurrence": "No documented occurrence",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 374,
@@ -2994,7 +3740,9 @@
       "formula": "C15H22O2",
       "pubchem_cid": "",
       "inchikey": "",
-      "inchikey_skeleton": ""
+      "inchikey_skeleton": "",
+      "occurrence": "No documented occurrence",
+      "detection": "identity unresolved"
     },
     {
       "id": 375,
@@ -3002,7 +3750,9 @@
       "formula": "C15H24O2",
       "pubchem_cid": "",
       "inchikey": "",
-      "inchikey_skeleton": ""
+      "inchikey_skeleton": "",
+      "occurrence": "No documented occurrence",
+      "detection": "identity unresolved"
     },
     {
       "id": 376,
@@ -3010,7 +3760,9 @@
       "formula": "C18H34O3",
       "pubchem_cid": "",
       "inchikey": "",
-      "inchikey_skeleton": ""
+      "inchikey_skeleton": "",
+      "occurrence": "No documented occurrence",
+      "detection": "identity unresolved"
     },
     {
       "id": 377,
@@ -3018,7 +3770,9 @@
       "formula": "C20H16O4",
       "pubchem_cid": "",
       "inchikey": "",
-      "inchikey_skeleton": ""
+      "inchikey_skeleton": "",
+      "occurrence": "No documented occurrence",
+      "detection": "identity unresolved"
     },
     {
       "id": 378,
@@ -3026,7 +3780,9 @@
       "formula": "C30H48O5",
       "pubchem_cid": "",
       "inchikey": "",
-      "inchikey_skeleton": ""
+      "inchikey_skeleton": "",
+      "occurrence": "No documented occurrence",
+      "detection": "identity unresolved"
     },
     {
       "id": 379,
@@ -3034,7 +3790,9 @@
       "formula": "C30H48O2",
       "pubchem_cid": "",
       "inchikey": "",
-      "inchikey_skeleton": ""
+      "inchikey_skeleton": "",
+      "occurrence": "No documented occurrence",
+      "detection": "identity unresolved"
     },
     {
       "id": 380,
@@ -3042,7 +3800,9 @@
       "formula": "C30H48O4",
       "pubchem_cid": "",
       "inchikey": "",
-      "inchikey_skeleton": ""
+      "inchikey_skeleton": "",
+      "occurrence": "No documented occurrence",
+      "detection": "identity unresolved"
     },
     {
       "id": 381,
@@ -3050,7 +3810,9 @@
       "formula": "C20H34O3",
       "pubchem_cid": "",
       "inchikey": "",
-      "inchikey_skeleton": ""
+      "inchikey_skeleton": "",
+      "occurrence": "No documented occurrence",
+      "detection": "identity unresolved"
     },
     {
       "id": 382,
@@ -3058,7 +3820,9 @@
       "formula": "C11H19NO6",
       "pubchem_cid": "",
       "inchikey": "",
-      "inchikey_skeleton": ""
+      "inchikey_skeleton": "",
+      "occurrence": "No documented occurrence",
+      "detection": "identity unresolved"
     },
     {
       "id": 383,
@@ -3066,7 +3830,9 @@
       "formula": "C12H14O7",
       "pubchem_cid": "119239",
       "inchikey": "WVHAUDNUGBNUDZ-SDQGTYQYSA-N",
-      "inchikey_skeleton": "WVHAUDNUGBNUDZ"
+      "inchikey_skeleton": "WVHAUDNUGBNUDZ",
+      "occurrence": "No documented occurrence",
+      "detection": "foreign — shouldn't be in elderberry"
     },
     {
       "id": 384,
@@ -3074,7 +3840,9 @@
       "formula": "C15H31N5O5",
       "pubchem_cid": "71358304",
       "inchikey": "CRJZZXMAADSBBQ-SRVKXCTJSA-N",
-      "inchikey_skeleton": "CRJZZXMAADSBBQ"
+      "inchikey_skeleton": "CRJZZXMAADSBBQ",
+      "occurrence": "No documented occurrence",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 385,
@@ -3082,7 +3850,9 @@
       "formula": "C5H8N2O4",
       "pubchem_cid": "18058",
       "inchikey": "GUKSGXOLJNWRLZ-UHFFFAOYSA-N",
-      "inchikey_skeleton": "GUKSGXOLJNWRLZ"
+      "inchikey_skeleton": "GUKSGXOLJNWRLZ",
+      "occurrence": "No documented occurrence",
+      "detection": "foreign — shouldn't be in elderberry"
     },
     {
       "id": 386,
@@ -3090,7 +3860,9 @@
       "formula": "C6H8O4",
       "pubchem_cid": "5459844",
       "inchikey": "ILJSQTXMGCGYMG-UHFFFAOYSA-N",
-      "inchikey_skeleton": "ILJSQTXMGCGYMG"
+      "inchikey_skeleton": "ILJSQTXMGCGYMG",
+      "occurrence": "No documented occurrence",
+      "detection": "foreign — shouldn't be in elderberry"
     },
     {
       "id": 387,
@@ -3098,7 +3870,9 @@
       "formula": "C10H18N2O3",
       "pubchem_cid": "9837272",
       "inchikey": "GIAZPLMMQOERPN-YUMQZZPRSA-N",
-      "inchikey_skeleton": "GIAZPLMMQOERPN"
+      "inchikey_skeleton": "GIAZPLMMQOERPN",
+      "occurrence": "No documented occurrence",
+      "detection": "undetermined (native vs. artifact)"
     },
     {
       "id": 388,
@@ -3106,7 +3880,9 @@
       "formula": "C6H13N3O2",
       "pubchem_cid": "160464",
       "inchikey": "UKUBCVAQGIZRHL-UHFFFAOYSA-N",
-      "inchikey_skeleton": "UKUBCVAQGIZRHL"
+      "inchikey_skeleton": "UKUBCVAQGIZRHL",
+      "occurrence": "No documented occurrence",
+      "detection": "undetermined (native vs. artifact)"
     }
   ]
 }
